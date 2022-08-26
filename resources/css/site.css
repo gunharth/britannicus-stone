@@ -2,3 +2,7 @@
 @import "custom";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.page-background-color {
+    background-color: #d9d8d4;
+}

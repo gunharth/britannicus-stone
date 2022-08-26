@@ -1,0 +1,13 @@
+title: Stones
+template: stones/show
+layout: layout
+mount: 335d73e5-d8a9-4441-b364-898ef69120e2
+revisions: false
+route: '/stones/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false
+  max_depth: 1

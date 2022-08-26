@@ -2,8 +2,8 @@
 id: home
 blueprint: page
 title: Home
-updated_by: fd779fda-9c01-4b82-9fad-6f6cedfe03cb
-updated_at: 1661203932
+updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
+updated_at: 1661519020
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -31,7 +31,7 @@ page_builder:
         content:
           -
             type: text
-            text: "But beware, this kit ain't here to be pretty. There are some examples of what Peak can do, but the rest is up to you. "
+            text: 'But beware, this kit ain''t here to be pretty. There are some examples of what Peak can do, but the rest is up to you. '
       -
         type: paragraph
         content:
@@ -45,7 +45,7 @@ page_builder:
     link_blocks:
       -
         title: 'Check out a form'
-        text: "Peak renders forms and mail templates dynamically so you can add as many forms as you'd like, just by creating them in the CP. Peak ships with a default basic contact form you can edit."
+        text: 'Peak renders forms and mail templates dynamically so you can add as many forms as you''d like, just by creating them in the CP. Peak ships with a default basic contact form you can edit.'
         label: 'Send a form'
         target_blank: false
         link_type: entry
@@ -69,5 +69,6 @@ page_builder:
         button_type: inline
     type: link_blocks
     enabled: true
+background_color: '#D9D8D4'
 published: true
 ---

@@ -1,0 +1,22 @@
+{{ title }}
+{{ description }}
+{{ preview_image }}
+    <img src="{{ url }}" alt="{{ alt }}" />
+{{ /preview_image }}
+{{ images }}
+    <img src="{{ url }}" alt="{{ alt }}" />
+{{ /images }}
+
+
+<main class="relative mx-auto 3xl:container grid grid-cols-1 lg:grid-cols-6">
+    {{ collection from="stones" }}
+    <article class="aspect-video">
+        <a class="relative" href="{{ url }}">
+            <header class="page-background-color absolute bottom-0 aspect-square w-1/2 h-1/2">{{ title }}</header>
+            {{ preview_image }}
+                <img class="object-fit aspect-video w-full" src="{{ url }}" alt="{{ alt }}">
+            {{ /preview_image }}
+        </a>
+    </article>
+    {{ /collection }}
+</main>

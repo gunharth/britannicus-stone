@@ -13,8 +13,17 @@
         {{ vite src="resources/css/site.css|resources/js/site.js" }}
         {{ partial:snippets/seo }}
         {{ partial:snippets/browser_appearance }}
+
+        <style>
+            {{ if background_color }}
+                .page-background-color {
+                    background-color: {{ background_color }};
+                }
+            {{ /if }}
+        </style>
+
     </head>
-    <body class="flex flex-col min-h-screen bg-white selection:bg-primary selection:text-white">
+    <body class="flex flex-col min-h-screen selection:bg-primary selection:text-white page-background-color">
         {{ partial:snippets/noscript }}
         {{ partial:navigation/skip_to_content }}
         {{ partial:components/toolbar }}

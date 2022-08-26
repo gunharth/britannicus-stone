@@ -104,7 +104,6 @@ page_builder:
         attrs:
           values:
             type: figure
-            image: a-peak.jpg
             size: xl
             caption: 'Get on top of the Peak.'
       -

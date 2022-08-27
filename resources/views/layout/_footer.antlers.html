@@ -1,31 +1,58 @@
-{{#
-	@name Footer
-	@desc The sites footer rendered on each page.
-#}}
+<footer class="w-full grid grid-cols-1 lg:grid-cols-3 bg-white py-20">
 
-<!-- /layout/_footer.antlers.html -->
-<footer class="w-full py-4 mt-auto">
-    <div class="fluid-container flex flex-col space-y-4 md:space-y-0 md:flex-row md:justify-between md:space-x-4 md:items-center ">
-        <div class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4 text-xs font-bold">
-            <span>
-                &copy; {{ configuration:copyright_since }}
-                {{ unless (now | format('Y')) == configuration:copyright_since }}
-                    - {{ now | format('Y') }}
-                    {{ /unless }}
-                {{ configuration:copyright_name ?? config:app:name }}
-            </span>
-
-            {{# Let's users reset their cookie consent when you use the cookie banner. #}}
-            {{ yield:reset_cookie_consent }}
-        </div>
+    <div>
+        Contact
+        <address>
+            Britannicus Stone <br>
+            Unit 24<br>
+            Chelsea Wharf<br>
+            15 Lots Road<br>
+            London SW10 0QJ<br>
+            <br>
+            020 7751 5962<br>
+            info@britannicus-stone.co.uk<br>
+        </address>
+    </div>
+    <div>
+        Social
         {{ if social_media:social_media }}
-            <div class="flex space-x-2">
+            <div class="flex flex-col">
                 {{ social_media:social_media }}
-                    <a class="p-1 -m-1 text-neutral hover:text-primary focus:outline-none focus-visible:ring-2 ring-primary" href="{{ prefix }}{{ handle }}" rel="noopener" aria-label="{{ config:app:name }} {{ trans:strings.on }} {{ type | title }}" target="_blank">{{ svg :src="type" class="w-3 h-3 overflow-visible fill-current" alt="" aria-hidden="true" }}</a>
+                    <a class="p-1 -m-1 text-neutral hover:text-primary focus:outline-none focus-visible:ring-2 ring-primary" href="{{ prefix }}{{ handle }}" rel="noopener" aria-label="{{ config:app:name }} {{ trans:strings.on }} {{ type | title }}" target="_blank">{{ type | title }}</a>
                 {{ /social_media:social_media }}
             </div>
         {{ /if }}
 
     </div>
+    <div class="row-span-2">
+        Sample Request
+
+        <p>Send us your sample requirements and we'll get back to you</p>
+
+        <form action="" class="flex flex-col">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <button>Submit</button>
+        </form>
+
+
+
+
+    </div>
+    <div class="self-end  order-last lg:order-none">Logo</div>
+    <div class="self-end">
+        <span>
+            &copy; {{ configuration:copyright_since }}
+            {{ unless (now | format('Y')) == configuration:copyright_since }}
+                - {{ now | format('Y') }}
+                {{ /unless }}
+            {{ configuration:copyright_name ?? config:app:name }}
+        </span>
+    </div>
+
+
+
 </footer>
-<!-- End: /layout/_footer.antlers.html -->

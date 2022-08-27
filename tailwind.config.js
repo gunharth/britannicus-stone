@@ -13,7 +13,7 @@ module.exports = {
   presets: [
     require('tailwindcss/defaultConfig'),
     //require('./tailwind.config.typography.js'),
-    //require('./tailwind.config.peak.js'),
+    require('./tailwind.config.peak.js'),
     //require('./tailwind.config.site.js'),
   ],
   theme: {

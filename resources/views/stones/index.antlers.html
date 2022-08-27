@@ -1,11 +1,29 @@
-<main class="relative mx-auto 3xl:container grid grid-cols-1 lg:grid-cols-6">
+<main class="mx-auto w-full grid grid-cols-1 gap-4 lg:grid-cols-3">
     {{ collection from="stones" }}
-    <article class="aspect-video">
-        <a class="relative" href="{{ url }}">
-            <header class="page-background-color absolute bottom-0 aspect-square w-1/2 h-1/2">{{ title }}</header>
-            {{ preview_image }}
-                <img class="object-fit aspect-video w-full" src="{{ url }}" alt="{{ alt }}">
-            {{ /preview_image }}
+    <article class="relative">
+        <a href="{{ url }}">
+            <header class="page-background-color absolute bottom-0 aspect-square w-1/2 h-1/2 z-10">{{ title }}</header>
+{{#             <div class="relative" style="padding-bottom: 75%"> #}}
+               {{#  {{ preview_image }}
+                <img class="absolute w-full h-full object-cover" src="{{ url }}" alt="{{ alt }}">
+            {{ /preview_image }} #}}
+            {{
+                partial:components/picture
+                :image="preview_image"
+                parentclass="relative block"
+                class="absolute"
+                cover="true"
+                lazy="true"
+                sizes="
+                    {{ switch(
+                        (size == 'md') => '(min-width: 768px) 55vw, 90vw',
+                        (size == 'lg') => '(min-width: 768px) 75vw, 90vw',
+                        (size == 'xl') => '90vw',
+                        () => '100vw'
+                    )}}
+                "
+            }}
+{{#         </div> #}}
         </a>
     </article>
     {{ /collection }}

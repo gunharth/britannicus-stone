@@ -10,7 +10,7 @@
 
 <!-- /components/_picture.antlers.html -->
 {{ if image }}
-    <picture>
+    <picture class="{{ parentclass }} w-full h-full" style="padding-bottom: 75%">
         {{ asset :url="image" }}
             {{ if extension == 'svg' || extension == 'gif' }}
                 <img

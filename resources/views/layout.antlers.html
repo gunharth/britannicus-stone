@@ -23,15 +23,17 @@
         </style>
 
     </head>
-    <body class="flex flex-col min-h-screen selection:bg-primary selection:text-white page-background-color">
-        {{ partial:snippets/noscript }}
-        {{ partial:navigation/skip_to_content }}
+    <body class="min-h-screen page-background-color">
+{{#         {{ partial:snippets/noscript }}
+        {{ partial:navigation/skip_to_content }} #}}
 {{#         {{ partial:components/toolbar }} #}}
         {{ yield:seo_body }}
 
-        {{ partial:layout/header }}
+        {{ partial:navigation/main }}
         {{ template_content }}
         {{ partial:layout/footer }}
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </body>
 </html>
 <!-- End: /layout.antlers.html -->

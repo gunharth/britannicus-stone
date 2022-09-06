@@ -32,6 +32,21 @@ sections:
           always_save: false
           width: 50
       -
+        handle: navigation_image
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: 'Navigation Image'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
         import: page_builder
   seo:
     display: SEO

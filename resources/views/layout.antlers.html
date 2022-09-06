@@ -20,6 +20,15 @@
                     background-color: {{ background_color }};
                 }
             {{ /if }}
+
+            {{ if navigation_image }}
+                {{ navigation_image }}
+                    .navigation_image {
+                        background-image: url({{ url }});
+                    }
+                {{ /navigation_image }}
+
+            {{ /if }}
         </style>
 
     </head>

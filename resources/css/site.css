@@ -62,6 +62,9 @@ nav.scrolled #logotype {
 #hamburger.active rect {
     @apply fill-white;
 }
+#hamburger.active .first, #hamburger.active .third {
+    @apply opacity-0;
+}
 
 
 #mobile-logoface {

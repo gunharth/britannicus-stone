@@ -40,11 +40,13 @@ btn.addEventListener("click", (e) => {
     //classToggle(menu, 'w-0', 'w-full', 'md:w-1/2')
     //classToggle(menu, 'left-0', '-left-full')
     //classToggle(menu, '-translate-y-full', 'opacity-0')
+    menu.classList.toggle("active");
     menu.classList.toggle("-translate-y-full");
     menu.classList.toggle("opacity-0");
     //menu.classList.toggle('-translate-x-full')
     hamburger.classList.toggle("active");
-    logo.classList.toggle("active");
+    //logo.classList.toggle("active");
+    console.log($('.mobile-menu').hasClass('active'))
 });
 
 const nav = document.querySelector("nav");
@@ -74,4 +76,9 @@ window.onscroll = function () {
         nav.classList.remove("bg-black"); */
         hamburger.classList.remove("scrolled");
     }
+    if ($('.mobile-menu').hasClass('active')) {
+        console.log('true')
+        $('button.mobile-menu-button').trigger('click')
+    }
+
 };

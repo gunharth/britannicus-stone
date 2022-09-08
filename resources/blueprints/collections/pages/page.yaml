@@ -14,23 +14,7 @@ sections:
           display: Title
           validate:
             - required
-          width: 50
-      -
-        handle: background_color
-        field:
-          theme: classic
-          lock_opacity: false
-          default_color_mode: HEXA
-          color_modes:
-            - hex
-          display: 'Background Color'
-          type: color
-          icon: color
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          width: 50
+          width: 33
       -
         handle: navigation_image
         field:
@@ -46,6 +30,80 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+          width: 33
+          max_files: 1
+      -
+        handle: navigation_color
+        field:
+          theme: classic
+          lock_opacity: false
+          default_color_mode: HEXA
+          color_modes:
+            - hex
+          display: 'Navigation Color'
+          type: color
+          icon: color
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: background_color
+        field:
+          theme: classic
+          lock_opacity: false
+          default_color_mode: HEXA
+          color_modes:
+            - hex
+          display: 'Page Background Color'
+          type: color
+          icon: color
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 33
+      -
+        handle: header
+        field:
+          options:
+            image: 'Single Image'
+            carousel: 'Image Carousel'
+            video: Video
+          multiple: false
+          max_items: 1
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: Header
+          type: select
+          icon: select
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 33
+      -
+        handle: header_image
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Header Image'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          if:
+            header: 'equals image'
       -
         import: page_builder
   seo:

@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1661519020
+updated_at: 1662644591
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -38,6 +38,68 @@ page_builder:
           -
             type: text
             text: 'Get climbing!'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Britannicus Stone is the world’s leading provider of British stones'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'and marbles. It sources only'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'the very best carboniferous'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'limestones from the depths of the'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'beautiful British landscape, and'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'then expertly hones or polishes'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'them to create timeless and unique'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'pieces of stone or marble ready'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'to adorn interiors or to create'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'special objects of matchless'
     type: article
     enabled: true
   -

@@ -1,12 +1,19 @@
 @import "tailwindcss/base";
 @import "custom";
 @import "tailwindcss/components";
+@import "fonts";
 @import "tailwindcss/utilities";
 
 
 /* **************************************************************** */
 /* Nav and Logo */
 /* **************************************************************** */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    text-rendering: optimizelegibility;
+}
 
 .global-x {
     @apply px-5;
@@ -23,14 +30,15 @@
 #logotype {
     @apply w-[122px] mt-3 fill-white transition-all duration-500;
 }
+.hamburgerOuter {
+    @apply text-white;
+}
 
 #hamburger {
     @apply fill-white;
     width: 30px;
 }
-#hamburger.active {
-    transform: rotate(180deg);
-}
+
 
 /* #hamburger rect {
   @apply fill-joy-yellow;
@@ -53,19 +61,27 @@ nav.scrolled .image {
 }
 
 nav.scrolled #logoface {
-    @apply w-[36px];
+    @apply w-[36px] fill-white;
 }
 nav.scrolled #logotype {
     @apply w-0;
 }
+nav.scrolled .hamburgerOuter {
+    @apply text-white;
+}
+nav.scrolled #hamburger {
+    @apply fill-white;
+}
 
+#hamburger.active {
+    transform: rotate(180deg);
+}
 #hamburger.active rect {
     @apply fill-white;
 }
 #hamburger.active .first, #hamburger.active .third {
     @apply opacity-0;
 }
-
 
 #mobile-logoface {
     @apply absolute top-7 w-[36px] fill-white;

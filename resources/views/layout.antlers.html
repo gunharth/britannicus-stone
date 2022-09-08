@@ -15,6 +15,21 @@
         {{ partial:snippets/browser_appearance }}
 
         <style>
+            {{ if navigation_color }}
+                #logoface {
+                    fill: {{ navigation_color }}
+                }
+                #logotype {
+                    fill: {{ navigation_color }}
+                }
+                .hamburgerOuter {
+                    color: {{ navigation_color }};
+                }
+                #hamburger {
+                    fill: {{ navigation_color }}
+                }
+            {{ /if }}
+
             {{ if background_color }}
                 .page-background-color {
                     background-color: {{ background_color }};

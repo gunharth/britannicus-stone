@@ -21,6 +21,49 @@ module.exports = {
         //require('./tailwind.config.site.js'),
     ],
     theme: {
+        fontFamily: {
+            NewRailAlphabet: ["NewRailAlphabet"],
+            NewRailAlphabetBold: ["NewRailAlphabetBold"],
+        },
+        fontSize: {
+            15  : [
+                "15px",
+                {
+                    lineHeight: "20px",
+                },
+            ],
+            18  : [
+                "18px",
+                {
+                    lineHeight: "22px",
+                },
+            ],
+            20: [
+                "20px",
+                {
+                    lineHeight: "30px",
+                },
+            ],
+            25: [
+                "25px",
+                {
+                    lineHeight: "30px",
+                },
+            ],
+            45: [
+                "45px",
+                {
+                    lineHeight: "50px",
+                },
+            ],
+            90: [
+                "90px",
+                {
+                    letterSpacing: "-0.02em",
+                    lineHeight: "80px",
+                },
+            ],
+        },
         screens: {
             xs: "475px",
             sm: "640px",

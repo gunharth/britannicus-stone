@@ -1,30 +1,12 @@
-<main class="pt-[600px] mx-auto w-full 3xl:container grid grid-cols-1 gap-4 lg:grid-cols-3">
-    {{ collection from="stones" }}
-    <article class="relative">
-        <a href="{{ url }}">
-            <header class="page-background-color absolute bottom-0 aspect-square w-1/2 h-1/2 z-10">{{ title }}</header>
-{{#             <div class="relative" style="padding-bottom: 75%"> #}}
-               {{#  {{ preview_image }}
-                <img class="absolute w-full h-full object-cover" src="{{ url }}" alt="{{ alt }}">
-            {{ /preview_image }} #}}
-            {{
-                partial:components/picture
-                :image="preview_image"
-                parentclass="relative block"
-                class="absolute"
-                cover="true"
-                lazy="true"
-                sizes="
-                    {{ switch(
-                        (size == 'md') => '(min-width: 768px) 55vw, 90vw',
-                        (size == 'lg') => '(min-width: 768px) 75vw, 90vw',
-                        (size == 'xl') => '90vw',
-                        () => '100vw'
-                    )}}
-                "
-            }}
-{{#         </div> #}}
-        </a>
-    </article>
-    {{ /collection }}
-</main>
+{{ if header === 'image' }}
+    <header class="mx-auto w-full h-screen 3xl:container lg:aspect-video">
+        {{ header_image }}
+            <img class="object-cover w-full h-full" src="{{ url }}" alt="{{ alt }}">
+        {{ /header_image }}
+        <div id="header-title" class="absolute inset-0 flex justify-center items-center z-10 text-45 lg:text-90 font-NewRailAlphabetBold text-white">
+            <h1 class="object-center">{{ title }}</h1>
+        </div>
+    </header>
+{{ /if }}
+
+{{ partial:partials/stones}}

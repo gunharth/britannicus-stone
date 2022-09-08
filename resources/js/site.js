@@ -52,6 +52,7 @@ btn.addEventListener("click", (e) => {
 const nav = document.querySelector("nav");
 
 var scrollObject = {};
+const scrollStart = 150;
 window.onscroll = function () {
 /*     scrollObject = {
         x: window.pageXOffset,
@@ -63,8 +64,8 @@ window.onscroll = function () {
          // add class
      } */
     if (
-        document.body.scrollTop >= 300 ||
-        document.documentElement.scrollTop >= 300
+        document.body.scrollTop >= scrollStart ||
+        document.documentElement.scrollTop >= scrollStart
     ) {
         nav.classList.add("scrolled")
         /* nav.classList.add("bg-black");

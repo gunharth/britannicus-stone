@@ -1,12 +1,2 @@
-{{ if header === 'image' }}
-    <header class="mx-auto w-full h-screen 3xl:container lg:aspect-video">
-        {{ header_image }}
-            <img class="object-cover w-full h-full" src="{{ url }}" alt="{{ alt }}">
-        {{ /header_image }}
-        <div id="header-title" class="absolute inset-0 flex justify-center items-center z-10 text-45 lg:text-90 font-NewRailAlphabetBold text-white">
-            <h1 class="object-center">{{ title }}</h1>
-        </div>
-    </header>
-{{ /if }}
-
+{{ partial:partials/header}}
 {{ partial:partials/stones}}

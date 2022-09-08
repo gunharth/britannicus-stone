@@ -1,4 +1,4 @@
-<main class="mx-auto w-full 3xl:container grid grid-cols-1 lg:gap-12 lg:grid-cols-3">
+<main class="mx-auto w-full grid grid-cols-1 md:gap-12 md:grid-cols-2 lg:gap-12 lg:grid-cols-3 lg:px-12">
     {{ collection from="stones" }}
     <article class="relative">
         <a href="{{ url }}">
@@ -27,4 +27,9 @@
         </a>
     </article>
     {{ /collection }}
+
+    {{ page_builder scope="block" }}
+        {{ partial src="page_builder/{type}" }}
+    {{ /page_builder }}
+
 </main>

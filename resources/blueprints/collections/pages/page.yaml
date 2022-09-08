@@ -68,6 +68,7 @@ sections:
         handle: header
         field:
           options:
+            none: 'No Header'
             image: 'Single Image'
             carousel: 'Image Carousel'
             video: Video

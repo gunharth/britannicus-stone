@@ -1,0 +1,55 @@
+{{ if header === 'none' }}
+    <header class="relative mx-auto w-full 3xl:container h-[420px] pb-[110px]">
+        <div id="header-title" class="flex h-full justify-center items-end text-45 lg:text-90 font-NewRailAlphabetBold text-white">
+            <h1 class="object-center">{{ title }}</h1>
+        </div>
+    </header>
+{{ /if }}
+{{ if header === 'image' }}
+    <header class="mx-auto w-full h-screen lg:aspect-video">
+        {{ header_image }}
+            <img class="object-cover w-full h-full" src="{{ url }}" alt="{{ alt }}">
+        {{ /header_image }}
+        <div id="header-title" class="absolute inset-0 flex justify-center items-center z-10 text-45 lg:text-90 font-NewRailAlphabetBold text-white">
+            <h1 class="object-center">{{ title }}</h1>
+        </div>
+    </header>
+{{ /if }}
+{{ if header === 'carousel' }}
+<div id="slider" class="swiper">
+    <header class="absolute z-10 inset-0">
+        <h1 data-slideshowtitle="{{ title }}" class="absolute responsive-px top-2/4 type-size-1 page-text-color"></h1>
+    </header>
+    <div class="swiper-wrapper h-screen w-full">
+    {{ slideshow }}
+        {{ slides }}
+
+            {{ if slide_type == 'image' }}
+                <div class="swiper-slide bg-cover bg-center" data-title="{{ slide_title }}" data-subtitle="{{ slide_subtitle }}" style="background-image: url({{ image }});"></div>
+            {{ /if}}
+            {{ if slide_type == 'video' }}
+            <div class="swiper-slide" data-title="{{ slide_title }}" data-subtitle="{{ slide_subtitle }}">
+                <div style="position: absolute; top:0; bottom:0; left:0; right:0; z-index:-1; overflow: hidden">
+                    <video playsinline loop muted data-autoplay autoplay>
+                        <source
+                            src="https://cc6ce8d8cd41c18c65e9-289425d376824f514aedb964b2a90b8a.ssl.cf3.rackcdn.com/Test%20Video/Genesis%20trimmed.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+                </div>
+            {{ /if}}
+
+        {{ /slides}}
+    {{ /slideshow }}
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+    <header class="mx-auto w-full h-screen 3xl:container lg:aspect-video">
+        {{ header_image }}
+            <img class="object-cover w-full h-full" src="{{ url }}" alt="{{ alt }}">
+        {{ /header_image }}
+        <div id="header-title" class="absolute inset-0 flex justify-center items-center z-10 text-45 lg:text-90 font-NewRailAlphabetBold text-white">
+            <h1 class="object-center">{{ title }}</h1>
+        </div>
+    </header>
+{{ /if }}

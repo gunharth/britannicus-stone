@@ -65,46 +65,7 @@ sections:
           always_save: false
           width: 33
       -
-        handle: header
-        field:
-          options:
-            none: 'No Header'
-            image: 'Single Image'
-            carousel: 'Image Carousel'
-            video: Video
-          multiple: false
-          max_items: 1
-          clearable: false
-          searchable: true
-          taggable: false
-          push_tags: false
-          cast_booleans: false
-          display: Header
-          type: select
-          icon: select
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          width: 33
-      -
-        handle: header_image
-        field:
-          mode: grid
-          container: assets
-          restrict: false
-          allow_uploads: true
-          show_filename: true
-          max_files: 1
-          display: 'Header Image'
-          type: assets
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          if:
-            header: 'equals image'
+        import: header
       -
         import: page_builder
   seo:

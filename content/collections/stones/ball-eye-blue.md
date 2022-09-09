@@ -3,7 +3,7 @@ id: 78a73701-07e2-418d-9912-11af4ff1fa17
 blueprint: stone
 title: 'Ball Eye Blue'
 updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1661588625
+updated_at: 1662656788
 description: |-
   Ball Eye Blue is simply one of the rarest of all British stones; it is also extremely beautiful. Quarried in Derbyshire, Ball Eye Blue is a rare vein of Limestone/Fluorite conglomerate. The vein in the marble varies in colour from Amethyst on the outer edge of the deposit to Royal Blue towards the middle.
 
@@ -12,5 +12,7 @@ preview_image: stones/ball_eye_blue_prev.png
 images:
   - stones/large.png
   - stones/large-1661524401.png
+header: image
+header_image: header-stones.png
 published: true
 ---

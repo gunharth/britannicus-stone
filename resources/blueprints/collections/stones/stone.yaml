@@ -10,6 +10,8 @@ sections:
           validate:
             - required
       -
+        import: header
+      -
         handle: preview_image
         field:
           mode: list

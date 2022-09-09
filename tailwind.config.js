@@ -78,7 +78,7 @@ module.exports = {
             transparent: "transparent",
             current: "currentColor",
             black: colors.black,
-            white: colors.white,
+            white: "#f4f2f1",
             brit: {
                 logo: "#231F20",
                 navbackground: "#282123",

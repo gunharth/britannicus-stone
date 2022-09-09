@@ -16,7 +16,7 @@ body {
 }
 
 .global-x {
-    @apply px-5;
+    @apply px-5 lg:px-12;
 }
 
 /* #logo {
@@ -71,6 +71,14 @@ nav.scrolled .hamburgerOuter {
 }
 nav.scrolled #hamburger {
     @apply fill-white;
+}
+
+#logoface.active, #logotype.active {
+    @apply fill-white;
+}
+
+.hamburgerOuter.active {
+    @apply text-white;
 }
 
 #hamburger.active {

@@ -10,6 +10,7 @@
 /** @type {import('tailwindcss').Config} */
 
 const colors = require("tailwindcss/colors");
+const plugin = require('tailwindcss/plugin');
 
 module.exports = {
   content: ["./resources/views/**/*.html", "./resources/js/**/*.js"],
@@ -39,7 +40,7 @@ module.exports = {
                 },
             ],
             20: [
-                "20px",
+                "18px",
                 {
                     lineHeight: "30px",
                 },
@@ -89,6 +90,11 @@ module.exports = {
     // darkMode: 'class',
     mode: "jit",
     plugins: [
+        plugin(function({ addBase }) {
+            addBase({
+               'html': { fontSize: "18px" },
+             })
+           }),
     ],
     safelist: [],
 };

@@ -1,0 +1,9 @@
+{{ partial:partials/header}}
+
+{{ collection:next in="projects" as="projects" limit="2"}}
+  {{ projects }}
+    <div class="post">
+      <a href="{{ url }}">Next Project</a>
+    </div>
+  {{ /projects }}
+{{ /collection:next }}

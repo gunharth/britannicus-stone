@@ -1,0 +1,13 @@
+title: Projects
+template: projects/show
+layout: layout
+mount: 3c2c725c-e6be-4bac-b441-35dc036fc724
+revisions: false
+route: '/projects/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false
+  max_depth: 1

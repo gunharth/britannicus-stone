@@ -29,7 +29,9 @@ Alpine.start()
 const btn = document.querySelector("button.mobile-menu-button");
 const menu = document.querySelector(".mobile-menu");
 const hamburger = document.querySelector("#hamburger");
-const logo = document.querySelector("#logo_face");
+const hamburgerOuter = document.querySelector(".hamburgerOuter");
+const logoface = document.querySelector("#logoface");
+const logotype = document.querySelector("#logotype");
 
 const classToggle = (el, ...args) => args.map((e) => el.classList.toggle(e));
 
@@ -44,6 +46,9 @@ btn.addEventListener("click", (e) => {
     menu.classList.toggle("-translate-y-full");
     menu.classList.toggle("opacity-0");
     //menu.classList.toggle('-translate-x-full')
+    logoface.classList.toggle("active");
+    logotype.classList.toggle("active");
+    hamburgerOuter.classList.toggle("active");
     hamburger.classList.toggle("active");
     //logo.classList.toggle("active");
     console.log($('.mobile-menu').hasClass('active'))

@@ -18,7 +18,7 @@
 {{ if header === 'carousel' }}
 <div id="slider" class="swiper">
     <header class="absolute z-10 inset-0">
-        <h1 data-slideshowtitle="{{ title }}" class="absolute responsive-px top-2/4 type-size-1 page-text-color"></h1>
+        <h1 data-slideshowtitle="{{ copy }}" class="absolute responsive-px top-2/4 type-size-1 page-text-color"></h1>
     </header>
     <div class="swiper-wrapper h-screen w-full">
     {{ slideshow }}
@@ -52,4 +52,21 @@
             <h1 class="object-center">{{ title }}</h1>
         </div>
     </header>
+{{ /if }}
+
+{{ if header === 'slideshow' }}
+<div id="slider" class="swiper">
+    <header class="absolute inset-0 z-10">
+        <h1 data-slideshowtitle="{{ title }}" class="absolute responsive-px top-2/4 type-size-1 page-text-color"></h1>
+    </header>
+    <div class="swiper-wrapper h-screen w-full">
+    {{ slideshow }}
+        {{ slides }}
+                <div class="swiper-slide bg-cover bg-center" data-title="{{ copy }}" data-subtitle="{{ slide_subtitle }}" style="background-image: url({{ image }});"></div>
+
+        {{ /slides}}
+    {{ /slideshow }}
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
 {{ /if }}

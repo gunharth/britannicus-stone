@@ -88,3 +88,66 @@ window.onscroll = function () {
     }
 
 };
+
+$(function() {
+
+
+const swiper = new Swiper(".swiper", {
+    // Optional parameters
+    //direction: 'vertical',
+    loop: false,
+    //speed: 2000,
+    /*   autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  }, */
+
+    // If we need pagination
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+            return '<span class="' + className + '"></span>';
+        },
+    },
+    on: {
+        slideChangeTransitionStart: function () {
+            // Slide captions
+            let swiper = this;
+            let slideTitle = $(swiper.slides[swiper.activeIndex]).attr("data-title");
+            let slideSubTitle = $(swiper.slides[swiper.activeIndex]).attr("data-subtitle");
+            if(slideTitle) {
+                $("#slider h1").html(slideTitle + '<br>' + slideSubTitle)
+            } else {
+                $("#slider h1").html($('h1').attr('data-slideshowtitle'));
+            }
+
+            //var slideSubtitle = $(swiper.slides[swiper.activeIndex]).attr("data-subtitle");
+            /* $(".slide-captions").html(function() {
+              return "<h2 class='current-title'>" + slideTitle + "</h2>" + "<h4 class='current-subtitle'>" + slideSubtitle + "</h4>";
+            }); */
+        }
+      }
+
+    // Navigation arrows
+    /*   navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }, */
+
+    // And if we need scrollbar
+    /*   scrollbar: {
+    el: '.swiper-scrollbar',
+  }, */
+});
+
+// Slide captions on load
+const slideTitle = $(swiper.slides[swiper.activeIndex]).attr("data-title");
+const slideSubTitle = $(swiper.slides[swiper.activeIndex]).attr("data-subtitle");
+if(slideTitle) {
+    $("#slider h1").html(slideTitle + '<br>' + slideSubTitle)
+} else {
+    $("#slider h1").html($('h1').attr('data-slideshowtitle'));
+}
+
+});

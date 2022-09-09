@@ -10,6 +10,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
         {{ vite src="resources/css/site.css|resources/js/site.js" }}
         {{ partial:snippets/seo }}
         {{ partial:snippets/browser_appearance }}
@@ -20,6 +21,7 @@
     <link rel="shortcut icon" href="/favicons/favicon.ico">
     <meta name="msapplication-TileColor" content="#eeeeee">
     <meta name="theme-color" content="#ffffff">
+
 
 
         <style>
@@ -58,7 +60,7 @@
         </style>
 
     </head>
-    <body class="h-screen page-background-color">
+    <body class="relative h-screen page-background-color">
 {{#         {{ partial:snippets/noscript }}
         {{ partial:navigation/skip_to_content }} #}}
 {{#         {{ partial:components/toolbar }} #}}
@@ -69,6 +71,7 @@
         {{ partial:layout/footer }}
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </body>
 </html>
 <!-- End: /layout.antlers.html -->

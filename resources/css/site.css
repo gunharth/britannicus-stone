@@ -110,3 +110,49 @@ nav.scrolled #hamburger {
 header h1 {
     @apply text-white;
 }
+
+
+/* **************************************************************** */
+/* Swiper */
+/* **************************************************************** */
+
+.swiper-pagination {
+    text-align: right;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+    .swiper-pagination-bullet {
+    margin-left: 10px;
+}
+
+.swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 12px;
+    color: #000;
+    opacity: 0.5;
+}
+
+/* .index .swiper-pagination-bullet {
+    @apply bg-joy-yellow;
+}
+.commercial .swiper-pagination-bullet {
+    @apply bg-joy-pink;
+}
+.content .swiper-pagination-bullet {
+    @apply bg-joy-turquoise;
+}
+.classics .swiper-pagination-bullet {
+    @apply bg-joy-crimson;
+}
+.blog .swiper-pagination-bullet {
+    @apply bg-joy-gold;
+} */
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    opacity: 1;
+}

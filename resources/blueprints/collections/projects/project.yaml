@@ -33,6 +33,11 @@ sections:
         field:
           type: markdown
           localizable: true
+  page_settings:
+    display: 'Page Settings'
+    fields:
+      -
+        import: page_settings
   sidebar:
     display: Sidebar
     fields:

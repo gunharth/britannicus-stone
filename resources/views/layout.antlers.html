@@ -51,6 +51,11 @@
                     background-color: {{ background_color }};
                 }
             {{ /if }}
+            {{ if page_copy_color }}
+                .page-copy-color {
+                    color: {{ page_copy_color }};
+                }
+            {{ /if }}
             {{ if stone_background_color }}
                 .slider-background-color {
                     background-color: {{ stone_background_color }};
@@ -68,7 +73,8 @@
         </style>
 
     </head>
-    <body class="relative h-screen page-background-color">
+
+    <body class="relative h-screen page-background-color page-copy-color {{ if is_homepage }}home{{ /if }}">
 {{#         {{ partial:snippets/noscript }}
         {{ partial:navigation/skip_to_content }} #}}
 {{#         {{ partial:components/toolbar }} #}}
@@ -78,8 +84,11 @@
         {{ template_content }}
         {{ partial:layout/footer }}
 
+          </body>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     </body>
 </html>
 <!-- End: /layout.antlers.html -->

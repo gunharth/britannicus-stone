@@ -150,4 +150,14 @@ if(slideTitle) {
     $("#slider h1").html($('h1').attr('data-slideshowtitle'));
 }
 
+
+$('.masonry').masonry({
+    // options
+    columnWidth: '.masonry-sizer',
+    //gutter: '.gutter-sizer',
+    itemSelector: '.masonry-item',
+    percentPosition: true,
+    //horizontalOrder: true
+  });
+
 });

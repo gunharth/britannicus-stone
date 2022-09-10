@@ -95,12 +95,12 @@ $(function() {
 const swiper = new Swiper(".swiper", {
     // Optional parameters
     //direction: 'vertical',
-    loop: false,
-    //speed: 2000,
-    /*   autoplay: {
+    //loop: false,
+    speed: 2000,
+      autoplay: {
     delay: 5000,
     disableOnInteraction: false,
-  }, */
+  },
 
     // If we need pagination
     pagination: {

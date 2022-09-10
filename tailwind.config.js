@@ -77,7 +77,7 @@ module.exports = {
         colors: {
             transparent: "transparent",
             current: "currentColor",
-            black: colors.black,
+            black: '#282123',
             white: "#f4f2f1",
             brit: {
                 logo: "#231F20",

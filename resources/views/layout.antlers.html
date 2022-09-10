@@ -47,6 +47,14 @@
                 .page-background-color {
                     background-color: {{ background_color }};
                 }
+                .slider-background-color {
+                    background-color: {{ background_color }};
+                }
+            {{ /if }}
+            {{ if stone_background_color }}
+                .slider-background-color {
+                    background-color: {{ stone_background_color }};
+                }
             {{ /if }}
 
             {{ if navigation_image }}

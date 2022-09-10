@@ -42,6 +42,24 @@ fields:
       if:
         header: 'equals image'
   -
+    handle: image_carousel
+    field:
+      mode: grid
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      max_files: 5
+      display: 'Image Carousel'
+      type: assets
+      icon: assets
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      if:
+        header: 'equals carousel'
+      container: assets
+  -
     handle: slideshow
     field:
       max_items: 1

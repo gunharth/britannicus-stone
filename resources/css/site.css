@@ -9,6 +9,10 @@
 /* Nav and Logo */
 /* **************************************************************** */
 
+html {
+    @apply text-black
+  }
+
 body {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: none;
@@ -111,19 +115,32 @@ header h1 {
     @apply text-white;
 }
 
+p {
+    @apply pb-5
+}
+
 
 /* **************************************************************** */
 /* Swiper */
 /* **************************************************************** */
 
 .swiper-pagination {
-    text-align: right;
+    display: table;
+    @apply px-3
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0;
+    width: auto;
+    @apply mx-5 lg:mx-12;
+    right: 0;
+    left: auto;
 }
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
     .swiper-pagination-bullet {
-    margin-left: 10px;
+    @apply mt-5 mb-2 ml-3 mr-3;
 }
 
 .swiper-pagination-bullet {
@@ -132,8 +149,9 @@ header h1 {
     text-align: center;
     line-height: 16px;
     font-size: 12px;
-    color: #000;
-    opacity: 0.5;
+    opacity: 0.3;
+    @apply bg-black;
+    display: inline-block;
 }
 
 /* .index .swiper-pagination-bullet {
@@ -153,6 +171,6 @@ header h1 {
 } */
 
 .swiper-pagination-bullet-active {
-    color: #fff;
+
     opacity: 1;
 }

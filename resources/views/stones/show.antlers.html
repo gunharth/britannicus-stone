@@ -1,11 +1,45 @@
 {{ partial:partials/header}}
-{{ title }}
-{{ description }}
-{{ preview_image }}
-    <img src="{{ url }}" alt="{{ alt }}" />
-{{ /preview_image }}
-{{ images }}
-    <img src="{{ url }}" alt="{{ alt }}" />
-{{ /images }}
 
+<div class="slider-background-color mx-auto w-full grid grid-cols-1 md:gap-12 md:grid-cols-2 lg:gap-12 lg:grid-cols-12 lg:px-12 global-x py-20">
+    <div class="lg:col-span-6 text-20 lg:text-25 pb-20 lg:pb-0">{{ description }}</div>
+    <div class="lg:col-span-2 lg:row-span-2 text-18 lg:text-20">
+
+        {{ if location }}
+        <h4 class="uppercase pb-3 text-15">Location</h4>
+        {{ location }}
+        {{ /if }}
+
+        {{ if marble_thicknesses }}
+        <h4 class="uppercase pb-3 text-15 pt-10">Marble Thicknesses</h4>
+        {{ marble_thicknesses }}
+        {{ /if }}
+
+        {{ if slab_sizes }}
+        <h4 class="uppercase pb-3 text-15 pt-10">Slab Sizes</h4>
+        {{ slab_sizes }}
+        {{ /if }}
+
+        {{ if notes }}
+        <div class="pt-10">{{ notes }}</div>
+        {{ /if }}
+
+    </div>
+    <div class="w-full lg:col-span-4 lg:row-span-2 text-center lg:text-left">
+        {{ map }}
+            <img class="w-1/2 lg:w-1/2 inline" src="{{ url }}" alt="{{ alt }}">
+        {{ /map }}
+    </div>
+    <div>
+        <h4 class="uppercase pb-3 text-15">Social</h4>
+        <a href="{{ social_links:twitter }}" target="_blank">Twitter</a> <br>
+        <a href="{{ social_links:facebook }}" target="_blank">Facebook</a> <br>
+        <a href="{{ social_links:linkedin }}" target="_blank">Linkedin</a> <br>
+
+    </div>
+
+</div>
+
+<header class="pt-20 text-center">
+    <h1 class="text-black text-90">Stones</h1>
+</header>
 {{ partial:partials/stones}}

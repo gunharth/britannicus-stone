@@ -180,12 +180,12 @@ p {
 } */
 
 .masonry-sizer, .masonry-item {
-    @apply w-full lg:w-1/2;
+    @apply w-full md:w-1/2;
 }
 .masonry-item {
-    @apply p-5 lg:p-12;
+    @apply p-5 md:p-12;
 }
 .masonry-item.right {
-    @apply pr-5 lg:pr-0;
+    @apply pr-5 md:pr-0;
 }
 /* .gutter-sizer { width: 4%; } */

@@ -23,6 +23,7 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      width: 50
   -
     handle: header_image
     field:
@@ -41,6 +42,7 @@ fields:
       always_save: false
       if:
         header: 'equals image'
+      width: 50
   -
     handle: image_carousel
     field:
@@ -59,6 +61,7 @@ fields:
       if:
         header: 'equals carousel'
       container: assets
+      width: 50
   -
     handle: slideshow
     field:
@@ -76,3 +79,4 @@ fields:
       always_save: false
       if:
         header: 'equals slideshow'
+      width: 50

@@ -1,0 +1,31 @@
+title: 'Content Builder'
+fields:
+  -
+    handle: content_builder
+    field:
+      collapse: false
+      previews: true
+      sets:
+        image:
+          display: Image
+          fields:
+            -
+              import: content_image
+        copy:
+          display: Copy
+          fields:
+            -
+              import: content_copy
+        video:
+          display: Video
+          fields:
+            -
+              handle: video
+              field: video.youtube_url
+      display: 'Content Builder'
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

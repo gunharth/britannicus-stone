@@ -151,13 +151,17 @@ if(slideTitle) {
 }
 
 
-$('.masonry').masonry({
+const $masonry = $('.masonry').masonry({
     // options
     columnWidth: '.masonry-sizer',
     //gutter: '.gutter-sizer',
     itemSelector: '.masonry-item',
     percentPosition: true,
-    //horizontalOrder: true
+    horizontalOrder: true
+  });
+
+  $masonry.imagesLoaded().progress( function() {
+    $masonry.masonry('layout');
   });
 
 });

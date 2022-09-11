@@ -1,0 +1,16 @@
+{{#
+	@name Video
+	@desc The video component. A sizeable YouTube or Vimeo video rendered in a responsive container with an optional caption.
+    @set page.article.video
+#}}
+{{ if video }}
+    <div class="masonry-item masonry-item-full video">
+        {{ if video | is_embeddable }}
+            <!-- Youtube and Vimeo -->
+            <iframe class="w-full h-full" src="{{ video | embed_url }}"></iframe>
+        {{ else }}
+            <!-- Other HTML5 video types -->
+            <video src="{{ video | embed_url }}"></video>
+        {{ /if }}
+    </div>
+{{ /if }}

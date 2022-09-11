@@ -10,11 +10,9 @@ sections:
           validate:
             - required
       -
-        import: header
-      -
         handle: preview_image
         field:
-          mode: grid
+          mode: list
           container: assets
           restrict: false
           allow_uploads: true
@@ -29,15 +27,19 @@ sections:
           always_save: false
           folder: projects
       -
-        handle: content
-        field:
-          type: markdown
-          localizable: true
+        import: header
+      -
+        import: content_builder
   page_settings:
     display: 'Page Settings'
     fields:
       -
         import: page_settings
+  seo:
+    display: SEO
+    fields:
+      -
+        import: seo
   sidebar:
     display: Sidebar
     fields:

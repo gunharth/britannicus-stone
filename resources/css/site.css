@@ -188,4 +188,22 @@ p {
 .masonry-item.right {
     @apply pr-5 md:pr-0;
 }
+.masonry-item-full {
+    @apply w-full;
+}
 /* .gutter-sizer { width: 4%; } */
+
+.masonry .video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.masonry .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    @apply p-5 md:p-12;
+}

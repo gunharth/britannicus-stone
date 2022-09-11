@@ -7,22 +7,7 @@ fields:
       input_type: url
       type: text
       localizable: true
-      width: 50
       listable: hidden
-      display: 'Video'
-      instructions: "YouTube or Vimeo URL."
+      display: Video
+      instructions: 'YouTube or Vimeo URL.'
       instructions_position: below
-  -
-    handle: size
-    field: common.size
-    config:
-      localizable: true
-      width: 50
-  -
-    handle: caption
-    field:
-      input_type: text
-      type: text
-      localizable: true
-      listable: hidden
-      display: Caption

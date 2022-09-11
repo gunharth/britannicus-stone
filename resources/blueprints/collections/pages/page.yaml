@@ -16,58 +16,12 @@ sections:
             - required
           width: 33
       -
-        handle: navigation_image
-        field:
-          mode: list
-          container: assets
-          restrict: false
-          allow_uploads: true
-          show_filename: true
-          display: 'Navigation Image'
-          type: assets
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          width: 33
-          max_files: 1
-      -
-        handle: navigation_color
-        field:
-          theme: classic
-          lock_opacity: false
-          default_color_mode: HEXA
-          color_modes:
-            - hex
-          display: 'Navigation Color'
-          type: color
-          icon: color
-          width: 33
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: background_color
-        field:
-          theme: classic
-          lock_opacity: false
-          default_color_mode: HEXA
-          color_modes:
-            - hex
-          display: 'Page Background Color'
-          type: color
-          icon: color
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          width: 33
-      -
         import: header
+  page_settings:
+    display: 'Page Settings'
+    fields:
       -
-        import: page_builder
+        import: page_settings
   seo:
     display: SEO
     fields:

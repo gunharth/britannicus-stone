@@ -1,0 +1,25 @@
+title: 'Content Grid'
+fields:
+  -
+    handle: grid
+    field:
+      collapse: true
+      previews: true
+      sets:
+        copy:
+          display: Copy
+          fields:
+            -
+              import: content_copy
+        image:
+          display: Image
+          fields:
+            -
+              import: content_image
+      display: Grid
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

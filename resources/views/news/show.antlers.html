@@ -1,0 +1,20 @@
+{{ partial:partials/header}}
+
+{{ content_builder }}
+  {{ partial src="content_builder/{type}" }}
+{{ /content_builder }}
+
+<div class="flex justify-between items-end global-x py-20">
+  <div>
+    {{ partial:partials/social}}
+  </div>
+  <div>
+    {{ collection:next in="news" as="news" limit="1"}}
+    {{ news }}
+    <div class="post">
+      <a href="{{ url }}">Next News &rarr;</a>
+    </div>
+    {{ /news }}
+    {{ /collection:next }}
+  </div>
+</div>

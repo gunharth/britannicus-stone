@@ -6,22 +6,36 @@ fields:
       collapse: false
       previews: true
       sets:
-        image:
-          display: Image
+        grid:
+          display: Grid
           fields:
             -
-              import: content_image
-        copy:
-          display: Copy
-          fields:
-            -
-              import: content_copy
+              import: content_grid
         video:
           display: Video
           fields:
             -
               handle: video
               field: video.youtube_url
+        image:
+          display: Image
+          fields:
+            -
+              handle: image
+              field:
+                mode: grid
+                container: assets
+                restrict: false
+                allow_uploads: true
+                show_filename: true
+                max_files: 1
+                display: Image
+                type: assets
+                icon: assets
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+                always_save: false
       display: 'Content Builder'
       type: replicator
       icon: replicator

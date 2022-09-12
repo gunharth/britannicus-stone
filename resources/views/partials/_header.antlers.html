@@ -5,6 +5,7 @@
         </div>
     </header>
 {{ /if }}
+
 {{ if header === 'image' }}
     <header class="mx-auto w-full h-screen lg:aspect-video">
         {{ header_image }}
@@ -15,36 +16,46 @@
         </div>
     </header>
 {{ /if }}
-{{ if header === 'carousel' }}
-<div class="slider-background-color">
-<header class="p-20 pt-60 text-center">
-    <h1 data-slideshowtitle="{{ title }}" class="text-black text-90">{{ title }}</h1>
-</header>
-<div id="slider" class="swiper">
-    <div class="swiper-wrapper h-screen w-full">
-        {{ image_carousel }}
-                <div class="swiper-slide bg-cover bg-center" style="background-image: url({{ url }});"></div>
 
-        {{ /image_carousel}}
+{{ if header === 'carousel' }}
+    <div class="slider-background-color">
+    <header class="p-20 pt-60 text-center">
+        <h1 data-slideshowtitle="{{ title }}" class="text-black text-90">{{ title }}</h1>
+    </header>
+    <div id="slider" class="swiper">
+        <div class="swiper-wrapper h-screen w-full">
+            {{ image_carousel }}
+                    <div class="swiper-slide bg-cover bg-center" style="background-image: url({{ url }});"></div>
+
+            {{ /image_carousel}}
+        </div>
+        <div class="swiper-pagination slider-background-color"></div>
     </div>
-    <div class="swiper-pagination slider-background-color"></div>
-</div>
-</div>
+    </div>
 {{ /if }}
 
 {{ if header === 'slideshow' }}
-<div id="slider" class="swiper">
-    <header class="absolute inset-0 z-10">
-        <h1 data-slideshowtitle="{{ title }}" class="absolute responsive-px top-2/4 type-size-1 page-text-color"></h1>
-    </header>
-    <div class="swiper-wrapper h-screen w-full">
-    {{ slideshow }}
-        {{ slides }}
-                <div class="swiper-slide bg-cover bg-center" data-title="{{ copy }}" data-subtitle="{{ slide_subtitle }}" style="background-image: url({{ image }});"></div>
+    <div id="slider" class="swiper">
+        <div class="swiper-wrapper h-screen w-full">
+        {{ slideshow }}
+            {{ slides }}
+            <div class="swiper-slide bg-cover bg-center flex flex-col" style="background-image: url({{ image }})">
+                <header class="grow flex justify-center items-center">
+                    <h1 class="text-center text-45 lg:text-90" style="color:{{ copy_color }}">{{ copy }}</h1>
+                </header>
+                <main class="h-24 global-x" style="color:{{ link_color }}">
+                    {{ project_link }}
+                        <h4 class="uppercase text-15">Project</h4>
+                        <a href="{{ url }}" class="text-25 hover:opacity-80" >{{ title }}</a>
+                    {{ /project_link }}
+                </main>
+            </div>
 
-        {{ /slides}}
-    {{ /slideshow }}
+            {{ /slides}}
+        {{ /slideshow }}
+        </div>
+        <div class="swiper-pagination slider-background-color"></div>
+{{#         <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> #}}
     </div>
-    <div class="swiper-pagination"></div>
-</div>
 {{ /if }}

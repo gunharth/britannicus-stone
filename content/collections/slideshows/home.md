@@ -4,22 +4,22 @@ blueprint: slideshow
 title: Home
 project_link: 'entry::37ef9d71-3482-462d-b53d-db4cce8343e6'
 updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1662739371
+updated_at: 1662972065
 slides:
   -
     image: home_slide.png
     copy: |-
       Objects of
       matchless splendour
-    project_link: 'entry::37ef9d71-3482-462d-b53d-db4cce8343e6'
     type: slide
     enabled: true
+    project_link: 68414816-01a1-491f-85ea-5ae9b5467e51
+    copy_color: '#F4F2F1'
+    link_color: '#F4F2F1'
   -
     image: home_slide.png
     copy: Test
-    project_link: 'entry::06d572d5-cfde-4008-8197-3f37746cccf5'
     type: slide
     enabled: true
+    project_link: 37ef9d71-3482-462d-b53d-db4cce8343e6
 ---
-Objects of
-matchless splendour

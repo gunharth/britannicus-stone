@@ -14,15 +14,4 @@ template: stones/index
 navigation_image: stones/ashburton_pink_prev.png
 header: image
 header_image: header-stones-1662649159.png
-page_builder:
-  -
-    article:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Britannicus Stone has unique access to over 25 polishing stones and marble in Britain and, as such, is the sole provider of these magnificent and exceptional British rocks. The majority of these gems are carboniferous limestones and are over 350 million years old. Each has its own particular characteristics which can never be replicated, so they are extremely rare.'
-    type: article
-    enabled: true
 ---

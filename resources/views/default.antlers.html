@@ -12,3 +12,8 @@
     {{ /page_builder }}
 </main> #}}
 <!-- End: /default.antlers.html -->
+<main class="pt-20">
+    {{ content_builder }}
+        {{ partial src="content_builder/{type}" }}
+    {{ /content_builder }}
+</main>

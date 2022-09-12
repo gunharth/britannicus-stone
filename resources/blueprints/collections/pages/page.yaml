@@ -17,6 +17,8 @@ sections:
           width: 33
       -
         import: header
+      -
+        import: content_builder
   page_settings:
     display: 'Page Settings'
     fields:

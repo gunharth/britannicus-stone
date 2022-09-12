@@ -1,14 +1,17 @@
 {{ partial:partials/header}}
 
-<main class="columns-1 md:columns-2 lg:gap-6 global-x">
-    {{ collection from="news" }}
-    <div class="break-inside-avoid-column">
-        <a href="{{ url }}">
-            {{ preview_image }}
-            <img class="w-full" src="{{ url }}" alt="">
-            {{ /preview_image }}
-            <h2 class="pt-5 pb-14">{{ title }} <br>{{ date format="d/m/y" }}</h2>
-        </a>
+<main>
+    <div class="masonry">
+        <div class="masonry-sizer"></div>
+        {{ collection from="news" }}
+        <div class="masonry-item">
+            <a href="{{ url }}" class="hover:opacity-80">
+                {{ preview_image }}
+                <img class="w-full" src="{{ url }}" alt="">
+                {{ /preview_image }}
+                <h2 class="pt-5 pb-14">{{ title }} <br>{{ date format="d/m/y" }}</h2>
+            </a>
+        </div>
+        {{ /collection }}
     </div>
-    {{ /collection }}
 </main>

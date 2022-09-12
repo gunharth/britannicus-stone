@@ -1,0 +1,66 @@
+title: 'Content Link'
+fields:
+  -
+    handle: link
+    field:
+      default: false
+      display: Link
+      type: toggle
+      icon: toggle
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: content
+    field:
+      max_items: 1
+      mode: default
+      create: true
+      collections:
+        - pages
+        - stones
+        - news
+        - projects
+      display: Content
+      type: entries
+      icon: entries
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      if:
+        link: 'equals true'
+  -
+    handle: header
+    field:
+      placeholder: Project
+      input_type: text
+      antlers: false
+      display: Header
+      type: text
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      default: Header
+      if:
+        link: 'equals true'
+  -
+    handle: link_text
+    field:
+      placeholder: 'Read more'
+      input_type: text
+      antlers: false
+      display: 'Link Text (optional)'
+      type: text
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      if:
+        link: 'equals true'

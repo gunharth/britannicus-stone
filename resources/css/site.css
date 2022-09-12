@@ -116,7 +116,7 @@ header h1 {
 }
 
 p {
-    @apply pb-5
+    @apply pb-10;
 }
 
 
@@ -126,7 +126,7 @@ p {
 
 .swiper-pagination {
     display: table;
-    @apply px-3
+    @apply px-5
 }
 
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
@@ -140,7 +140,7 @@ p {
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
     .swiper-pagination-bullet {
-    @apply mt-5 mb-2 ml-3 mr-3;
+    @apply mt-4 mb-1 ml-3 mr-3;
 }
 
 .swiper-pagination-bullet {

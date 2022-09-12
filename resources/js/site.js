@@ -110,7 +110,7 @@ const swiper = new Swiper(".swiper", {
             return '<span class="' + className + '"></span>';
         },
     },
-    on: {
+/*     on: {
         slideChangeTransitionStart: function () {
             // Slide captions
             let swiper = this;
@@ -121,13 +121,8 @@ const swiper = new Swiper(".swiper", {
             } else {
                 $("#slider h1").html($('h1').attr('data-slideshowtitle'));
             }
-
-            //var slideSubtitle = $(swiper.slides[swiper.activeIndex]).attr("data-subtitle");
-            /* $(".slide-captions").html(function() {
-              return "<h2 class='current-title'>" + slideTitle + "</h2>" + "<h4 class='current-subtitle'>" + slideSubtitle + "</h4>";
-            }); */
         }
-      }
+      } */
 
     // Navigation arrows
     /*   navigation: {
@@ -142,13 +137,13 @@ const swiper = new Swiper(".swiper", {
 });
 
 // Slide captions on load
-const slideTitle = $(swiper.slides[swiper.activeIndex]).attr("data-title");
+/* const slideTitle = $(swiper.slides[swiper.activeIndex]).attr("data-title");
 const slideSubTitle = $(swiper.slides[swiper.activeIndex]).attr("data-subtitle");
 if(slideTitle) {
     $("#slider h1").html(slideTitle + '<br>' + slideSubTitle)
 } else {
     $("#slider h1").html($('h1').attr('data-slideshowtitle'));
-}
+} */
 
 
 const $masonry = $('.masonry').masonry({

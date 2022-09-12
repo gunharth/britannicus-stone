@@ -1,0 +1,63 @@
+<div class="relative global-x text-center py-20">
+
+    <div class="wrapper">
+        {{ images }}
+
+        {{ if index === 0 }}
+        <div class="fi">
+            <div class="flex flex-col">
+                <div class="pb-10">
+                    <img src="{{ image.url }}"" alt="{{ image.alt }}">
+                </div>
+                {{ if link }}
+                <div class="pb-20 text-left z-10">
+                    <h4 class="uppercase text-15">{{ header }}</h4>
+                    {{ content }}
+                    <a href="{{ url }}" class="underline underline-offset-8 decoratin-1">{{ title}}</a>
+                    {{ /content }}
+                </div>
+                {{ /if }}
+            </div>
+        </div>
+        {{ /if }}
+        {{ if index === 1 }}
+        <div class="se">
+            <div class="flex flex-col">
+                <div class="pb-10">
+                    <img src="{{ image.url }}"" alt="{{ image.alt }}">
+                </div>
+                {{ if link }}
+                <div class="pb-20 text-left z-10">
+                    <h4 class="uppercase text-15">{{ header }}</h4>
+                    {{ content }}
+                    <a href="{{ url }}" class="underline underline-offset-8 decoratin-1">{{ title}}</a>
+                    {{ /content }}
+                </div>
+                {{ /if }}
+            </div>
+        </div>
+        {{ /if }}
+        {{ if index === 2 }}
+        <div class="th">
+            <div class="flex flex-col">
+                <div class="pb-10">
+                    <img class="lg:ml-12" src="{{ image.url }}"" alt="{{ image.alt }}">
+                </div>
+                {{ if link }}
+                <div class="text-left lg:ml-12 z-10">
+                    <h4 class="uppercase text-15">{{ header }}</h4>
+                    {{ content }}
+                    <a href="{{ url }}" class="underline underline-offset-8 decoratin-1">{{ title}}</a>
+                    {{ /content }}
+                </div>
+                {{ /if }}
+            </div>
+        </div>
+        {{ /if }}
+        {{ /images }}
+    </div>
+    <div class="lg:absolute lg:object-fit lg:inset-0 flex flex-col justify-center items-center text-45 lg:text-90 text-black pt-20 lg:pt-80">
+        {{ svg src="britannicus_logomark" id="" class="fill-black w-[40px] pb-10 lg:pb-20" }}
+        {{ headline }}
+    </div>
+</div>

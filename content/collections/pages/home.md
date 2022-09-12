@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1662976723
+updated_at: 1662998117
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -24,24 +24,31 @@ content_builder:
     header: 'Our Story'
     link_text: 'Read more'
   -
-    image: home_01.png
-    link: true
-    content: 78a73701-07e2-418d-9912-11af4ff1fa17
-    header: Project
-    type: image
-    enabled: true
-  -
-    image: home_02.png
-    link: true
-    content: 1fec92c5-1a74-43b3-9f72-526557993428
-    header: Project
-    type: image
-    enabled: true
-  -
-    image: home_03.png
-    link: true
-    content: 55cc1885-2514-4789-a79f-ffebe489bc20
-    header: Project
-    type: image
+    images:
+      -
+        image: home_01.png
+        link: true
+        content: 78a73701-07e2-418d-9912-11af4ff1fa17
+        header: Project
+        type: image
+        enabled: true
+      -
+        image: home_02.png
+        link: true
+        content: 1fec92c5-1a74-43b3-9f72-526557993428
+        header: Project
+        type: image
+        enabled: true
+      -
+        image: home_03.png
+        link: true
+        content: 55cc1885-2514-4789-a79f-ffebe489bc20
+        header: Project
+        type: image
+        enabled: true
+    headline: |-
+      350 million years
+      in the making.
+    type: content_template_1
     enabled: true
 ---

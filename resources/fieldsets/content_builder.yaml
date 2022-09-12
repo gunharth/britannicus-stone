@@ -80,6 +80,11 @@ fields:
           fields:
             -
               import: content_grid
+        content_template_1:
+          display: 'Content Template 1'
+          fields:
+            -
+              import: content_template_1
       display: 'Content Builder'
       type: replicator
       icon: replicator

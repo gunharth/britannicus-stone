@@ -32,6 +32,7 @@ fields:
                 options:
                   left: Left
                   right: Right
+                  leftright: 'Left and Right'
                 multiple: false
                 clearable: false
                 searchable: true
@@ -46,6 +47,25 @@ fields:
                 visibility: visible
                 always_save: false
                 width: 25
+            -
+              handle: right_copy
+              field:
+                restrict: false
+                automatic_line_breaks: true
+                automatic_links: false
+                escape_markup: false
+                smartypants: false
+                antlers: false
+                display: 'Right Copy'
+                type: markdown
+                icon: markdown
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+                always_save: false
+                if:
+                  orientation: 'equals leftright'
+                width: 75
             -
               import: content_link
         image:

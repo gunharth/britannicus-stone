@@ -1,13 +1,36 @@
 {{ if copy }}
+    {{ if orientation === "leftright" }}
     <div class="grid grid-cols-12 md:gap-12 global-x">
-        <div class="col-span-12 md:col-span-6 {{ if orientation === "right" }} md:col-start-7 {{ /if }}">{{ copy }}
+        <div class="col-span-6">{{ copy }}</div>
+        <div class="col-span-6">{{ right_copy }}
 
         {{ if link }}
             <h4 class="uppercase text-15">{{ header }}</h4>
             {{ content }}
                 <a href="{{ url }}" class="underline underline-offset-8 decoratin-1">{{ if link_text }} {{ link_text }} {{ /else }} {{ title }} {{ /if}}</a>
             {{ /content }}
+            {{ if content_url }}
+                    <a href="{{ content_url }}" class="underline underline-offset-8 decoratin-1">{{ link_text }}</a>
+                {{ /if }}
         {{ /if }}
         </div>
     </div>
+
+    {{ /else }}
+        <div class="grid grid-cols-12 md:gap-12 global-x">
+            <div class="col-span-12 md:col-span-6 {{ if orientation === "right" }} md:col-start-7 {{ /if }}">{{ copy }}
+
+            {{ if link }}
+                <h4 class="uppercase text-15">{{ header }}</h4>
+                {{ content }}
+                    <a href="{{ url }}" class="underline underline-offset-8 decoratin-1">{{ if link_text }} {{ link_text }} {{ /else }} {{ title }} {{ /if}}</a>
+                {{ /content }}
+                {{ if content_url }}
+                    <a href="{{ content_url }}" class="underline underline-offset-8 decoratin-1">{{ link_text }}</a>
+                {{ /if }}
+            {{ /if }}
+            </div>
+        </div>
+
+    {{ /if }}
 {{ /if }}

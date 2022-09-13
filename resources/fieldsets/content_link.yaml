@@ -11,12 +11,27 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      width: 50
+  -
+    handle: url_toggle
+    field:
+      default: false
+      display: URL
+      type: toggle
+      icon: toggle
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      if:
+        link: 'equals true'
   -
     handle: content
     field:
       max_items: 1
       mode: default
-      create: true
+      create: false
       collections:
         - pages
         - stones
@@ -31,6 +46,22 @@ fields:
       always_save: false
       if:
         link: 'equals true'
+        url_toggle: 'equals false'
+  -
+    handle: content_url
+    field:
+      input_type: text
+      antlers: false
+      display: URL
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      if:
+        link: 'equals true'
+        url_toggle: 'equals true'
   -
     handle: header
     field:

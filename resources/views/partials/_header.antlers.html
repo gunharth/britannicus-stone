@@ -9,7 +9,7 @@
 {{ if header === 'image' }}
     <header class="mx-auto w-full h-screen lg:aspect-video">
         {{ header_image }}
-            <img class="object-cover w-full h-full" src="{{ url }}" alt="{{ alt }}">
+            <img class="object-cover w-full h-full" style="{{ if focus_css != "" }} object-position: {{ focus_css }} {{ /if }}" src="{{ url }}" alt="{{ alt }}">
         {{ /header_image }}
         <div id="header-title" class="absolute inset-0 flex justify-center items-center z-10 text-45 lg:text-90 font-NewRailAlphabetBold text-white">
             <h1 class="object-center">{{ title }}</h1>
@@ -25,7 +25,7 @@
     <div id="slider" class="swiper">
         <div class="swiper-wrapper h-screen w-full">
             {{ image_carousel }}
-                    <div class="swiper-slide bg-cover bg-center" style="background-image: url({{ url }});"></div>
+                    <div class="swiper-slide bg-cover bg-center" style="background-image: url({{ url }}); {{ if focus_css != "" }} background-position: {{ focus_css }} {{ /if }}"></div>
 
             {{ /image_carousel}}
         </div>
@@ -39,7 +39,7 @@
         <div class="swiper-wrapper h-screen w-full">
         {{ slideshow }}
             {{ slides }}
-            <div class="swiper-slide bg-cover bg-center flex flex-col" style="background-image: url({{ image }})">
+            <div class="swiper-slide bg-cover bg-center flex flex-col" style="background-image: url({{ image }}); {{ if image:focus_css != "" }} background-position: {{ image:focus_css }} {{ /if }}">
                 <header class="grow flex justify-center items-center">
                     <h1 class="text-center text-45 lg:text-90" style="color:{{ copy_color }}">{{ copy }}</h1>
                 </header>

@@ -1,8 +1,8 @@
 {{ if copy }}
     {{ if orientation === "leftright" }}
-    <div class="grid grid-cols-12 md:gap-12 global-x">
-        <div class="col-span-6">{{ copy }}</div>
-        <div class="col-span-6">{{ right_copy }}
+    <div class="grid grid-cols-12 lg:gap-12 global-x">
+        <div class="col-span-12 lg:col-span-6">{{ copy }}</div>
+        <div class="col-span-12 lg:col-span-6">{{ right_copy }}
 
         {{ if link }}
             <h4 class="uppercase text-15">{{ header }}</h4>
@@ -17,8 +17,8 @@
     </div>
 
     {{ /else }}
-        <div class="grid grid-cols-12 md:gap-12 global-x">
-            <div class="col-span-12 md:col-span-6 {{ if orientation === "right" }} md:col-start-7 {{ /if }}">{{ copy }}
+        <div class="grid grid-cols-12 lg:gap-12 global-x">
+            <div class="col-span-12 lg:col-span-6 {{ if orientation === "right" }} lg:col-start-7 {{ /if }}">{{ copy }}
 
             {{ if link }}
                 <h4 class="uppercase text-15">{{ header }}</h4>

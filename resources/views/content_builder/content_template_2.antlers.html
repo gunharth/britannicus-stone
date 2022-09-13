@@ -1,0 +1,20 @@
+<div class="lg:mt-40 flex flex-col lg:items-end pb-10" style="background-color: #7A6451">
+    <div class="relative w-full flex flex-col items-end">
+        <img class="lg:w-2/3 lg:mr-12 lg:-mt-20" src="{{ image }}" alt="">
+        <div class="absolute top-0 inset-0 text-white flex justify-center lg:justify-end items-center text-45 text-center global-x lg:w-2/3 lg:right-0">{{ copy }}
+        </div>
+    </div>
+
+    {{ if link }}
+    <div class="px-5 lg:px-0 lg:mr-12 lg:w-2/3 z-10 text-white py-10">
+            <h4 class="uppercase text-15">{{ header }}</h4>
+            {{ content }}
+                <a href="{{ url }}" class="underline underline-offset-8 decoratin-1">{{ if link_text }} {{ link_text }} {{ /else }} {{ title }} {{ /if}}</a>
+            {{ /content }}
+            {{ if content_url }}
+                    <a href="{{ content_url }}" class="underline underline-offset-8 decoratin-1">{{ link_text }}</a>
+                {{ /if }}
+
+    </div>
+    {{ /if }}
+</div>

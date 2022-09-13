@@ -9,8 +9,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 template: default
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1663060651
+updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
+updated_at: 1663075602
 background_color: '#F4E9E8'
 page_copy_color: '#7B6452'
 slideshow: 7a2a8eae-3e3a-4d48-b4ba-6ecc9e966b66
@@ -31,7 +31,14 @@ content_builder:
     image: home_slide.png
     type: image
     enabled: true
-    link: false
+    link: true
+    url_toggle: false
+    content: f974eb05-ffb6-4c4e-b359-c954a781c1d4
+    header: Header
+  -
+    copy: 'Made from the shells of millions of sea creatures'
+    type: content_headline
+    enabled: true
   -
     copy: 'Carboniferous Limestone has horizontal layers (beds) with bedding planes and vertical joints. These joints are weaknesses in the rock which are exploited by agents of both erosion and weathering. They also lead to the most important characteristic of Carboniferous Limestone – its permeability. Water seeps through the joints in the limestone creating a landscape geologists call karst – underground streams and gorges. The Carboniferous Limestone has been folded and faulted by massive earth movements which can be seen by the fact that the rocks are now above sea-level and no longer horizontal. The rocks generally dip (slope) gently eastwards and, in some places, clear folds in the rock can be seen.'
     orientation: leftright

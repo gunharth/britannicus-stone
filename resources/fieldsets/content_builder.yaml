@@ -105,6 +105,16 @@ fields:
           fields:
             -
               import: content_template_1
+        content_headline:
+          display: 'Content Headline'
+          fields:
+            -
+              import: content_headline
+        content_template_2:
+          display: 'Content Template 2'
+          fields:
+            -
+              import: content_template_2
       display: 'Content Builder'
       type: replicator
       icon: replicator

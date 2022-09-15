@@ -10,7 +10,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1662961798
+updated_at: 1663254290
 content_builder:
   -
     grid:
@@ -29,6 +29,7 @@ content_builder:
           King’s Road.
         type: copy
         enabled: true
+        link: false
       -
         copy: |-
           A member of the team will be happy to answer
@@ -42,6 +43,12 @@ content_builder:
 
           or Carmen:
           carmen@britannicus-stone.co.uk
+        type: copy
+        enabled: true
+        link: false
+      -
+        copy: 'Guni Test'
+        link: false
         type: copy
         enabled: true
     type: grid

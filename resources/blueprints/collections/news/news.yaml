@@ -13,22 +13,6 @@ sections:
         import: header
       -
         import: content_builder
-      -
-        handle: preview_image
-        field:
-          mode: list
-          container: assets
-          restrict: false
-          allow_uploads: true
-          show_filename: true
-          max_files: 1
-          display: 'Preview Image'
-          type: assets
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
   page_settings:
     display: 'Page Settings'
     fields:
@@ -54,4 +38,20 @@ sections:
           required: true
           validate:
             - required
+      -
+        handle: preview_image
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Preview Image'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
 title: News

@@ -9,6 +9,7 @@ sections:
           required: true
           validate:
             - required
+          width: 50
       -
         handle: stone_background_color
         field:
@@ -27,23 +28,6 @@ sections:
           always_save: false
       -
         import: header
-      -
-        handle: preview_image
-        field:
-          mode: list
-          container: assets
-          restrict: false
-          allow_uploads: true
-          show_filename: true
-          max_files: 1
-          display: 'Preview Image'
-          type: assets
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          folder: stones
       -
         handle: description
         field:
@@ -143,6 +127,11 @@ sections:
     fields:
       -
         import: page_settings
+  seo:
+    display: SEO
+    fields:
+      -
+        import: seo
   sidebar:
     display: Sidebar
     fields:
@@ -151,4 +140,21 @@ sections:
         field:
           type: slug
           localizable: true
+      -
+        handle: preview_image
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Preview Image'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          folder: stones
 title: Stone

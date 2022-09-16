@@ -26,16 +26,21 @@
     </div>
     <div class="row-span-2">
         <h4 class="uppercase pb-3 text-15">Sample Request</h4>
-        <p class="leading-5">Send us your sample requirements and we'll get back to you</p>
+        <p class="leading-5 pb-2">Send us your sample requirements and we'll get back to you</p>
 
-        <form action="" class="flex flex-col">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <button>Submit</button>
-        </form>
+        <div id="formErrors"></div>
+        {{ form:sample_request id="sample_request" }}
+            {{ fields }}
+                <div>
+                    <input type="{{ type }}" name="{{ handle }}" placeholder="{{ display }}" class="w-full bg-white border-b-[1px] border-brit-formcolor text-18 pb-1 mt-4 outline-none  ">
+                </div>
+            {{ /fields }}
+
+            <input type="text" class="hidden" name="{{ honeypot ?? 'honeypot' }}">
+
+            <button id="formSubmit" type="submit" class="w-full text-right mt-8">Submit</button>
+
+        {{ /form:sample_request }}
 
 
 

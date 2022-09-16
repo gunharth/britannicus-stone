@@ -159,4 +159,46 @@ const $masonry = $('.masonry').masonry({
     $masonry.masonry('layout');
   });
 
+const formErrors = $('#formErrors')
+const formSubmit = $('#formSubmit')
+
+  $("form").submit(function (event) {
+    formErrors.html('')
+    formErrors.removeClass('text-red').removeClass('text-green')
+    const form = $(this)
+    const formData = document.getElementById('sample_request')
+    /* console.log(form.attr('action'))
+
+    var formData = {
+      name: $("#name").val(),
+      email: $("#email").val(),
+      superheroAlias: $("#superheroAlias").val(),
+    }; */
+
+    $.ajax({
+      type: form.attr('method'),
+      url: form.attr('action'),
+      cache: false,
+      contentType: false,
+      processData: false,
+      data: new FormData(formData),
+      //encode: true,
+      beforeSend: function( xhr ) {
+        xhr.setRequestHeader( 'X-CSRF-Token', form.find('input[name="_token"]').val() );
+      },
+      success: function(data) {
+        formErrors.addClass('text-green')
+        formErrors.html('Thank you for your request.')
+        formSubmit.hide()
+      },
+      error: function(data) {
+        formErrors.addClass('text-red')
+        formErrors.html('Please fill in all fields.')
+
+      }
+    })
+
+    event.preventDefault();
+  });
+
 });

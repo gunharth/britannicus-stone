@@ -2,8 +2,8 @@
 id: 68414816-01a1-491f-85ea-5ae9b5467e51
 blueprint: project
 title: 'Color Test 1 - No Header'
-updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1662897103
+updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259
+updated_at: 1663259191
 preview_image: projects/project_1.png
 header: none
 navigation_image: header-stones.png
@@ -20,12 +20,14 @@ content_builder:
     type: image
     enabled: true
     image: home_slide.png
+    link: false
   -
     grid:
       -
         copy: 'After a total refurbishment by leading architects, Tim Flynn architects, this 8-storey town house is arguably one of London’s finest residences. British stone was used throughout the house including each step and rise of the 169 step circular staircase. The main bathroom used the very rare Ball Eye Blue creating a sublime and restful space, whilst another had a basin carved from a solid block of Ashburton which was offset by a complementary stone floor and wall panels.'
         type: copy
         enabled: true
+        link: false
       -
         image: project_content_1.png
         align_right: true
@@ -42,11 +44,17 @@ content_builder:
         copy: 'After a total refurbishment by leading architects, Tim Flynn architects, this 8-storey town house is arguably one of London’s finest residences. British stone was used throughout the house including each step and rise of the 169 step circular staircase. The main bathroom used the very rare Ball Eye Blue creating a sublime and restful space, whilst another had a basin carved from a solid block of Ashburton which was offset by a complementary stone floor and wall panels.'
         type: copy
         enabled: true
+        link: false
     type: grid
     enabled: true
   -
     video: 'https://youtu.be/GNsIgwf9ozs'
     type: video
+    enabled: true
+  -
+    image: barnbrook_modular-1663259180.jpg
+    link: false
+    type: image
     enabled: true
 ---
 fsffsdf

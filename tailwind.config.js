@@ -79,10 +79,13 @@ module.exports = {
             current: "currentColor",
             black: '#282123',
             white: "#f4f2f1",
+            red: "#DC143C",
+            green: "#228B22",
             brit: {
                 logo: "#231F20",
                 navbackground: "#282123",
-                navhovercolor: "#7e7b7b"
+                navhovercolor: "#7e7b7b",
+                formcolor: "#BFBFBF"
             },
         },
     },

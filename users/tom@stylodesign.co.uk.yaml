@@ -2,3 +2,9 @@ name: Tom
 super: true
 id: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
 password_hash: $2y$10$/POzSxHLaYuQrJPJxP.d5uoc0RLO2yiSEYftJclXonWZRXJrcOjPO
+preferences:
+  collections:
+    projects:
+      after_save: continue_editing
+    stones:
+      after_save: continue_editing

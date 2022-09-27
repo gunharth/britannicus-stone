@@ -1,9 +1,9 @@
 ---
 id: 68414816-01a1-491f-85ea-5ae9b5467e51
 blueprint: project
-title: 'Color Test 1 - No Header'
-updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259
-updated_at: 1663259191
+title: Chesneys
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1663685246
 preview_image: projects/project_1.png
 header: none
 navigation_image: header-stones.png
@@ -48,13 +48,8 @@ content_builder:
     type: grid
     enabled: true
   -
-    video: 'https://youtu.be/GNsIgwf9ozs'
+    video: 'https://www.youtube.com/watch?v=7ATXquXj2xM'
     type: video
-    enabled: true
-  -
-    image: barnbrook_modular-1663259180.jpg
-    link: false
-    type: image
     enabled: true
 ---
 fsffsdf

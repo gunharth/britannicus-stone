@@ -115,12 +115,20 @@ nav.scrolled #hamburger {
     background-color: #d9d8d4;
 }
 
+.page-decorator-color {
+    @apply decoration-black/30;
+}
+
 header h1 {
     @apply text-white;
 }
 
 p {
     @apply pb-10;
+}
+
+h1 p {
+    @apply pb-0;
 }
 
 

@@ -7,10 +7,10 @@
         {{ if link }}
             <h4 class="uppercase text-15">{{ header }}</h4>
             {{ content }}
-                <a href="{{ url }}" class="underline underline-offset-8 decoratin-1">{{ if link_text }} {{ link_text }} {{ /else }} {{ title }} {{ /if}}</a>
+                <a href="{{ url }}" class="underline underline-offset-8 decoratin-1 page-decorator-color">{{ if link_text }} {{ link_text }} {{ /else }} {{ title }} {{ /if}}</a>
             {{ /content }}
             {{ if content_url }}
-                    <a href="{{ content_url }}" class="underline underline-offset-8 decoratin-1">{{ link_text }}</a>
+                    <a href="{{ content_url }}" class="underline underline-offset-8 decoratin-1 page-decorator-color">{{ link_text }}</a>
                 {{ /if }}
         {{ /if }}
         </div>
@@ -23,10 +23,10 @@
             {{ if link }}
                 <h4 class="uppercase text-15">{{ header }}</h4>
                 {{ content }}
-                    <a href="{{ url }}" class="underline underline-offset-8 decoratin-1">{{ if link_text }} {{ link_text }} {{ /else }} {{ title }} {{ /if}}</a>
+                    <a href="{{ url }}" class="underline underline-offset-8 decoratin-1 page-decorator-color">{{ if link_text }} {{ link_text }} {{ /else }} {{ title }} {{ /if}}</a>
                 {{ /content }}
                 {{ if content_url }}
-                    <a href="{{ content_url }}" class="underline underline-offset-8 decoratin-1">{{ link_text }}</a>
+                    <a href="{{ content_url }}" class="underline underline-offset-8 decoratin-1 page-decorator-color">{{ link_text }}</a>
                 {{ /if }}
             {{ /if }}
             </div>

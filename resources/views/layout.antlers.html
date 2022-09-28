@@ -22,8 +22,6 @@
     <meta name="msapplication-TileColor" content="#eeeeee">
     <meta name="theme-color" content="#ffffff">
 
-
-
         <style>
             {{ if navigation_color }}
                 #logoface {
@@ -57,6 +55,10 @@
                 }
                 .page-fill-color {
                     fill: {{ page_copy_color }};
+                }
+                .page-decorator-color {
+                    --color: {{ page_copy_color }};
+                    text-decoration-color: rgba(var(--color), .3);
                 }
             {{ /if }}
             {{ if stone_background_color }}

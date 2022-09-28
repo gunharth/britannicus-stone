@@ -20,7 +20,7 @@
 {{ if header === 'carousel' }}
     <div class="slider-background-color">
     <header class="p-20 pt-60 text-center">
-        <h1 data-slideshowtitle="{{ title }}" class="text-black text-90">{{ title }}</h1>
+        <h1 data-slideshowtitle="{{ title }}" class="page-copy-color text-90">{{ title }}</h1>
     </header>
     <div id="slider" class="swiper">
         <div class="swiper-wrapper h-screen w-full">
@@ -43,7 +43,7 @@
                 <header class="grow flex justify-center items-center">
                     <h1 class="text-center text-45 lg:text-90 font-NewRailAlphabetBold" style="color:{{ copy_color }}">{{ copy }}</h1>
                 </header>
-                <main class="h-24 global-x" style="color:{{ link_color }}">
+                <main class="absolute bottom-0 h-24 global-x" style="color:{{ link_color }}">
                     {{ project_link }}
                         <h4 class="uppercase text-15">Project</h4>
                         <a href="{{ url }}" class="text-25 hover:opacity-80" >{{ title }}</a>

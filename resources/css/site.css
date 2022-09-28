@@ -116,7 +116,7 @@ nav.scrolled #hamburger {
 }
 
 .page-decorator-color {
-    @apply decoration-black/30;
+    @apply decoration-black/50;
 }
 
 header h1 {

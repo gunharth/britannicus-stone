@@ -2,8 +2,8 @@
 id: 68414816-01a1-491f-85ea-5ae9b5467e51
 blueprint: project
 title: Chesneys
-updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1664361170
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1664361207
 preview_image: projects/project_1.png
 header: none
 navigation_image: header-stones.png
@@ -28,6 +28,11 @@ content_builder:
         type: copy
         enabled: true
         link: false
+      -
+        align_right: false
+        full_width: false
+        type: image
+        enabled: true
       -
         image: project_content_1.png
         align_right: true

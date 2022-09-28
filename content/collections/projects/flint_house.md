@@ -10,8 +10,9 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1663685372
+updated_at: 1664355158
 preview_image: projects/flint_house/1123-x-1497-1.jpg
-page_copy_color: '#271F22'
+page_copy_color: '#98989F'
 navigation_color: '#271F22'
+background_color: '#464243'
 ---

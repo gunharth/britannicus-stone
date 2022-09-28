@@ -10,6 +10,6 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1663685105
+updated_at: 1664355002
 header_image: projects/hoban_wilderness/2560-x-1440-1.jpg
 ---

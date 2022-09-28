@@ -52,9 +52,9 @@ module.exports = {
                 },
             ],
             45: [
-                "45px",
+                "43px",
                 {
-                    lineHeight: "50px",
+                    lineHeight: "48px",
                 },
             ],
             90: [

@@ -1,0 +1,16 @@
+---
+id: 447baa87-ac69-47a3-85a6-e5f85af26901
+blueprint: stone
+title: Stoneycombe
+header: carousel
+image_carousel:
+  - stones/stoneycombe/2560-x-1440-1.jpg
+seo_noindex: false
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
+preview_image: stones/stoneycombe/723-x-473-1.jpg
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1664447175
+---

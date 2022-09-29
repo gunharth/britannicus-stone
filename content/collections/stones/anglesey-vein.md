@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1663782765
+updated_at: 1664447445
 header: carousel
 image_carousel:
   - stones/anglesey_vein/2560-x-1440-1.jpg
@@ -19,4 +19,5 @@ slab_sizes: |-
   2.3m x 1.0m
   (sizes can vary)
 location: Anglesey
+stone_background_color: '#746A61'
 ---

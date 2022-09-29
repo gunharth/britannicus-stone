@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1663782807
+updated_at: 1664447527
 description: |-
   Anglesey is a geologist’s dream with abundant stone including the
   renowned Anglesey Marble. This beautiful mid-grey marbled stone
@@ -24,4 +24,5 @@ location: Anglesey
 slab_sizes: |-
   2.6m x 1.4m
   (sizes can vary)
+stone_background_color: '#707375'
 ---

@@ -1,0 +1,32 @@
+title: Spacing
+fields:
+  -
+    handle: top_space
+    field:
+      min: 0
+      max: 500
+      step: 10
+      default: 0
+      display: 'Top Space'
+      type: range
+      icon: range
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: bottom_space
+    field:
+      min: 0
+      max: 500
+      step: 10
+      display: 'Bottom Space'
+      type: range
+      icon: range
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      default: 0
+      width: 50

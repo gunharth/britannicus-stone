@@ -197,6 +197,9 @@ h1 p {
 .masonry-item {
     @apply p-5 md:p-12;
 }
+.masonry-item.left {
+    @apply pl-5 md:pl-0;
+}
 .masonry-item.right {
     @apply pr-5 md:pr-0;
 }

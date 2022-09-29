@@ -1,3 +1,7 @@
 {{ if copy }}
-    <div class="masonry-item">{{ copy }}</div>
+    <div class="masonry-item">
+        <div class="hidden lg:block" style="height: {{ top_space }}px;"></div>
+        {{ copy }}
+        <div class="hidden lg:block" style="height: {{ bottom_space }}px;"></div>
+    </div>
 {{ /if }}

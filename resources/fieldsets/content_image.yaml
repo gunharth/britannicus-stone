@@ -18,10 +18,22 @@ fields:
       visibility: visible
       always_save: false
   -
-    handle: align_right
+    handle: full_width
     field:
       default: false
-      display: 'Align Right'
+      display: 'Full Width'
+      type: toggle
+      icon: toggle
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: align_left
+    field:
+      default: false
+      display: 'Align Left'
       type: toggle
       icon: toggle
       width: 25
@@ -30,10 +42,10 @@ fields:
       visibility: visible
       always_save: false
   -
-    handle: full_width
+    handle: align_right
     field:
       default: false
-      display: 'Full Width'
+      display: 'Align Right'
       type: toggle
       icon: toggle
       width: 25

@@ -2,8 +2,8 @@
 id: 68414816-01a1-491f-85ea-5ae9b5467e51
 blueprint: project
 title: Chesneys
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664361207
+updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
+updated_at: 1664447818
 preview_image: projects/project_1.png
 header: none
 navigation_image: header-stones.png
@@ -33,18 +33,21 @@ content_builder:
         full_width: false
         type: image
         enabled: true
+        align_left: false
       -
         image: project_content_1.png
         align_right: true
         full_width: false
         type: image
         enabled: true
+        align_left: false
       -
         image: project_content_2.png
         align_right: false
         full_width: false
         type: image
         enabled: true
+        align_left: true
       -
         copy: 'After a total refurbishment by leading architects, Tim Flynn architects, this 8-storey town house is arguably one of London’s finest residences. British stone was used throughout the house including each step and rise of the 169 step circular staircase. The main bathroom used the very rare Ball Eye Blue creating a sublime and restful space, whilst another had a basin carved from a solid block of Ashburton which was offset by a complementary stone floor and wall panels.'
         type: copy

@@ -107,6 +107,10 @@ nav.scrolled #hamburger {
     @apply opacity-0;
 }
 
+.navigation_image {
+    @apply bg-cover bg-center;
+}
+
 #mobile-logoface {
     @apply absolute top-7 w-[36px] fill-white;
 }

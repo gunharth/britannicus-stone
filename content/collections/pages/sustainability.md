@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259
-updated_at: 1664446248
+updated_at: 1664451246
 seo_title: Sustainability
 header: carousel
 content_builder:
@@ -28,6 +28,11 @@ content_builder:
     type: copy
     enabled: true
     orientation: right
+  -
+    image: sustainability/sustainability_aber_falls.jpg
+    link: false
+    type: image
+    enabled: true
   -
     copy: |-
       As part of this we have launched a revised version of our Sustainability Statement which all members are asked to sign up to. Stone Federation members are encouraged to:

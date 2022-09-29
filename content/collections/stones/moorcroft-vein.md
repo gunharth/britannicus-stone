@@ -12,6 +12,12 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 preview_image: stones/moorcroft_vein/723-x-473-1.jpg
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664446874
+updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259
+updated_at: 1664449316
+stone_background_color: '#2F2C2C'
+navigation_color: '#DBD7D7'
+page_copy_color: '#DBD7D7'
+description: 'Moorcroft Grey had never been cut or polished to create a marble until Britannicus did so. Quarried in Plymouth this gentle grey stone is naturally infused with gold, pink and white mineralization, and has been compared by one Italian marble expert as the British answer to a grey ‘Portoro’. There will be natural colour variations from block to block.'
+slab_sizes: 'Typical slab sizes are 1.9m x 1.2m; however they can vary.'
+location: 'Location required'
 ---

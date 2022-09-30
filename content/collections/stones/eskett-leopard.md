@@ -14,11 +14,12 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664448020
+updated_at: 1664468831
 image_carousel:
   - stones/eskett_leopard/2560-x-1440-1.jpg
 preview_image: stones/eskett_leopard/723-x-473-1.jpg
 stone_background_color: '#B1B0AE'
 navigation_color: '#3C352F'
 page_copy_color: '#3C352F'
+map: stones/eskett_leopard/eskett_leopard_map.svg
 ---

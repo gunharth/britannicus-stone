@@ -12,7 +12,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664448117
+updated_at: 1664468899
 header: carousel
 image_carousel:
   - stones/eskett_red/2560-x-1440-1.jpg
@@ -21,4 +21,5 @@ location: 'Location required'
 stone_background_color: '#61463D'
 navigation_color: '#B19686'
 page_copy_color: '#B19686'
+map: stones/eskett_red/eskett_red_map.svg
 ---

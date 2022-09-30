@@ -7,10 +7,10 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259
-updated_at: 1664451246
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1664476339
 seo_title: Sustainability
-header: carousel
+header: slideshow
 content_builder:
   -
     copy: 'We take our responsibility to be as environmentally sustainable as possible very seriously and even though Stone is already ahead of almost all building materials in its green credentials, this doesn’t mean we shouldn’t try to continue to innovate and drive the environmental costs of using stone ever downwards. Our message is clear: Stone is environmentally the right choice and will continue to be so.'
@@ -29,7 +29,6 @@ content_builder:
     enabled: true
     orientation: right
   -
-    image: sustainability/sustainability_aber_falls.jpg
     link: false
     type: image
     enabled: true
@@ -55,9 +54,5 @@ content_builder:
     type: copy
     enabled: true
     orientation: left
-image_carousel:
-  - sustainability/sustainability_ancient_crossing.jpg
-  - sustainability/sustainability_sunset.jpg
-  - sustainability/sustainability_aber_falls.jpg
-  - sustainability/sustainability_ancient_crossing-1664446240.jpg
+slideshow: 23394b87-5c4e-4766-97d7-bc80d262c7b1
 ---

@@ -15,7 +15,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664448261
+updated_at: 1664468931
 location: Wales
 header: carousel
 image_carousel:
@@ -25,4 +25,5 @@ preview_image: stones/green_serpentine/723-x-473-1.jpg
 stone_background_color: '#39564C'
 navigation_color: '#B9CBBF'
 page_copy_color: '#B9CBBF'
+map: stones/green_serpentine/green_serpentine_map.svg
 ---

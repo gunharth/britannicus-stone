@@ -4,7 +4,7 @@ blueprint: stone
 title: 'Dumfries Red'
 preview_image: stones/dumfries_red/723-x-473-1.jpg
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664447812
+updated_at: 1664467608
 header: carousel
 image_carousel:
   - stones/dumfries_red/2560-x-1440-1.jpg
@@ -24,4 +24,5 @@ location: Dumfries
 stone_background_color: '#492321'
 navigation_color: '#C79390'
 page_copy_color: '#C79390'
+map: stones/dumfries_red/dumfries_red_map.svg
 ---

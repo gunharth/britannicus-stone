@@ -4,11 +4,9 @@ blueprint: slideshow
 title: Sustain
 slides:
   -
-    image: sustainability/sustainability_ancient_crossing.jpg
     type: slide
     enabled: true
   -
-    image: sustainability/sustainability_sunset.jpg
     type: slide
     enabled: true
 updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259

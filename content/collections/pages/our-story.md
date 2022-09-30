@@ -10,7 +10,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 template: default
 updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1664523767
+updated_at: 1664538461
 background_color: '#F4E9E8'
 page_copy_color: '#7B6452'
 slideshow: 7a2a8eae-3e3a-4d48-b4ba-6ecc9e966b66
@@ -58,4 +58,15 @@ content_builder:
     content_url: /stones
     top_space: 0
     bottom_space: 0
+  -
+    copy_1: 'The colour variations, so characteristic of British stones, are part of this same alteration process (metamorphism) which redistributes the various chemical compounds present in the original limestone throughout the new crystalline fabric. Reds and yellows are a result of the presence of various iron compounds, blacks contain organic carbon, greens include copper compounds and whites are almost pure calcium or magnesium carbonate.'
+    copy_2: 'When polished British carboniferous limestone is often referred to as Shining Stone because of the way it takes a polish. The resulting colour spectrum on the stones is unique and beautiful, one that so perfectly suits the British light and interiors; neither garish nor dull, its palette is perfectly in tune with these islands landscape'
+    image: home_slide.png
+    headline: 'When polished British carboniferous limestone is often referred to as Shining Stone because of the way it takes a polish.'
+    link: true
+    url_toggle: false
+    content: 78a73701-07e2-418d-9912-11af4ff1fa17
+    header: Header
+    type: content_template_3
+    enabled: true
 ---

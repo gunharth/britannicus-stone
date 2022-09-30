@@ -85,7 +85,8 @@ module.exports = {
                 logo: "#231F20",
                 navbackground: "#282123",
                 navhovercolor: "#7e7b7b",
-                formcolor: "#BFBFBF"
+                formcolor: "#BFBFBF",
+                ourstory: "#e8dcda",
             },
         },
     },

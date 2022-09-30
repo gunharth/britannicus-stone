@@ -119,6 +119,11 @@ fields:
           fields:
             -
               import: content_template_2
+        content_template_3:
+          display: 'Content Template 3'
+          fields:
+            -
+              import: content_template_3
       display: 'Content Builder'
       type: replicator
       icon: replicator

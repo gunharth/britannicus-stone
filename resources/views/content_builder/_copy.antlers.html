@@ -1,8 +1,15 @@
 {{ if copy }}
     {{ if orientation === "leftright" }}
-    <div class="grid grid-cols-12 lg:gap-12 global-x">
-        <div class="col-span-12 lg:col-span-6">{{ copy }}</div>
-        <div class="col-span-12 lg:col-span-6">{{ right_copy }}
+    <div class="grid grid-cols-12 lg:gap-12 global-x lg:text-25">
+
+        <div class="col-span-12 lg:col-span-6">
+            <div class="hidden lg:block" style="height: {{ top_space }}px;"></div>
+            {{ copy }}
+            <div class="hidden lg:block" style="height: {{ bottom_space }}px;"></div>
+        </div>
+        <div class="col-span-12 lg:col-span-6">
+            <div class="hidden lg:block" style="height: {{ top_space }}px;"></div>
+            {{ right_copy }}
 
         {{ if link }}
             <h4 class="uppercase text-15">{{ header }}</h4>
@@ -14,21 +21,26 @@
                 {{ /if }}
         {{ /if }}
         </div>
+
     </div>
 
     {{ /else }}
-        <div class="grid grid-cols-12 lg:gap-12 global-x">
-            <div class="col-span-12 lg:col-span-6 {{ if orientation === "right" }} lg:col-start-7 {{ /if }}">{{ copy }}
+        <div class="grid grid-cols-12 lg:gap-12 global-x lg:text-25">
 
-            {{ if link }}
-                <h4 class="uppercase text-15">{{ header }}</h4>
-                {{ content }}
-                    <a href="{{ url }}" class="underline underline-offset-8 decoratin-1 page-decorator-color">{{ if link_text }} {{ link_text }} {{ /else }} {{ title }} {{ /if}}</a>
-                {{ /content }}
-                {{ if content_url }}
-                    <a href="{{ content_url }}" class="underline underline-offset-8 decoratin-1 page-decorator-color">{{ link_text }}</a>
+            <div class="col-span-12 lg:col-span-6 {{ if orientation === "right" }} lg:col-start-7 {{ /if }}">
+                <div class="hidden lg:block" style="height: {{ top_space }}px;"></div>
+                {{ copy }}
+
+                {{ if link }}
+                    <h4 class="uppercase text-15">{{ header }}</h4>
+                    {{ content }}
+                        <a href="{{ url }}" class="underline underline-offset-8 decoratin-1 page-decorator-color">{{ if link_text }} {{ link_text }} {{ /else }} {{ title }} {{ /if}}</a>
+                    {{ /content }}
+                    {{ if content_url }}
+                        <a href="{{ content_url }}" class="underline underline-offset-8 decoratin-1 page-decorator-color">{{ link_text }}</a>
+                    {{ /if }}
                 {{ /if }}
-            {{ /if }}
+                <div class="hidden lg:block" style="height: {{ bottom_space }}px;"></div>
             </div>
         </div>
 

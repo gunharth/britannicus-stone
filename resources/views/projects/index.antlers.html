@@ -1,6 +1,6 @@
 {{ partial:partials/header}}
 
-<main>
+<main class="">
 {{#     {{ collection from="projects" }}
     <div class="break-inside-avoid-column">
         <a href="{{ url }}">
@@ -20,7 +20,7 @@
                 {{ preview_image }}
                 <img class="w-full" src="{{ url }}" alt="">
                 {{ /preview_image }}
-                <h2 class="pt-5 pb-14">{{ title }}</h2>
+                <h2 class="pt-5 pb-14 lg:text-25">{{ title }}</h2>
             </a>
         </div>
         {{ /collection }}

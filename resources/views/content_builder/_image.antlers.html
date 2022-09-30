@@ -1,5 +1,6 @@
 {{ if image }}
     {{ image }}
+    <div class="hidden lg:block" style="height: {{ top_space }}px;"></div>
     <div class="w-full global-x py-10">
         <img class="w-full" src="{{ url }}" alt="{{ alt }}">
     </div>
@@ -13,5 +14,5 @@
         {{ /content }}
     </div>
     {{ /if }}
-
+    <div class="hidden lg:block" style="height: {{ bottom_space }}px;"></div>
 {{ /if }}

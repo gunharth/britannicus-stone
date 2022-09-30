@@ -91,6 +91,17 @@ window.onscroll = function () {
 
 $(function() {
 
+$('.mobile-menu li').hover(
+  function(e) {
+    let name = $(this).find('a').text().toLowerCase()
+    let img = '/assets/navigation_images/' + name.replaceAll(' ', '_') + '.jpg'
+    console.log(img)
+    $('.navigation_image').css('background-image', 'url(' + img + ')')
+  }, function() {
+    $('.navigation_image').css('background-image', "none")
+  }
+);
+
 
 const swiper = new Swiper(".swiper", {
     // Optional parameters

@@ -10,7 +10,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 template: default
 updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1663075602
+updated_at: 1664523767
 background_color: '#F4E9E8'
 page_copy_color: '#7B6452'
 slideshow: 7a2a8eae-3e3a-4d48-b4ba-6ecc9e966b66
@@ -21,12 +21,16 @@ content_builder:
     link: false
     type: copy
     enabled: true
+    top_space: 0
+    bottom_space: 0
   -
     copy: 'It is generally light-grey in colour and is hard. It was formed in warm, shallow tropical seas teeming with life. The rock is made up of the shells and hard parts of millions of sea creatures, some up to 30 cm in length, encased in a carbonate mud. Fossil corals, brachiopods and crinoids are very much in evidence as components of Carboniferous Limestone; indeed the rock is full of fossils.'
     orientation: right
     link: false
     type: copy
     enabled: true
+    top_space: 0
+    bottom_space: 0
   -
     image: home_slide.png
     type: image
@@ -35,6 +39,8 @@ content_builder:
     url_toggle: false
     content: f974eb05-ffb6-4c4e-b359-c954a781c1d4
     header: Header
+    top_space: 0
+    bottom_space: 0
   -
     copy: 'Made from the shells of millions of sea creatures'
     type: content_headline
@@ -50,4 +56,6 @@ content_builder:
     link_text: 'See our collection'
     url_toggle: true
     content_url: /stones
+    top_space: 0
+    bottom_space: 0
 ---

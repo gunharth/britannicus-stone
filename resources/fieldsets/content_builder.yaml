@@ -48,6 +48,8 @@ fields:
                 always_save: false
                 width: 25
             -
+              import: spacing
+            -
               handle: right_copy
               field:
                 restrict: false
@@ -87,6 +89,8 @@ fields:
                 instructions_position: above
                 visibility: visible
                 always_save: false
+            -
+              import: spacing
             -
               import: content_link
         video:

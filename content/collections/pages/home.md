@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1663083111
+updated_at: 1664523033
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -24,6 +24,8 @@ content_builder:
     header: 'Our Story'
     link_text: 'Read more'
     url_toggle: false
+    top_space: 0
+    bottom_space: 0
   -
     images:
       -

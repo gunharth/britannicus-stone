@@ -28,7 +28,7 @@ body.home {
 }
 
 .global-x {
-    @apply px-5 lg:px-12;
+    @apply px-5 lg:px-24;
 }
 
 /* #logo {
@@ -40,11 +40,11 @@ body.home {
 }
 
 #logoface {
-    @apply w-[40px] fill-white transition-all duration-500;
+    @apply w-[40px] lg:w-[70px] 2xl:w-[80px] fill-white transition-all duration-500;
 }
 
 #logotype {
-    @apply w-[122px] mt-3 fill-white transition-all duration-500;
+    @apply w-[122px] lg:w-[200px] 2xl:w-[244px] mt-3 fill-white transition-all duration-500;
 }
 .hamburgerOuter {
     @apply text-white;
@@ -198,8 +198,14 @@ h1 p {
 .masonry-sizer, .masonry-item {
     @apply w-full md:w-1/2;
 }
-.masonry-item {
-    @apply p-5 md:p-12;
+/* .masonry-item {
+    @apply p-5 lg:pl-24 lg:pr-12;
+} */
+.masonry-item:nth-child(even){
+    @apply p-5 lg:pl-24 lg:pr-12;
+}
+.masonry-item:nth-child(odd){
+    @apply p-5 lg:pl-12 lg:pr-24;
 }
 .masonry-item.left {
     @apply pl-5 md:pl-0;

@@ -61,7 +61,7 @@ module.exports = {
                 "90px",
                 {
                     letterSpacing: "-0.02em",
-                    lineHeight: "80px",
+                    lineHeight: "100px",
                 },
             ],
         },

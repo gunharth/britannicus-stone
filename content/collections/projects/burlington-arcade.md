@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664532737
+updated_at: 1664536690
 content_builder:
   -
     grid:
@@ -19,7 +19,7 @@ content_builder:
         type: copy
         enabled: true
         top_space: 220
-        bottom_space: 50
+        bottom_space: 0
       -
         image: projects/burlington_arcade/1123-x-1497-1.jpg
         align_right: true

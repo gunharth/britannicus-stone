@@ -4,7 +4,7 @@ blueprint: stone
 title: 'Eskett Black / Vein'
 preview_image: stones/eskett_black_vein/723-x-473-1.jpg
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664447881
+updated_at: 1664468818
 header: carousel
 image_carousel:
   - stones/eskett_black_vein/2560-x-1440-1.jpg
@@ -24,4 +24,5 @@ sitemap_priority: 0.5
 stone_background_color: '#B09F8E'
 navigation_color: '#2F2A25'
 page_copy_color: '#2F2A25'
+map: stones/eskett_black_vein/eskett_black_vein_map.svg
 ---

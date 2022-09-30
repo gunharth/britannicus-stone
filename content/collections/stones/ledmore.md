@@ -4,7 +4,7 @@ blueprint: stone
 title: Ledmore
 preview_image: stones/ledmore/723-x-473-1.jpg
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664448369
+updated_at: 1664468957
 header: carousel
 image_carousel:
   - stones/ledmore/2560-x-1440-1.jpg
@@ -22,4 +22,5 @@ sitemap_priority: 0.5
 stone_background_color: '#CACAB0'
 navigation_color: '#958F3C'
 page_copy_color: '#958F3C'
+map: stones/ledmore/ledmore_map.svg
 ---

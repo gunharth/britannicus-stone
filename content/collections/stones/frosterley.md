@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664448162
+updated_at: 1664468919
 description: |-
   Britannicus Stone offers a British marble that is quarried from the banks of the River Wear in Durham.
 
@@ -26,4 +26,5 @@ location: Durham.
 stone_background_color: '#282A30'
 navigation_color: '#999596'
 page_copy_color: '#999596'
+map: stones/frosterley/frosterley_map.svg
 ---

@@ -4,7 +4,7 @@ blueprint: stone
 title: Mendip
 preview_image: stones/mendip/723-x-473-1.jpg
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664448670
+updated_at: 1664469070
 description: 'Britannicus is the first ever to use Mendip as an interior features stone. The grey and brown marble is adorned with pink and blue hues, which are more prominent as you reach the middle of the block. It was one such example that lead a leading interior designer to remark that the colouration resembled ‘the birth of a new galaxy’. Coloration varies from block to block.'
 slab_sizes: |-
   1.2m x 1.0m
@@ -21,4 +21,5 @@ location: Mendips
 stone_background_color: '#534746'
 navigation_color: '#C77F64'
 page_copy_color: '#C77F64'
+map: stones/mendip/mendip_map.svg
 ---

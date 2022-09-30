@@ -15,7 +15,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664447600
+updated_at: 1664466177
 header: carousel
 image_carousel:
   - stones/ashburton/2560-x-1440-1.jpg
@@ -23,4 +23,6 @@ image_carousel:
 preview_image: stones/ashburton/723-x-473-1.jpg
 stone_background_color: '#1E2022'
 page_copy_color: '#E9E5E5'
+navigation_color: '#E9E5E5'
+map: stones/ashburton/ashburton_map.svg
 ---

@@ -7,8 +7,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259
-updated_at: 1664449227
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1664469138
 header: carousel
 preview_image: stones/moorcroft_cartoon/723-x-473-1.jpg
 image_carousel:
@@ -19,4 +19,5 @@ page_copy_color: '#5D4C48'
 description: 'Moorcroft Cartoon is one of Britannicus’ most extraordinary stones because of its interesting and nonfigurative patterns. Sourced in Plymouth the stone has significant variations produced by mineral clustering and colouration. Looking like an abstract impressionist painting by Rothko, the slabs have a wonderful combination of daubed blues and greys with contrasting orange and red veins.'
 slab_sizes: 'Typical slabs are 1.6m x 1m; however they can vary.'
 location: 'Location required'
+map: stones/moorcroft_cartoon/moorcroft_cartoon_map.svg
 ---

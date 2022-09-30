@@ -2,7 +2,8 @@
     {{ image }}
     <div class="masonry-item {{ if full_width }} masonry-item-full{{ /if }} {{ if align_left }}left{{ /if }} {{ if align_right }}right{{ /if }}">
         <div class="hidden lg:block" style="height: {{ top_space }}px;"></div>
-        <img class="w-full" src="{{ url }}" alt="{{ alt }}"></div>
+        <img class="w-full" src="{{ url }}" alt="{{ alt }}">
         <div class="hidden lg:block" style="height: {{ bottom_space }}px;"></div>
+    </div>
     {{ /image }}
 {{ /if }}

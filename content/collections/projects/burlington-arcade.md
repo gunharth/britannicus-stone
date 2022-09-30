@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664473704
+updated_at: 1664532737
 content_builder:
   -
     grid:
@@ -18,16 +18,16 @@ content_builder:
         link: false
         type: copy
         enabled: true
-        top_space: 0
-        bottom_space: 0
+        top_space: 220
+        bottom_space: 50
       -
         image: projects/burlington_arcade/1123-x-1497-1.jpg
-        align_right: false
+        align_right: true
         full_width: false
         type: image
         enabled: true
         align_left: false
-        top_space: 0
+        top_space: 220
         bottom_space: 0
       -
         image: projects/burlington_arcade/1123-x-842-2.jpg
@@ -36,15 +36,21 @@ content_builder:
         type: image
         enabled: true
         align_left: false
-        top_space: 0
-        bottom_space: 0
+        top_space: 150
+        bottom_space: 210
       -
-        copy: 'The result has been a rhythmic interlocking, three dimensional design that reflects the arcade''s curvilinear forms found on the arches and grill work of the building. 150 tonnes of stone were used in the construction of the walkway including Moorcroft, Ashburton and Mendip'
         link: false
         type: copy
         enabled: true
-        top_space: 0
+        top_space: 180
         bottom_space: 0
+      -
+        copy: 'The result has been a rhythmic interlocking, three dimensional design that reflects the arcade''s curvilinear forms found on the arches and grill work of the building. 150 tonnes of stone were used in the construction of the walkway including Moorcroft, Ashburton and Mendip'
+        top_space: 230
+        bottom_space: 0
+        link: false
+        type: copy
+        enabled: true
     type: grid
     enabled: true
 preview_image: projects/burlington_arcade/1123-x-842-1.jpg

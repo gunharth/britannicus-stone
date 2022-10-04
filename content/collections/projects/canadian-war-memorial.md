@@ -1,5 +1,6 @@
 ---
 id: 499eeb5b-3117-48d9-b5b5-1f4b34f56b29
+published: false
 blueprint: project
 title: 'Canadian War Memorial'
 header: none

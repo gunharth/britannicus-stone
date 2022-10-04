@@ -2,8 +2,8 @@
 id: 68414816-01a1-491f-85ea-5ae9b5467e51
 blueprint: project
 title: Chesneys
-updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1664462227
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1664791077
 preview_image: projects/project_1.png
 header: none
 navigation_image: header-stones.png
@@ -21,6 +21,8 @@ content_builder:
     enabled: true
     image: home_slide.png
     link: false
+    top_space: 0
+    bottom_space: 0
   -
     grid:
       -
@@ -29,7 +31,7 @@ content_builder:
         enabled: true
         link: false
         bottom_space: 180
-        top_space: 0
+        top_space: 80
       -
         image: project_content_1.png
         align_right: true
@@ -37,7 +39,7 @@ content_builder:
         type: image
         enabled: true
         align_left: false
-        top_space: 40
+        top_space: 80
         bottom_space: 0
       -
         image: project_content_2.png
@@ -60,6 +62,6 @@ content_builder:
   -
     video: 'https://www.youtube.com/watch?v=7ATXquXj2xM'
     type: video
-    enabled: true
+    enabled: false
 ---
 fsffsdf

@@ -1,5 +1,6 @@
 ---
 id: 798b9f7d-ca87-4154-a304-c2f3ddf8072d
+published: false
 blueprint: project
 title: 'Private Residence 1 (Knightsbridge)'
 header: none

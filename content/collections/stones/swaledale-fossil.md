@@ -13,14 +13,13 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 preview_image: stones/swaledale_fossil/723-x-473-1.jpg
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664469864
+updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259
+updated_at: 1664789879
 stone_background_color: '#C9C2BC'
 navigation_color: '#938375'
 page_copy_color: '#938375'
 description: |-
-  This Crinoidal limestone is a true rock of ages - over 350 million years old. Its story dramatically reflected by the stunning and large fossils that emerge as a result of the polishing process. It was quarried in North Yorkshire and used in Durham Cathedral (13th century) and as
-  pavements for York Minster (15th century). It then went out of vogue, perhaps due to it being very dense and difficult to work, but it reappeared in the 18th and 19th century in some
+  This Crinoidal limestone is a true rock of ages - over 350 million years old. Its story dramatically reflected by the stunning and large fossils that emerge as a result of the polishing process. It was quarried in North Yorkshire and used in Durham Cathedral (13th century) and as pavements for York Minster (15th century). It then went out of vogue, perhaps due to it being very dense and difficult to work, but it reappeared in the 18th and 19th century in some
   houses of distinction in the north of England.
 location: 'Location required'
 slab_sizes: 'Typical slab sizes are 2m x 1m: however they can vary.'

@@ -11,14 +11,12 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 preview_image: stones/stoneycombe/723-x-473-1.jpg
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664469882
+updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259
+updated_at: 1664789856
 stone_background_color: '#BEA39A'
 navigation_color: '#7D463A'
 page_copy_color: '#7D463A'
-description: |-
-  Stoneycombe is a mixture of soft pinks and light reds with hints of grey and intricately shaped crustaceans and corals for added depth. Small cream coloured calcite veins make sure that this stone is always interesting. It is a Devonian Limestone, found in the same areas as two
-  other Britannicus stones, Ashburton and Moorcroft.
+description: 'Stoneycombe is a mixture of soft pinks and light reds with hints of grey and intricately shaped crustaceans and corals for added depth. Small cream coloured calcite veins make sure that this stone is always interesting. It is a Devonian Limestone, found in the same areas as two other Britannicus stones, Ashburton and Moorcroft.'
 location: 'Location required'
 slab_sizes: 'Typical marble slabs are 1.4m x 1.0m; however they can vary.'
 map: stones/stoneycombe/stoneycombe_map.svg

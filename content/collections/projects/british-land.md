@@ -1,5 +1,6 @@
 ---
 id: 4cbfdd2f-a8d1-4e7c-9b39-83f1584919ce
+published: false
 blueprint: project
 title: 'British Land'
 header: none
@@ -9,11 +10,13 @@ content_builder:
     link: false
     type: copy
     enabled: true
+    top_space: 0
+    bottom_space: 0
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259
-updated_at: 1664458617
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1664791120
 ---

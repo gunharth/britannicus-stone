@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664304422
+updated_at: 1664559627
 slideshow: 1a71725d-0224-45f7-bdf7-957d6582f7fc
 preview_image: projects/herbert_crescent/1123-x-1497-19.jpg
 content_builder:
@@ -20,28 +20,84 @@ content_builder:
         link: false
         type: copy
         enabled: true
+        top_space: 150
+        bottom_space: 0
       -
-        copy: 'The main bathroom used the very rare Ball Eye Blue creating a sublime and restful space, whilst another had a basin carved from a solid block of Ashburton which was offset by a complementary stone floor and wall panels. The wine cellar incorporated Hopton whilst fireplaces used Mendip. Throughout this impressive house only the world’s very best products and designers were employed; the net result being a house of true splendour.'
+        copy: 'The main bathroom used the very rare Ball Eye Blue creating a sublime and restful space, whilst another had a basin carved from a solid block of Ashburton which was offset by a complementary stone floor and wall panels. The wine cellar incorporated Hopton whilst fireplaces used Mendip.'
         link: false
         type: copy
         enabled: true
+        top_space: 150
+        bottom_space: 0
       -
         image: projects/herbert_crescent/1123-x-1497-1.jpg
         align_right: false
         full_width: false
         type: image
         enabled: true
+        align_left: false
+        top_space: 50
+        bottom_space: 0
       -
         image: projects/herbert_crescent/1123-x-842-1.jpg
         align_right: false
         full_width: false
         type: image
         enabled: true
+        align_left: false
+        top_space: 50
+        bottom_space: 0
       -
-        copy: 'The main bathroom used the very rare Ball Eye Blue creating a sublime and restful space, whilst another had a basin carved from a solid block of Ashburton which was offset by a complementary stone floor and wall panels. The wine cellar incorporated Hopton whilst fireplaces used Mendip. Throughout this impressive house only the world’s very best products and designers were employed; the net result being a house of true splendour.'
+        copy: 'Throughout this impressive house only the world’s very best products and designers were employed; the net result being a house of true splendour.'
+        link: false
+        type: copy
+        enabled: true
+        top_space: 50
+        bottom_space: 0
+      -
+        image: projects/herbert_crescent/2560-x-1440-7.jpg
+        full_width: true
+        align_left: false
+        align_right: false
+        top_space: 0
+        bottom_space: 0
+        type: image
+        enabled: true
+      -
+        copy: 'The main bathroom used the very rare Ball Eye Blue creating a sublime and restful space, whilst another had a basin carved from a solid block of Ashburton which was offset by a complementary stone floor and wall panels.'
+        top_space: 100
+        bottom_space: 500
+        link: false
+        type: copy
+        enabled: true
+      -
+        image: projects/herbert_crescent/1123-x-1497-18.jpg
+        full_width: false
+        align_left: false
+        align_right: false
+        top_space: 100
+        bottom_space: 0
+        type: image
+        enabled: true
+      -
+        image: projects/herbert_crescent/1123-x-842-4.jpg
+        full_width: false
+        align_left: false
+        align_right: false
+        top_space: 390
+        bottom_space: 0
+        type: image
+        enabled: true
+      -
+        copy: 'The wine cellar incorporated Hopton whilst fireplaces used Mendip. Throughout this impressive house only the world’s very best products and designers were employed; the net result being a house of true splendour.'
+        top_space: 100
+        bottom_space: 0
         link: false
         type: copy
         enabled: true
     type: grid
     enabled: true
+page_copy_color: '#786D69'
+navigation_color: '#FFFFFF'
+background_color: '#E0E0E0'
 ---

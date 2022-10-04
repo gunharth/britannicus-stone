@@ -1,5 +1,6 @@
 ---
 id: 7627ce94-2202-40aa-b681-24657b9850d8
+published: false
 blueprint: project
 title: 'Private Residence 2 (Holland Park)'
 header: none

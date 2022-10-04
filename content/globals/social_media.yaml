@@ -5,12 +5,12 @@ data:
       handle: BritannicusNews
       prefix: 'https://www.twitter.com/'
       type: twitter
-      enabled: true
+      enabled: false
     -
       handle: britannicus.stone
       prefix: 'https://www.facebook.com/'
       type: facebook
-      enabled: true
+      enabled: false
     -
       handle: britannicus_stone
       prefix: 'https://www.instagram.com/'

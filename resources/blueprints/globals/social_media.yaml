@@ -83,7 +83,7 @@ sections:
                   field:
                     type: hidden
                     default: 'https://www.instagram.com/'
-            linkedin:
+            linkedIn:
               display: LinkedIn
               fields:
                 -
@@ -177,3 +177,8 @@ sections:
           listable: hidden
           localizable: true
           display: 'Social media'
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          collapse: false
+          previews: true

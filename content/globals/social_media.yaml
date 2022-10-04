@@ -19,5 +19,5 @@ data:
     -
       handle: company/britannicus-stone
       prefix: 'https://www.linkedin.com/'
-      type: linkedin
+      type: linkedIn
       enabled: true

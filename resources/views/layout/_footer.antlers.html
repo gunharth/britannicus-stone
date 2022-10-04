@@ -10,7 +10,7 @@
             London SW10 0QJ<br>
             <br>
             <a class="pt-1" href="tel:02077515962">020 7751 5962</a><br>
-            <a href="mailto:info@britannicus-stone.co.uk">info@britannicus-stone.co.uk</a>
+            <a href="mailto:{{ 'enquiries@britannicus-stone.co.uk' | obfuscate_email }}">{{ 'enquiries@britannicus-stone.co.uk' | obfuscate_email }}</a>
         </address>
     </div>
     <div>
@@ -18,7 +18,7 @@
         {{ if social_media:social_media }}
             <div class="flex flex-col text-20 leading-5"">
                 {{ social_media:social_media }}
-                    <a class="p-1 -m-1 text-neutral hover:text-primary focus:outline-none focus-visible:ring-2 ring-primary" href="{{ prefix }}{{ handle }}" rel="noopener" aria-label="{{ config:app:name }} {{ trans:strings.on }} {{ type | title }}" target="_blank">{{ type | title }}</a>
+                    <a class="p-1 -m-1 focus:outline-none" href="{{ prefix }}{{ handle }}" rel="noopener" aria-label="{{ config:app:name }} {{ trans:strings.on }} {{ type | title }}" target="_blank">{{ type | ucfirst }}</a>
                 {{ /social_media:social_media }}
             </div>
         {{ /if }}

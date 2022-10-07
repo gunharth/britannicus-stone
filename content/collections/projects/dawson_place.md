@@ -4,7 +4,7 @@ blueprint: project
 title: 'Dawson Place'
 preview_image: projects/dawson_place/1123-x-842-1.jpg
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665069256
+updated_at: 1665130660
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry

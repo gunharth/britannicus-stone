@@ -37,7 +37,7 @@ content_builder:
         align_left: true
         align_right: true
         top_space: 80
-        bottom_space: 0
+        bottom_space: 170
         type: image
         enabled: true
     type: grid
@@ -48,7 +48,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665081101
+updated_at: 1665135206
 background_color: '#7D7B7B'
 navigation_color: '#272123'
 page_copy_color: '#272123'

@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664990376
+updated_at: 1665133891
 seo_title: Sustainability
 header: slideshow
 content_builder:
@@ -37,7 +37,7 @@ content_builder:
     enabled: true
     top_space: 0
     bottom_space: 0
-    image: sustainability/2560-x-1440-6.jpg
+    image: sustainability/2560-x-1440-14.jpg
   -
     copy: 'As part of this we have launched a revised version of our Sustainability Statement which all members are asked to sign up to. Stone Federation members are encouraged to:'
     top_space: 90
@@ -47,22 +47,6 @@ content_builder:
     enabled: true
   -
     grid:
-      -
-        copy: 'As part of this we have launched a revised version of our Sustainability Statement which all members are asked to sign up to. Stone Federation members are encouraged to:'
-        top_space: 90
-        bottom_space: 0
-        link: false
-        type: copy
-        enabled: false
-      -
-        image: sustainability/2560-x-1440-1.jpg
-        full_width: false
-        align_left: false
-        align_right: false
-        top_space: 0
-        bottom_space: 0
-        type: image
-        enabled: false
       -
         copy: |-
           1.	Act 
@@ -111,6 +95,7 @@ content_builder:
     type: grid
     enabled: true
 slideshow: 23394b87-5c4e-4766-97d7-bc80d262c7b1
-background_color: '#102F21'
-page_copy_color: '#B7BE9D'
+background_color: '#DFE3D0'
+page_copy_color: '#274F3D'
+navigation_color: '#DFE3D0'
 ---

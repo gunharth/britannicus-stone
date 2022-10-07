@@ -7,8 +7,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1665129405
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1665134268
 header: image
 header_image: projects/st_marks_crescent/2560-x-1440-4.jpg
 preview_image: projects/st_marks_crescent/1123-x-842-1.jpg
@@ -55,7 +55,7 @@ content_builder:
         top_space: 40
         bottom_space: 0
         type: image
-        enabled: true
+        enabled: false
       -
         copy: |-
           Stone: Swaledale Fossil
@@ -65,7 +65,7 @@ content_builder:
         bottom_space: 0
         link: false
         type: copy
-        enabled: true
+        enabled: false
     type: grid
     enabled: true
   -

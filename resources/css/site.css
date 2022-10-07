@@ -40,11 +40,11 @@ body.home {
 }
 
 #logoface {
-    @apply w-[40px] lg:w-[70px] 2xl:w-[80px] fill-white transition-all duration-500;
+    @apply w-[40px] lg:w-[70px] fill-white transition-all duration-500;
 }
 
 #logotype {
-    @apply w-[122px] lg:w-[200px] 2xl:w-[244px] mt-3 fill-white transition-all duration-500;
+    @apply w-[122px] lg:w-[200px] mt-3 fill-white transition-all duration-500;
 }
 .hamburgerOuter {
     @apply text-white;
@@ -64,8 +64,8 @@ nav .logoOuter {
     @apply justify-center;
 }
 
-nav.scrolled .logoOuter{
-    @apply pt-7 w-1/2 md:w-1/3 justify-start md:justify-center bg-brit-navbackground;
+nav.scrolled .logoOuter {
+    @apply pt-5 pb-1 2xl:pt-7 2xl:pb-4 w-1/2 md:w-1/3 justify-start md:justify-center bg-brit-navbackground;
 }
 
 nav.scrolled .hamburgerOuter {

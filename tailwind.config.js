@@ -59,6 +59,13 @@ module.exports = {
                     lineHeight: "48px",
                 },
             ],
+            65: [
+                "65px",
+                {
+                    letterSpacing: "-0.02em",
+                    lineHeight: "75px",
+                },
+            ],
             90: [
                 "90px",
                 {

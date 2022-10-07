@@ -45,7 +45,8 @@
                 </header>
                 <main class="absolute bottom-0 h-24 global-x" style="color:{{ link_color }}">
                     {{ project_link }}
-                        <h4 class="uppercase text-15">Project</h4>
+
+                        <h4 class="uppercase text-15">{{ collection | upper }}</h4>
                         <a href="{{ url }}" class="text-25 hover:opacity-80" >{{ title }}</a>
                     {{ /project_link }}
                 </main>

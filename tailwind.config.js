@@ -31,6 +31,8 @@ module.exports = {
                 "15px",
                 {
                     lineHeight: "20px",
+                    letterSpacing: '0.04em',
+
                 },
             ],
             18  : [

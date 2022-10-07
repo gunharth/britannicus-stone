@@ -12,7 +12,7 @@
     {{ collection:next in="news" as="news" limit="1"}}
     {{ news }}
     <div class="post">
-      <a href="{{ url }}">Next News &rarr;</a>
+      <a href="{{ url }}">Next News {{ svg src="arrow" class="ml-2 w-5 lg:ml-3 lg:w-7 page-fill-color inline" }}</a>
     </div>
     {{ /news }}
     {{ /collection:next }}

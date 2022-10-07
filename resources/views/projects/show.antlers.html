@@ -12,7 +12,7 @@
     {{ collection:next in="projects" as="projects" limit="1"}}
     {{ projects }}
     <div class="post">
-      <a href="{{ url }}">Next Project &rarr;</a>
+      <a href="{{ url }}">Next Project {{ svg src="arrow" class="ml-2 w-5 lg:ml-3 lg:w-7 page-fill-color inline" }}</a>
     </div>
     {{ /projects }}
     {{ /collection:next }}

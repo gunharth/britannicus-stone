@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664552235
+updated_at: 1665063694
 preview_image: projects/riba/1123-x-842-2.jpg
 content_builder:
   -
@@ -46,6 +46,17 @@ content_builder:
     bottom_space: 0
     link: false
     type: image
+    enabled: true
+  -
+    copy: |-
+      Stone: 
+      Designer: 
+      Architect: 
+      Contractor:
+    top_space: 50
+    bottom_space: 0
+    link: false
+    type: copy
     enabled: true
 header: slideshow
 slideshow: ad9aaf1f-b7cb-47ea-af6f-2f285f209c41

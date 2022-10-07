@@ -7,23 +7,16 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259
-updated_at: 1664871308
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1665069378
 header: image
 header_image: projects/st_marks_crescent/2560-x-1440-4.jpg
-preview_image: projects/st_marks_crescent/1123-x-1497-1.jpg
+preview_image: projects/st_marks_crescent/1123-x-842-1.jpg
 content_builder:
   -
     grid:
       -
-        copy: |-
-          Primrose Hill, London
-          Architect: Nagan Johnson
-          Stones: Swaledale Fossil
-
-          This historic and listed house, in Primrose Hill, London was transformed with a modern glass extension, interior renovations and full garden refurbishment and landscape design.
-
-          Britannicus Stone sourced and installed Swaledale Fossil throughout the project. Including the peaceful corner garden with bespoke furniture.
+        copy: 'This historic and listed house, in Primrose Hill, London was transformed with a modern glass extension, interior renovations and full garden refurbishment and landscape design.'
         top_space: 150
         bottom_space: 0
         link: false
@@ -34,7 +27,7 @@ content_builder:
         full_width: false
         align_left: false
         align_right: true
-        top_space: 140
+        top_space: 150
         bottom_space: 0
         type: image
         enabled: true
@@ -43,18 +36,35 @@ content_builder:
         full_width: false
         align_left: false
         align_right: false
-        top_space: 190
+        top_space: 130
         bottom_space: 0
         type: image
+        enabled: true
+      -
+        copy: 'Britannicus Stone sourced and installed Swaledale Fossil throughout the project. Including the peaceful corner garden with bespoke furniture.'
+        top_space: 110
+        bottom_space: 0
+        link: false
+        type: copy
         enabled: true
       -
         image: projects/st_marks_crescent/2560-x-1440-2.jpg
         full_width: true
         align_left: false
         align_right: false
-        top_space: 150
+        top_space: 40
         bottom_space: 0
         type: image
+        enabled: true
+      -
+        copy: |-
+          Stone: Swaledale Fossil
+          Location: Primrose Hill, London
+          Architect: [Nagan Johnson](https://www.naganjohnson.co.uk)
+        top_space: 50
+        bottom_space: 0
+        link: false
+        type: copy
         enabled: true
     type: grid
     enabled: true

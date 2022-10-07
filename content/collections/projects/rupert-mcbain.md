@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664554996
+updated_at: 1665063823
 header: image
 header_image: projects/rupert_mcbain/2560-x-1440-1.jpg
 preview_image: projects/rupert_mcbain/1123-x-842-4.jpg
@@ -48,11 +48,22 @@ content_builder:
   -
     grid:
       -
+        copy: |-
+          Stone: 
+          Designer: 
+          Architect: 
+          Contractor:
+        top_space: 50
+        bottom_space: 0
+        link: false
+        type: copy
+        enabled: true
+      -
         image: projects/rupert_mcbain/2560-x-1440-5.jpg
         full_width: false
         align_left: false
         align_right: false
-        top_space: 140
+        top_space: 50
         bottom_space: 0
         type: image
         enabled: true

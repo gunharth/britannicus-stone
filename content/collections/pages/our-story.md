@@ -2,18 +2,17 @@
 id: b9724278-ef26-4086-8c1d-25df26dc2d05
 blueprint: page
 title: 'Our Story'
-header: slideshow
+header: image
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 template: default
-updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259
-updated_at: 1664790242
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1664984953
 background_color: '#F4E9E8'
 page_copy_color: '#7B6452'
-slideshow: 7a2a8eae-3e3a-4d48-b4ba-6ecc9e966b66
 content_builder:
   -
     copy: 'Britannicus Stone’s products primarily come from carboniferous limestones which date back to the Dinantian epoch, about 350 million years old and which were originally laid down when Britain sat over the equator. Carboniferous Limestone is a sedimentary rock made of calcium carbonate.'
@@ -32,12 +31,12 @@ content_builder:
     top_space: 0
     bottom_space: 0
   -
-    image: home_slide.png
+    image: our_story/2560-x-1440-8-1664973821.jpg
     type: image
     enabled: true
     link: true
     url_toggle: false
-    content: 68414816-01a1-491f-85ea-5ae9b5467e51
+    content: 06d572d5-cfde-4008-8197-3f37746cccf5
     header: Project
     top_space: 0
     bottom_space: 0
@@ -61,12 +60,13 @@ content_builder:
   -
     copy_1: 'The colour variations, so characteristic of British stones, are part of this same alteration process (metamorphism) which redistributes the various chemical compounds present in the original limestone throughout the new crystalline fabric. Reds and yellows are a result of the presence of various iron compounds, blacks contain organic carbon, greens include copper compounds and whites are almost pure calcium or magnesium carbonate.'
     copy_2: 'When polished British carboniferous limestone is often referred to as Shining Stone because of the way it takes a polish. The resulting colour spectrum on the stones is unique and beautiful, one that so perfectly suits the British light and interiors; neither garish nor dull, its palette is perfectly in tune with these islands landscape'
-    image: home_slide.png
+    image: our_story/2560-x-1440-3.jpg
     headline: 'When polished British carboniferous limestone is often referred to as Shining Stone because of the way it takes a polish.'
     link: true
     url_toggle: false
-    content: 78a73701-07e2-418d-9912-11af4ff1fa17
-    header: Header
+    content: 9740e5b4-04d0-4920-9cf9-5296f8efaa71
+    header: Project
     type: content_template_3
     enabled: true
+header_image: our_story/2560-x-1440-1.jpg
 ---

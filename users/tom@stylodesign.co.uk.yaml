@@ -8,3 +8,9 @@ preferences:
       after_save: continue_editing
     stones:
       after_save: continue_editing
+    news:
+      after_save: continue_editing
+    pages:
+      after_save: continue_editing
+    slideshows:
+      after_save: continue_editing

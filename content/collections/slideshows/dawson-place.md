@@ -4,7 +4,7 @@ blueprint: slideshow
 title: 'Dawson Place'
 slides:
   -
-    image: projects/dawson_place/2560-x-1440-3.jpg
+    image: projects/dawson_place/2560-x-1440-11.jpg
     type: slide
     enabled: true
     copy: 'Dawson Place'
@@ -14,7 +14,7 @@ slides:
     image: projects/dawson_place/1123-x-1497-6.jpg
     copy: 'Dawson Place'
   -
-    image: projects/dawson_place/2560-x-1440-4.jpg
+    image: projects/dawson_place/2560-x-1440-12.jpg
     type: slide
     enabled: true
     copy: 'Dawson Place'
@@ -24,5 +24,5 @@ slides:
     enabled: true
     copy: 'Dawson Place'
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664355246
+updated_at: 1665069215
 ---

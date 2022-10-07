@@ -2,8 +2,8 @@
 id: home
 blueprint: page
 title: Home
-updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259
-updated_at: 1664789631
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1665060993
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -48,7 +48,7 @@ content_builder:
         image: home_03.png
         link: true
         content: 55cc1885-2514-4789-a79f-ffebe489bc20
-        header: Project
+        header: Stones
         type: image
         enabled: true
         url_toggle: false
@@ -58,7 +58,7 @@ content_builder:
     type: content_template_1
     enabled: true
   -
-    image: home_04.png
+    image: home/2560-x-1440-14.jpg
     copy: 'The world’s leading provider of British stones and marbles'
     link: true
     url_toggle: false

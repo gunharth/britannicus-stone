@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664548655
+updated_at: 1665068642
 content_builder:
   -
     grid:
@@ -36,7 +36,7 @@ content_builder:
         type: image
         enabled: true
         align_left: false
-        top_space: 330
+        top_space: 250
         bottom_space: 30
       -
         image: projects/burlington_arcade/2560-x-1440-11.jpg
@@ -68,11 +68,20 @@ content_builder:
         full_width: false
         align_left: false
         align_right: false
-        top_space: 230
+        top_space: 150
         bottom_space: 0
         type: image
         enabled: true
     type: grid
+    enabled: true
+  -
+    copy: |-
+      Stones: Moorcroft, Ashburton & Mendip
+      Designer: [Jamie Fobert Architects](https://jamiefobertarchitects.com)
+    top_space: 50
+    bottom_space: 0
+    link: false
+    type: copy
     enabled: true
 preview_image: projects/burlington_arcade/1123-x-842-1.jpg
 navigation_color: '#000000'

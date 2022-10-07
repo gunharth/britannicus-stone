@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664556346
+updated_at: 1665069603
 preview_image: projects/st_andrew_holborn/1123-x-842-3.jpg
 content_builder:
   -
@@ -49,7 +49,7 @@ content_builder:
           The new floor brings a sense of calm and light to the interior. The dark accents just off-grid suggest the ebb and flow of movement within a grand constellation and focus attention towards the liturgical high points.
 
           Natural Stone Awards Winner 2020
-        top_space: 200
+        top_space: 120
         bottom_space: 0
         link: false
         type: copy
@@ -59,42 +59,29 @@ content_builder:
         full_width: false
         align_left: false
         align_right: false
-        top_space: 210
+        top_space: 190
         bottom_space: 0
         type: image
         enabled: true
-      -
-        copy: |-
-          Across the site the different sections of the site, the floor designs required exceptional accuracy and precision in detailing, manufacture and installation. To achieve the complex geometric intent and the very fine joints.
-
-          The new floor brings a sense of calm and light to the interior. The dark accents just off-grid suggest the ebb and flow of movement within a grand constellation and focus attention towards the liturgical high points.
-
-          Natural Stone Awards Winner 2020
-        top_space: 0
-        bottom_space: 0
-        link: false
-        type: copy
-        enabled: false
     type: grid
     enabled: true
-  -
-    copy: |-
-      Across the site the different sections of the site, the floor designs required exceptional accuracy and precision in detailing, manufacture and installation. To achieve the complex geometric intent and the very fine joints.
-
-      The new floor brings a sense of calm and light to the interior. The dark accents just off-grid suggest the ebb and flow of movement within a grand constellation and focus attention towards the liturgical high points.
-
-      Natural Stone Awards Winner 2020
-    link: false
-    type: copy
-    enabled: false
-    top_space: 150
-    bottom_space: 0
   -
     image: projects/st_andrew_holborn/2560-x-1440-1.jpg
     top_space: 0
     bottom_space: 0
     link: false
     type: image
+    enabled: true
+  -
+    copy: |-
+      Stones: Hopton Wood, Anglesey Grey & Stanhope Black
+      Architect: [DaeWha Kang Design](https://daewha.com)
+      Contractor: Chichester Stoneworks
+      Photographer: [James Balston](https://www.jamesbalston.com)
+    top_space: 50
+    bottom_space: 0
+    link: false
+    type: copy
     enabled: true
 header: image
 header_image: projects/st_andrew_holborn/2560-x-1440-3.jpg

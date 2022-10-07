@@ -4,7 +4,7 @@ blueprint: slideshow
 title: 'Herbert Crescent'
 slides:
   -
-    image: projects/herbert_crescent/2560-x-1440-7.jpg
+    image: projects/herbert_crescent/2560-x-1440-8.jpg
     copy: 'Herbert Crescent'
     type: slide
     enabled: true
@@ -19,5 +19,5 @@ slides:
     type: slide
     enabled: true
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664303818
+updated_at: 1665068772
 ---

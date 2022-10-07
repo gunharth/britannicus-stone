@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1663767634
+updated_at: 1665050699
 template: stones/index
 navigation_image: stones/ashburton_pink_prev.png
 header: image
@@ -20,4 +20,6 @@ content_builder:
     link: false
     type: copy
     enabled: true
+    top_space: 20
+    bottom_space: 100
 ---

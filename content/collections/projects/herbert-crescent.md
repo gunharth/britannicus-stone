@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664559627
+updated_at: 1665068854
 slideshow: 1a71725d-0224-45f7-bdf7-957d6582f7fc
 preview_image: projects/herbert_crescent/1123-x-1497-19.jpg
 content_builder:
@@ -36,7 +36,7 @@ content_builder:
         type: image
         enabled: true
         align_left: false
-        top_space: 50
+        top_space: 80
         bottom_space: 0
       -
         image: projects/herbert_crescent/1123-x-842-1.jpg
@@ -52,8 +52,8 @@ content_builder:
         link: false
         type: copy
         enabled: true
-        top_space: 50
-        bottom_space: 0
+        top_space: 70
+        bottom_space: 40
       -
         image: projects/herbert_crescent/2560-x-1440-7.jpg
         full_width: true
@@ -84,13 +84,24 @@ content_builder:
         full_width: false
         align_left: false
         align_right: false
-        top_space: 390
+        top_space: 280
         bottom_space: 0
         type: image
         enabled: true
       -
         copy: 'The wine cellar incorporated Hopton whilst fireplaces used Mendip. Throughout this impressive house only the world’s very best products and designers were employed; the net result being a house of true splendour.'
         top_space: 100
+        bottom_space: 0
+        link: false
+        type: copy
+        enabled: true
+      -
+        copy: |-
+          Stone: 
+          Designer: 
+          Architect: 
+          Contractor:
+        top_space: 50
         bottom_space: 0
         link: false
         type: copy

@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664789989
+updated_at: 1665070015
 header: slideshow
 slideshow: cb649443-ccc4-48b9-91e7-63166bd68b69
 preview_image: projects/richard_iii/1123-x-1497-7.jpg
@@ -27,7 +27,7 @@ content_builder:
         full_width: false
         align_left: false
         align_right: false
-        top_space: 140
+        top_space: 120
         bottom_space: 0
         type: image
         enabled: true
@@ -36,7 +36,7 @@ content_builder:
         full_width: false
         align_left: false
         align_right: false
-        top_space: 500
+        top_space: 310
         bottom_space: 0
         type: image
         enabled: true
@@ -60,7 +60,7 @@ content_builder:
         enabled: true
       -
         copy: "Carved\_by James Elliott, a renowned stone mason, from a single 6 tonne stone from a Britannicus Stone quarry, near Melsonby, the tomb stone measures 2 metres x 1 metre x 600 centimetres and still weighs a\_staggering 2.3 tonne. The Swaledale\_Fossil has undergone a prolonged polishing process using industrial diamonds which buff the stone to a shine to highlight the nature and composite of this magnificent stone."
-        top_space: 150
+        top_space: 330
         bottom_space: 0
         link: false
         type: copy
@@ -73,6 +73,21 @@ content_builder:
         top_space: 150
         bottom_space: 0
         type: image
+        enabled: true
+    type: grid
+    enabled: true
+  -
+    grid:
+      -
+        copy: |-
+          Stone: 
+          Designer: 
+          Architect: 
+          Contractor:
+        top_space: 50
+        bottom_space: 0
+        link: false
+        type: copy
         enabled: true
     type: grid
     enabled: true

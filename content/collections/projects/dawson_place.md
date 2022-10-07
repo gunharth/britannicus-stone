@@ -4,7 +4,7 @@ blueprint: project
 title: 'Dawson Place'
 preview_image: projects/dawson_place/1123-x-842-1.jpg
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664790979
+updated_at: 1665069256
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -14,7 +14,7 @@ content_builder:
   -
     grid:
       -
-        copy: 'A cornucopia of stones were used to refurbish this glorious 4-storey stucco fronted house in central London. The stunning cantilevered staircase used Hopton Wood; the entrance hall''s chequerboard floor was in contrasting Hopton and Salterwath as were the bespoke fireplaces; the master bathroom floor used Anglesey, whilst the vanity units were Swaledale.'
+        copy: 'A cornucopia of stones were used to refurbish this glorious 4-storey stucco fronted house in central London.'
         link: false
         type: copy
         enabled: true
@@ -48,7 +48,7 @@ content_builder:
         type: image
         enabled: true
       -
-        copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed malesuada magna. Nulla in malesuada nunc, ut pretium dolor. Morbi sit amet lorem feugiat, consectetur ante vitae, egestas turpis. Proin vel justo sit amet urna posuere pulvinar sit amet nec nulla. Etiam laoreet risus nunc, a elementum arcu vestibulum ac. Pellentesque ac purus vitae dolor accumsan dapibus eu nec massa. Ut at consectetur diam. Nulla sed orci nec lectus vehicula accumsan. Sed pharetra nisl at enim dapibus dignissim.'
+        copy: 'The stunning cantilevered staircase used Hopton Wood; the entrance hall''s chequerboard floor was in contrasting Hopton and Salterwath as were the bespoke fireplaces; the master bathroom floor used Anglesey, whilst the vanity units were Swaledale.'
         top_space: 150
         bottom_space: 0
         link: false
@@ -70,6 +70,17 @@ content_builder:
         top_space: 150
         bottom_space: 0
         type: image
+        enabled: true
+      -
+        copy: |-
+          Stone: 
+          Designer: 
+          Architect: 
+          Contractor:
+        top_space: 50
+        bottom_space: 0
+        link: false
+        type: copy
         enabled: true
     type: grid
     enabled: true

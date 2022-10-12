@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664467910
+updated_at: 1665398789
 description: 'Eskett Leopard is a hugely interesting and unusual stone with its white veins threading their way through the brown mottles and silvery incursions, whilst others crisscross across the face of the stone. This is a very distinctive ‘marble’ and its rarity is exemplified in its popularity.'
 slab_sizes: |-
   2.1m x 1.4m
@@ -17,7 +17,7 @@ header: carousel
 image_carousel:
   - stones/eskett_light/2560-x-1440-1.jpg
 preview_image: stones/eskett_light/723-x-473-1.jpg
-location: 'Location required'
+location: Cumbria
 stone_background_color: '#A59284'
 navigation_color: '#4D423A'
 page_copy_color: '#4D423A'

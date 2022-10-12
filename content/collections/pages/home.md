@@ -2,8 +2,8 @@
 id: home
 blueprint: page
 title: Home
-updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1665137309
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1665573917
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -24,20 +24,20 @@ content_builder:
     header: 'Our Story'
     link_text: 'Read more'
     url_toggle: false
-    top_space: 100
+    top_space: 150
     bottom_space: 0
   -
     images:
       -
-        image: home_01.png
+        image: projects/burlington_arcade/1123-x-842-4.jpg
         link: true
-        content: 1252c8d5-38a3-4dcd-8df9-c1fcb34da278
+        content: a0ba7e0c-c8b5-4c59-b00c-20924dfc4bdc
         header: Project
         type: image
         enabled: true
         url_toggle: false
       -
-        image: home_02.png
+        image: projects/hoban_wilderness/1123-x-1497-7.jpg
         link: true
         content: 78a73701-07e2-418d-9912-11af4ff1fa17
         header: Stones
@@ -45,9 +45,9 @@ content_builder:
         enabled: true
         url_toggle: false
       -
-        image: home_03.png
+        image: stones/ashburton/1123-x-1497-1.jpg
         link: true
-        content: 55cc1885-2514-4789-a79f-ffebe489bc20
+        content: 6ea3b8f2-b366-4133-a2e0-16e9337402e3
         header: Stones
         type: image
         enabled: true

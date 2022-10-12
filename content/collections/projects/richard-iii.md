@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665070015
+updated_at: 1665428811
 header: slideshow
 slideshow: cb649443-ccc4-48b9-91e7-63166bd68b69
 preview_image: projects/richard_iii/1123-x-1497-7.jpg
@@ -36,7 +36,7 @@ content_builder:
         full_width: false
         align_left: false
         align_right: false
-        top_space: 310
+        top_space: 380
         bottom_space: 0
         type: image
         enabled: true
@@ -50,7 +50,7 @@ content_builder:
         type: image
         enabled: true
       -
-        image: projects/richard_iii/1123-x-1497-1.jpg
+        image: projects/richard_iii/1123-x-1497-13.jpg
         full_width: false
         align_left: true
         align_right: false
@@ -66,7 +66,7 @@ content_builder:
         type: copy
         enabled: true
       -
-        image: projects/richard_iii/2560-x-1440-5.jpg
+        image: projects/richard_iii/2560-x-1440-9.jpg
         full_width: true
         align_left: false
         align_right: false

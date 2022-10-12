@@ -15,8 +15,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664468931
-location: Wales
+updated_at: 1665398830
+location: 'West Wales'
 header: carousel
 image_carousel:
   - stones/green_serpentine/2560-x-1440-1.jpg

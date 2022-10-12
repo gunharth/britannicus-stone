@@ -1,5 +1,6 @@
 ---
 id: 1ae58224-88a8-4430-8389-b051af963744
+published: false
 blueprint: project
 title: 'St Marks Crescent'
 seo_noindex: false
@@ -8,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665134268
+updated_at: 1665577344
 header: image
 header_image: projects/st_marks_crescent/2560-x-1440-4.jpg
 preview_image: projects/st_marks_crescent/1123-x-842-1.jpg
@@ -66,6 +67,15 @@ content_builder:
         link: false
         type: copy
         enabled: false
+      -
+        image: projects/st_marks_crescent/1123-x-1497-4.jpg
+        full_width: false
+        align_left: false
+        align_right: false
+        top_space: 60
+        bottom_space: 0
+        type: image
+        enabled: true
     type: grid
     enabled: true
   -
@@ -84,9 +94,12 @@ content_builder:
           Architect: [Nagan Johnson](https://www.naganjohnson.co.uk)
         top_space: 50
         bottom_space: 0
-        link: false
+        link: true
         type: copy
         enabled: true
+        url_toggle: false
+        content: f842e9d5-2460-4896-8535-4c954109dade
+        header: Header
     type: grid
     enabled: true
 background_color: '#B4C0B6'

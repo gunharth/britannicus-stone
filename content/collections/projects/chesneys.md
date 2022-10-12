@@ -3,7 +3,7 @@ id: 68414816-01a1-491f-85ea-5ae9b5467e51
 blueprint: project
 title: Chesneys
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665063458
+updated_at: 1665574929
 preview_image: projects/project_1.png
 header: none
 navigation_image: header-stones.png
@@ -26,7 +26,7 @@ content_builder:
   -
     grid:
       -
-        copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu rutrum quam. Ut ac eros mi. Etiam fermentum nec leo vel venenatis. Nam porttitor, leo quis interdum congue, justo turpis luctus orci, nec dapibus metus ante id ex. Curabitur iaculis sapien eu volutpat tempus. Aenean ligula ipsum, malesuada a mattis non, tincidunt vitae metus. Maecenas imperdiet vulputate lorem at tristique. Integer massa sem, luctus vel nulla ac, eleifend suscipit ante lectus quam.'
+        copy: 'The British Materials Collection shines a light on these beautiful native materials, revealing them in a range of stunning fire surrounds hand crafted by British masons, using materials quarried in Wales, England and Scotland, in locations that stretch from The West Country of England to the Northwest of Scotland.'
         type: copy
         enabled: true
         link: false
@@ -51,18 +51,17 @@ content_builder:
         top_space: 0
         bottom_space: 0
       -
-        copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu rutrum quam. Ut ac eros mi. Etiam fermentum nec leo vel venenatis. Nam porttitor, leo quis interdum congue, justo turpis luctus orci, nec dapibus metus ante id ex. Curabitur iaculis sapien eu volutpat tempus. Aenean ligula ipsum, malesuada a mattis non, tincidunt vitae metus. Maecenas imperdiet vulputate lorem at tristique. Integer massa sem, luctus vel nulla ac, eleifend suscipit ante lectus quam.'
+        copy: |-
+          The subtle shades of colour and movement in these materials are both unique and beautiful, ranging from the monochromatic contemporary hues of Frosterley stone to the vibrant semi-precious amethyst tones of Ball Eye Blue marble.
+
+          Specifying a Fire Surround from our British Materials Collection is an opportunity to introduce a unique element to the interior design of a room and enjoy a timeless reminder of the archaeological history of our national landscape, whilst fostering homegrown artisanal masonry skills and our domestic quarrying industry.
         type: copy
         enabled: true
         link: false
         bottom_space: 300
         top_space: 230
       -
-        copy: |-
-          Stone:
-          Designer: 
-          Architect: 
-          Contractor:
+        copy: 'Stone: [Moorcroft Cartoon](https://britannicus-stone.stylodesign.co.uk/stones/moorcroft-cartoon) & [Ball Eye Blue](https://britannicus-stone.stylodesign.co.uk/stones/ball-eye-blue)'
         top_space: 50
         bottom_space: 0
         link: false

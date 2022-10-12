@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665068854
+updated_at: 1665427733
 slideshow: 1a71725d-0224-45f7-bdf7-957d6582f7fc
 preview_image: projects/herbert_crescent/1123-x-1497-19.jpg
 content_builder:
@@ -30,7 +30,7 @@ content_builder:
         top_space: 150
         bottom_space: 0
       -
-        image: projects/herbert_crescent/1123-x-1497-1.jpg
+        image: projects/herbert_crescent/1123-x-1497-3.jpg
         align_right: false
         full_width: false
         type: image
@@ -55,7 +55,7 @@ content_builder:
         top_space: 70
         bottom_space: 40
       -
-        image: projects/herbert_crescent/2560-x-1440-7.jpg
+        image: projects/herbert_crescent/2560-x-1440-11.jpg
         full_width: true
         align_left: false
         align_right: false
@@ -65,8 +65,8 @@ content_builder:
         enabled: true
       -
         copy: 'The main bathroom used the very rare Ball Eye Blue creating a sublime and restful space, whilst another had a basin carved from a solid block of Ashburton which was offset by a complementary stone floor and wall panels.'
-        top_space: 100
-        bottom_space: 500
+        top_space: 210
+        bottom_space: 290
         link: false
         type: copy
         enabled: true
@@ -80,20 +80,38 @@ content_builder:
         type: image
         enabled: true
       -
-        image: projects/herbert_crescent/1123-x-842-4.jpg
+        image: projects/herbert_crescent/1123-x-1497-20.jpg
         full_width: false
         align_left: false
         align_right: false
-        top_space: 280
+        top_space: 0
+        bottom_space: 0
+        type: image
+        enabled: true
+      -
+        image: projects/herbert_crescent/1123-x-842-6.jpg
+        full_width: false
+        align_left: false
+        align_right: false
+        top_space: 70
         bottom_space: 0
         type: image
         enabled: true
       -
         copy: 'The wine cellar incorporated Hopton whilst fireplaces used Mendip. Throughout this impressive house only the world’s very best products and designers were employed; the net result being a house of true splendour.'
-        top_space: 100
+        top_space: 140
         bottom_space: 0
         link: false
         type: copy
+        enabled: true
+      -
+        image: projects/herbert_crescent/1123-x-842-4.jpg
+        full_width: false
+        align_left: false
+        align_right: false
+        top_space: 60
+        bottom_space: 0
+        type: image
         enabled: true
       -
         copy: |-

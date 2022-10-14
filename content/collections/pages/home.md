@@ -2,8 +2,8 @@
 id: home
 blueprint: page
 title: Home
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665573917
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665676495
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -45,10 +45,10 @@ content_builder:
         enabled: true
         url_toggle: false
       -
-        image: stones/ashburton/1123-x-1497-1.jpg
+        image: stones/ashburton/1123-x-1497-7mb.jpg
         link: true
-        content: 6ea3b8f2-b366-4133-a2e0-16e9337402e3
-        header: Stones
+        content: 1ae58224-88a8-4430-8389-b051af963744
+        header: Project
         type: image
         enabled: true
         url_toggle: false
@@ -58,11 +58,11 @@ content_builder:
     type: content_template_1
     enabled: true
   -
-    image: home/2560-x-1440-14.jpg
+    image: home/2560-x-1440-16.jpg
     copy: 'The world’s leading provider of British stones and marbles'
     link: true
     url_toggle: false
-    content: 06d572d5-cfde-4008-8197-3f37746cccf5
+    content: 9740e5b4-04d0-4920-9cf9-5296f8efaa71
     header: Project
     type: content_template_2
     enabled: true

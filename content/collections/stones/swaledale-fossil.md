@@ -5,16 +5,16 @@ title: 'Swaledale Fossil'
 header: carousel
 image_carousel:
   - stones/swaledale_fossil/2560-x-1440-1.jpg
-  - stones/swaledale_fossil/2560-x-1440-4.jpg
-  - stones/swaledale_fossil/2560-x-1440-6.jpg
+  - stones/swaledale_fossil/2560-x-1440-1mb.jpg
+  - stones/swaledale_fossil/2560-x-1440-2mb.jpg
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 preview_image: stones/swaledale_fossil/723-x-473-2.jpg
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665398952
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665668616
 stone_background_color: '#C9C2BC'
 navigation_color: '#938375'
 page_copy_color: '#938375'

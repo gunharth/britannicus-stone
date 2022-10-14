@@ -7,8 +7,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665153238
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665731568
 seo_title: Sustainability
 header: slideshow
 content_builder:
@@ -39,7 +39,7 @@ content_builder:
     bottom_space: 0
     image: sustainability/2560-x-1440-17.jpg
   -
-    copy: 'As part of this we have launched a revised version of our Sustainability Statement which all members are asked to sign up to. Stone Federation members are encouraged to:'
+    copy: 'As part of this The Stone Federation have launched a revised version of their Sustainability Statement which all members are asked to sign up to. Stone Federation members are encouraged to:'
     top_space: 90
     bottom_space: 0
     link: false

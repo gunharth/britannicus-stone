@@ -8,8 +8,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665068642
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665741087
 content_builder:
   -
     grid:
@@ -21,7 +21,7 @@ content_builder:
         top_space: 220
         bottom_space: 0
       -
-        image: projects/burlington_arcade/1123-x-1497-1.jpg
+        image: projects/burlington_arcade/1123-x-1497-5.jpg
         align_right: true
         full_width: false
         type: image
@@ -39,7 +39,7 @@ content_builder:
         top_space: 250
         bottom_space: 30
       -
-        image: projects/burlington_arcade/2560-x-1440-11.jpg
+        image: projects/burlington_arcade/1123-x-842-3.jpg
         full_width: false
         align_left: false
         align_right: false
@@ -55,11 +55,11 @@ content_builder:
         type: copy
         enabled: true
       -
-        image: projects/burlington_arcade/1123-x-842-1.jpg
+        image: projects/burlington_arcade/2560-x-1440-7.jpg
         full_width: false
-        align_left: false
+        align_left: true
         align_right: false
-        top_space: 0
+        top_space: 100
         bottom_space: 0
         type: image
         enabled: true
@@ -83,7 +83,7 @@ content_builder:
     link: false
     type: copy
     enabled: true
-preview_image: projects/burlington_arcade/1123-x-842-1.jpg
+preview_image: projects/burlington_arcade/1123-x-842-11.jpg
 navigation_color: '#000000'
 image_carousel:
   - projects/burlington_arcade/2560-x-1440-3.jpg

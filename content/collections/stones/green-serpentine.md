@@ -14,13 +14,12 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665398830
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665669213
 location: 'West Wales'
 header: carousel
 image_carousel:
   - stones/green_serpentine/2560-x-1440-1.jpg
-  - stones/green_serpentine/2560-x-1440-2.jpg
 preview_image: stones/green_serpentine/723-x-473-1.jpg
 stone_background_color: '#39564C'
 navigation_color: '#B9CBBF'

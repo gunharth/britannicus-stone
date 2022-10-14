@@ -3,11 +3,12 @@ id: 7c6ef42f-98ef-4b3a-abc1-688183b4a151
 blueprint: stone
 title: Ledmore
 preview_image: stones/ledmore/723-x-473-1.jpg
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665398854
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665732843
 header: carousel
 image_carousel:
   - stones/ledmore/2560-x-1440-1.jpg
+  - 1123x842-mb10.jpeg
   - stones/ledmore/2560-x-1440-2.jpg
 description: |-
   This stunningly beautiful British stone is the only true marble on mainland Britain and is consequently treasured across the globe. Ledmore usually consists of large white veins resulting from calcium compounds, lime green veining originating from copper compounds, and grays and blacks from organic compounds; in short a facsimile of British geological history.
@@ -23,4 +24,5 @@ stone_background_color: '#CACAB0'
 navigation_color: '#958F3C'
 page_copy_color: '#958F3C'
 map: stones/ledmore/ledmore_map.svg
+slab_sizes: 'Typical slab sizes are 2m x 1m: however they can vary.'
 ---

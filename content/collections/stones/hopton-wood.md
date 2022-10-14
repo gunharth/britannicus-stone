@@ -15,12 +15,11 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259
-updated_at: 1664790012
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665669184
 header: carousel
 image_carousel:
   - stones/hopton_wood/2560-x-1440-2.jpg
-  - stones/hopton_wood/2560-x-1440-1.jpg
 preview_image: stones/hopton_wood/723-x-473-1.jpg
 stone_background_color: '#D5CDC1'
 navigation_color: '#816C57'

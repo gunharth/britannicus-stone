@@ -3,8 +3,8 @@ id: 06d572d5-cfde-4008-8197-3f37746cccf5
 blueprint: project
 title: 'Dawson Place'
 preview_image: projects/dawson_place/1123-x-842-1.jpg
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665130660
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665672977
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -21,7 +21,7 @@ content_builder:
         top_space: 150
         bottom_space: 0
       -
-        image: projects/dawson_place/1123-x-1497-3.jpg
+        image: projects/dawson_place/1123-x-1497-4.jpg
         align_right: false
         full_width: false
         type: image
@@ -72,11 +72,18 @@ content_builder:
         type: image
         enabled: true
       -
+        image: projects/dawson_place/2560-x-1440--5mb.jpg
+        full_width: true
+        align_left: false
+        align_right: false
+        top_space: 150
+        bottom_space: 0
+        type: image
+        enabled: true
+      -
         copy: |-
-          Stone: 
-          Designer: 
-          Architect: 
-          Contractor:
+          Stone: Hopton Wood, Salterwath, Anglesey, Swaledale Fossil
+          Designer/Architect: David Collins Studio
         top_space: 50
         bottom_space: 0
         link: false
@@ -84,6 +91,6 @@ content_builder:
         enabled: true
     type: grid
     enabled: true
-header: slideshow
-slideshow: b88805a9-16bc-48ea-88c8-2a24cd0caeaf
+header: image
+header_image: projects/dawson_place/1123-x-842-4.jpg
 ---

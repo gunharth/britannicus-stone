@@ -2,15 +2,15 @@
 id: 9740e5b4-04d0-4920-9cf9-5296f8efaa71
 blueprint: project
 title: 'Hoban Wilderness'
-preview_image: projects/hoban_wilderness/1123-x-842-7.jpg
+preview_image: projects/hoban_wilderness/1123-x-1497-1.jpg
 header: image
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665428297
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665672029
 header_image: projects/hoban_wilderness/2560-x-1440-5.jpg
 content_builder:
   -
@@ -59,7 +59,7 @@ content_builder:
         type: copy
         enabled: true
       -
-        image: projects/hoban_wilderness/1123-x-1497-4.jpg
+        image: projects/hoban_wilderness/1123-x-1497-5.jpg
         full_width: false
         align_left: false
         align_right: false
@@ -90,8 +90,9 @@ content_builder:
   -
     copy: |-
       Stones: Ball Eye Blue & Moorcroft Vein
-      Planning, Architecture & Interior Design: [Hoban Design](https://www.hobandesign.co.uk) 
-      Lead Architect: [Chris Chapman](http://cca-uk.co.uk)
+      Planning, Architecture & Interior Design:
+      Hoban Design
+      Lead Architect: Chris Chapman
     top_space: 70
     bottom_space: 0
     link: false

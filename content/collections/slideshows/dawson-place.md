@@ -10,7 +10,7 @@ slides:
     copy: 'Dawson Place'
   -
     type: slide
-    enabled: true
+    enabled: false
     image: projects/dawson_place/1123-x-1497-6.jpg
     copy: 'Dawson Place'
   -
@@ -21,8 +21,8 @@ slides:
   -
     image: projects/dawson_place/2560-x-1440-7.jpg
     type: slide
-    enabled: true
+    enabled: false
     copy: 'Dawson Place'
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665069215
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665649582
 ---

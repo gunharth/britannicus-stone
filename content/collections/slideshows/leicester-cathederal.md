@@ -9,7 +9,7 @@ slides:
     enabled: true
     copy: 'Richard III'
   -
-    image: projects/richard_iii/2560-x-1440-10.jpg
+    image: projects/richard_iii/2560-x-1440-4-1665739397.jpg
     type: slide
     enabled: true
     copy: 'Richard III'

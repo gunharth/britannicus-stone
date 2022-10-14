@@ -8,10 +8,10 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665427733
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665658851
 slideshow: 1a71725d-0224-45f7-bdf7-957d6582f7fc
-preview_image: projects/herbert_crescent/1123-x-1497-19.jpg
+preview_image: projects/herbert_crescent/1123-x-1497-1mb.jpg
 content_builder:
   -
     grid:
@@ -23,14 +23,7 @@ content_builder:
         top_space: 150
         bottom_space: 0
       -
-        copy: 'The main bathroom used the very rare Ball Eye Blue creating a sublime and restful space, whilst another had a basin carved from a solid block of Ashburton which was offset by a complementary stone floor and wall panels. The wine cellar incorporated Hopton whilst fireplaces used Mendip.'
-        link: false
-        type: copy
-        enabled: true
-        top_space: 150
-        bottom_space: 0
-      -
-        image: projects/herbert_crescent/1123-x-1497-3.jpg
+        image: projects/herbert_crescent/1123-x-1497-14.jpg
         align_right: false
         full_width: false
         type: image
@@ -39,7 +32,7 @@ content_builder:
         top_space: 80
         bottom_space: 0
       -
-        image: projects/herbert_crescent/1123-x-842-1.jpg
+        image: projects/herbert_crescent/1123-x-1497-1mb.jpg
         align_right: false
         full_width: false
         type: image
@@ -48,14 +41,14 @@ content_builder:
         top_space: 50
         bottom_space: 0
       -
-        copy: 'Throughout this impressive house only the world’s very best products and designers were employed; the net result being a house of true splendour.'
+        copy: 'The main bathroom used the very rare Ball Eye Blue creating a sublime and restful space, whilst another had a basin carved from a solid block of Ashburton which was offset by a complementary stone floor and wall panels. The wine cellar incorporated Hopton whilst fireplaces used Mendip.'
         link: false
         type: copy
         enabled: true
-        top_space: 70
-        bottom_space: 40
+        top_space: 150
+        bottom_space: 0
       -
-        image: projects/herbert_crescent/2560-x-1440-11.jpg
+        image: projects/herbert_crescent/2560-x-1440-10.jpg
         full_width: true
         align_left: false
         align_right: false
@@ -64,14 +57,21 @@ content_builder:
         type: image
         enabled: true
       -
+        copy: 'Throughout this impressive house only the world’s very best products and designers were employed; the net result being a house of true splendour.'
+        link: false
+        type: copy
+        enabled: false
+        top_space: 70
+        bottom_space: 40
+      -
         copy: 'The main bathroom used the very rare Ball Eye Blue creating a sublime and restful space, whilst another had a basin carved from a solid block of Ashburton which was offset by a complementary stone floor and wall panels.'
         top_space: 210
         bottom_space: 290
         link: false
         type: copy
-        enabled: true
+        enabled: false
       -
-        image: projects/herbert_crescent/1123-x-1497-18.jpg
+        image: projects/herbert_crescent/1123-x-1497-16.jpg
         full_width: false
         align_left: false
         align_right: false
@@ -80,7 +80,7 @@ content_builder:
         type: image
         enabled: true
       -
-        image: projects/herbert_crescent/1123-x-1497-20.jpg
+        image: projects/herbert_crescent/1123-x-1497-3mb.jpg
         full_width: false
         align_left: false
         align_right: false
@@ -89,8 +89,8 @@ content_builder:
         type: image
         enabled: true
       -
-        image: projects/herbert_crescent/1123-x-842-6.jpg
-        full_width: false
+        image: projects/herbert_crescent/2560-x-1440-1.jpg
+        full_width: true
         align_left: false
         align_right: false
         top_space: 70
@@ -98,20 +98,26 @@ content_builder:
         type: image
         enabled: true
       -
-        copy: 'The wine cellar incorporated Hopton whilst fireplaces used Mendip. Throughout this impressive house only the world’s very best products and designers were employed; the net result being a house of true splendour.'
-        top_space: 140
-        bottom_space: 0
-        link: false
-        type: copy
-        enabled: true
-      -
-        image: projects/herbert_crescent/1123-x-842-4.jpg
+        image: projects/herbert_crescent/1123-x-1497-3mb.jpg
         full_width: false
         align_left: false
         align_right: false
         top_space: 60
         bottom_space: 0
         type: image
+        enabled: false
+      -
+        copy: |-
+          Throughout this impressive house only the world’s very best products and designers were employed; the net result being a house of true splendour.
+
+
+          Stone: Ashburton, Ball Eye Blue, 
+          Hopton Wood, Mendip
+          Architect: Tim Flynn Architects
+        top_space: 70
+        bottom_space: 0
+        link: false
+        type: copy
         enabled: true
       -
         copy: |-
@@ -123,7 +129,7 @@ content_builder:
         bottom_space: 0
         link: false
         type: copy
-        enabled: true
+        enabled: false
     type: grid
     enabled: true
 page_copy_color: '#786D69'

@@ -7,9 +7,9 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665069603
-preview_image: projects/st_andrew_holborn/1123-x-842-3.jpg
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665739193
+preview_image: projects/st_andrew_holborn/1123-x-1497-1-1665736073.jpg
 content_builder:
   -
     copy: |-
@@ -24,7 +24,7 @@ content_builder:
   -
     grid:
       -
-        image: projects/st_andrew_holborn/1123-x-1497-5.jpg
+        image: projects/st_andrew_holborn/1123-x-1497-5-1665736049.jpg
         full_width: false
         align_left: true
         align_right: false
@@ -55,7 +55,7 @@ content_builder:
         type: copy
         enabled: true
       -
-        image: projects/st_andrew_holborn/1123-x-842-1.jpg
+        image: projects/st_andrew_holborn/1123-x-1497-3-1665736040.jpg
         full_width: false
         align_left: false
         align_right: false
@@ -63,10 +63,37 @@ content_builder:
         bottom_space: 0
         type: image
         enabled: true
+      -
+        image: projects/st_andrew_holborn/1123-x-1497-3-1665736040.jpg
+        full_width: false
+        align_left: false
+        align_right: true
+        top_space: 0
+        bottom_space: 0
+        type: image
+        enabled: false
+      -
+        image: projects/st_andrew_holborn/1123-x-1497-1-1665736073.jpg
+        full_width: false
+        align_left: false
+        align_right: false
+        top_space: 0
+        bottom_space: 0
+        type: image
+        enabled: false
+      -
+        image: 2560-x-1440--2mb-1665670983.jpg
+        full_width: true
+        align_left: false
+        align_right: false
+        top_space: 0
+        bottom_space: 0
+        type: image
+        enabled: true
     type: grid
     enabled: true
   -
-    image: projects/st_andrew_holborn/2560-x-1440-1.jpg
+    image: projects/st_andrew_holborn/2560-x-1440-1-1665737210.jpg
     top_space: 0
     bottom_space: 0
     link: false
@@ -74,7 +101,8 @@ content_builder:
     enabled: true
   -
     copy: |-
-      Stones: Hopton Wood, Anglesey Grey & Stanhope Black
+      Stones: Hopton Wood, Anglesey Grey 
+      & Stanhope Black
       Architect: [DaeWha Kang Design](https://daewha.com)
       Contractor: Chichester Stoneworks
       Photographer: [James Balston](https://www.jamesbalston.com)
@@ -84,7 +112,7 @@ content_builder:
     type: copy
     enabled: true
 header: image
-header_image: projects/st_andrew_holborn/2560-x-1440-3.jpg
+header_image: 2560-x-1440-1mb-1665737371.jpg
 navigation_color: '#C9C2B2'
 page_copy_color: '#574D4D'
 background_color: '#C9C2B2'

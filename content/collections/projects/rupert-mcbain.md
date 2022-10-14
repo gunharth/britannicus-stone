@@ -7,8 +7,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665063823
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665653256
 header: image
 header_image: projects/rupert_mcbain/2560-x-1440-1.jpg
 preview_image: projects/rupert_mcbain/1123-x-842-4.jpg
@@ -28,7 +28,14 @@ content_builder:
         type: image
         enabled: true
       -
-        copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed malesuada magna. Nulla in malesuada nunc, ut pretium dolor. Morbi sit amet lorem feugiat, consectetur ante vitae, egestas turpis. Proin vel justo sit amet urna posuere pulvinar sit amet nec nulla. Etiam laoreet risus nunc, a elementum arcu vestibulum ac. Pellentesque ac purus vitae dolor accumsan dapibus eu nec massa. Ut at consectetur diam. Nulla sed orci nec lectus vehicula accumsan. Sed pharetra nisl at enim dapibus dignissim.'
+        copy: |-
+          The Coverham Hall Table
+
+          “The stone, gold and oak work so perfectly.”
+
+          Burnished water gilding throws light out from within the table to bathe the scrubbed surface of the oak.
+
+          The monumental Swaledale Fossil top has the loveliest, etched, three-dimensional quality. The stone was specially cut for this table from our local quarry.
         top_space: 150
         bottom_space: 0
         link: false
@@ -49,17 +56,15 @@ content_builder:
     grid:
       -
         copy: |-
-          Stone: 
-          Designer: 
-          Architect: 
-          Contractor:
+          Stone: Swaledale Fossil
+          Designer: Rupert McBain
         top_space: 50
         bottom_space: 0
         link: false
         type: copy
         enabled: true
       -
-        image: projects/rupert_mcbain/2560-x-1440-5.jpg
+        image: projects/rupert_mcbain/swaledale-fossil-cube.JPG
         full_width: false
         align_left: false
         align_right: false

@@ -19,9 +19,7 @@ content_builder:
     enabled: true
     orientation: leftright
     right_copy: |-
-      A member of the team will be happy to answer any questions you may have regarding the range of beautiful stones on display.
-
-      Sales
+      For further information about our range of stones please don't hesitate to get in touch.
 
       Please contact Simon:
       07802 500 625
@@ -47,8 +45,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665430236
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665733872
 background_color: '#7D7B7B'
 navigation_color: '#272123'
 page_copy_color: '#272123'

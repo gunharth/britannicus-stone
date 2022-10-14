@@ -3,8 +3,8 @@ id: 7a2a8eae-3e3a-4d48-b4ba-6ecc9e966b66
 blueprint: slideshow
 title: Home
 project_link: 'entry::37ef9d71-3482-462d-b53d-db4cce8343e6'
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665573207
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665739418
 slides:
   -
     image: stones/moorcroft_grey/2560-x-1440-1.jpg
@@ -37,7 +37,7 @@ slides:
     enabled: true
     project_link: 78a73701-07e2-418d-9912-11af4ff1fa17
   -
-    image: projects/herbert_crescent/2560-x-1440-9.jpg
+    image: projects/herbert_crescent/1123-x-1497-16.jpg
     copy: |-
       The Shining Stones
       of Britain
@@ -47,11 +47,11 @@ slides:
     copy_color: '#F4F2F1'
     link_color: '#F4F2F1'
   -
-    image: projects/richard_iii/2560-x-1440-10.jpg
+    image: projects/richard_iii/2560-x-1440-4-1665739397.jpg
     copy: |-
       The Shining Stones
       of Britain
-    project_link: 3379e8cc-3926-48c8-be32-fcb7295e6d3e
+    project_link: f729732f-e0a8-409c-b748-ac64971e6021
     type: slide
-    enabled: false
+    enabled: true
 ---

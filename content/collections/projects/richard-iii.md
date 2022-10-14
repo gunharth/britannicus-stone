@@ -7,11 +7,10 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665428811
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665741726
 header: slideshow
-slideshow: cb649443-ccc4-48b9-91e7-63166bd68b69
-preview_image: projects/richard_iii/1123-x-1497-7.jpg
+preview_image: projects/richard_iii/1123-x-1497-6.jpg
 content_builder:
   -
     grid:
@@ -93,4 +92,5 @@ content_builder:
     enabled: true
 background_color: '#D0C3B3'
 page_copy_color: '#5F4B31'
+slideshow: cb649443-ccc4-48b9-91e7-63166bd68b69
 ---

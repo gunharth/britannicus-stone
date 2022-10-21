@@ -1,2 +1,7 @@
 title: 'Sample Request'
 honeypot: username
+email:
+  -
+    to: hello@gunharth.io
+    subject: 'Britannicus Stone - Sample Request'
+store: false

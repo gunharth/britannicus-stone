@@ -46,6 +46,10 @@ return [
             'allowed' => ['secret'],
             'form_url' => null,
         ],
+        'devtemppass' => [
+            'driver' => 'password',
+            'allowed' => ['secret'],
+        ],
 
     ],
 

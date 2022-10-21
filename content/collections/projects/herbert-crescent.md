@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665658851
+updated_at: 1666081114
 slideshow: 1a71725d-0224-45f7-bdf7-957d6582f7fc
 preview_image: projects/herbert_crescent/1123-x-1497-1mb.jpg
 content_builder:
@@ -114,6 +114,8 @@ content_builder:
           Stone: Ashburton, Ball Eye Blue, 
           Hopton Wood, Mendip
           Architect: Tim Flynn Architects
+
+          Our role: Supply
         top_space: 70
         bottom_space: 0
         link: false

@@ -2,8 +2,8 @@
 id: 68414816-01a1-491f-85ea-5ae9b5467e51
 blueprint: project
 title: Chesneys
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665574929
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1666080699
 preview_image: projects/project_1.png
 header: none
 navigation_image: header-stones.png
@@ -61,7 +61,10 @@ content_builder:
         bottom_space: 300
         top_space: 230
       -
-        copy: 'Stone: [Moorcroft Cartoon](https://britannicus-stone.stylodesign.co.uk/stones/moorcroft-cartoon) & [Ball Eye Blue](https://britannicus-stone.stylodesign.co.uk/stones/ball-eye-blue)'
+        copy: |-
+          Stone: [Moorcroft Cartoon](https://britannicus-stone.stylodesign.co.uk/stones/moorcroft-cartoon) & [Ball Eye Blue](https://britannicus-stone.stylodesign.co.uk/stones/ball-eye-blue)
+
+          Our role: Supply of stones for The British Materials Collection
         top_space: 50
         bottom_space: 0
         link: false

@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665652326
+updated_at: 1666081401
 header: image
 header_image: projects/st_marks_crescent/2560-x-1440-4.jpg
 preview_image: projects/st_marks_crescent/1123-x-1497-3.jpg
@@ -61,6 +61,8 @@ content_builder:
           Stone: Swaledale Fossil
           Location: Primrose Hill, London
           Architect: [Nagan Johnson](https://www.naganjohnson.co.uk)
+
+          Our role: Supply
         top_space: 50
         bottom_space: 0
         link: false
@@ -91,6 +93,8 @@ content_builder:
           Stone: Swaledale Fossil
           Location: Primrose Hill, London
           Architect: [Nagan Johnson](https://www.naganjohnson.co.uk)
+
+          Our role: Supply, manufacture & installation
         top_space: 50
         bottom_space: 0
         link: true

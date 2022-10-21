@@ -8,8 +8,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665069045
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1666081193
 preview_image: projects/flint_house/1123-x-1497-1.jpg
 page_copy_color: '#98989F'
 navigation_color: '#E5E2E3'
@@ -83,6 +83,8 @@ content_builder:
     copy: |-
       Stone: Moorcroft
       Architect: [Skene Catling de la Peña](https://www.scdlp.net)
+
+      Our role: Supply
     top_space: 70
     bottom_space: 0
     link: false

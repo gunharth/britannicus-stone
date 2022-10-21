@@ -2,9 +2,9 @@
 id: 7c6ef42f-98ef-4b3a-abc1-688183b4a151
 blueprint: stone
 title: Ledmore
-preview_image: stones/ledmore/723-x-473-1.jpg
+preview_image: stones/ledmore/2560-x-1440-2.jpg
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665732843
+updated_at: 1665757068
 header: carousel
 image_carousel:
   - stones/ledmore/2560-x-1440-1.jpg

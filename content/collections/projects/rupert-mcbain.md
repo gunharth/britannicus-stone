@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665653256
+updated_at: 1666081328
 header: image
 header_image: projects/rupert_mcbain/2560-x-1440-1.jpg
 preview_image: projects/rupert_mcbain/1123-x-842-4.jpg
@@ -58,6 +58,8 @@ content_builder:
         copy: |-
           Stone: Swaledale Fossil
           Designer: Rupert McBain
+
+          Our role: Supply
         top_space: 50
         bottom_space: 0
         link: false

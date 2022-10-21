@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665676495
+updated_at: 1666099465
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -29,7 +29,7 @@ content_builder:
   -
     images:
       -
-        image: projects/burlington_arcade/1123-x-842-4.jpg
+        image: projects/burlington_arcade/1123-x-842-11.jpg
         link: true
         content: a0ba7e0c-c8b5-4c59-b00c-20924dfc4bdc
         header: Project

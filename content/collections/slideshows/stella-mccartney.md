@@ -14,10 +14,15 @@ slides:
     type: slide
     enabled: true
   -
+    image: 2560-x-1440-16.jpg
+    type: slide
+    enabled: true
+    copy: 'Stella McCartney'
+  -
     image: projects/stella_mccartney/2560-x-1440-1.jpg
     copy: 'Stella McCartney'
     type: slide
     enabled: true
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664551489
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1665759368
 ---

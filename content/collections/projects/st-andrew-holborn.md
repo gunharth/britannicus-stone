@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665739193
+updated_at: 1666080984
 preview_image: projects/st_andrew_holborn/1123-x-1497-1-1665736073.jpg
 content_builder:
   -
@@ -24,7 +24,7 @@ content_builder:
   -
     grid:
       -
-        image: projects/st_andrew_holborn/1123-x-1497-5-1665736049.jpg
+        image: projects/st_andrew_holborn/1123-x-1497-sa-1.jpg
         full_width: false
         align_left: true
         align_right: false
@@ -82,11 +82,29 @@ content_builder:
         type: image
         enabled: false
       -
-        image: 2560-x-1440--2mb-1665670983.jpg
+        image: 2560-x-1440-4.jpg
         full_width: true
         align_left: false
         align_right: false
         top_space: 0
+        bottom_space: 0
+        type: image
+        enabled: true
+      -
+        image: projects/st_andrew_holborn/1123-x-1497-5-1665736049.jpg
+        full_width: false
+        align_left: true
+        align_right: false
+        top_space: 150
+        bottom_space: 0
+        type: image
+        enabled: true
+      -
+        image: projects/st_andrew_holborn/1123-x-1497-6-1665737599.jpg
+        full_width: false
+        align_left: true
+        align_right: false
+        top_space: 100
         bottom_space: 0
         type: image
         enabled: true
@@ -105,7 +123,10 @@ content_builder:
       & Stanhope Black
       Architect: [DaeWha Kang Design](https://daewha.com)
       Contractor: Chichester Stoneworks
-      Photographer: [James Balston](https://www.jamesbalston.com)
+
+      Our role: Supply of all stones
+
+      Photography: [James Balston](https://www.jamesbalston.com)
     top_space: 50
     bottom_space: 0
     link: false

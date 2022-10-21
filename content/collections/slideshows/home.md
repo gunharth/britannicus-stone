@@ -4,12 +4,12 @@ blueprint: slideshow
 title: Home
 project_link: 'entry::37ef9d71-3482-462d-b53d-db4cce8343e6'
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665739418
+updated_at: 1665929380
 slides:
   -
     image: stones/moorcroft_grey/2560-x-1440-1.jpg
     copy: |-
-      The Shining Stones
+      The Shining Stones 
       of Britain
     type: slide
     enabled: true

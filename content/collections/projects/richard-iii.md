@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665741726
+updated_at: 1666081263
 header: slideshow
 preview_image: projects/richard_iii/1123-x-1497-6.jpg
 content_builder:
@@ -79,10 +79,10 @@ content_builder:
     grid:
       -
         copy: |-
-          Stone: 
-          Designer: 
-          Architect: 
-          Contractor:
+          Stone: Swaledale Fossil
+          Designer: James Elliot
+
+          Our role: Supply
         top_space: 50
         bottom_space: 0
         link: false

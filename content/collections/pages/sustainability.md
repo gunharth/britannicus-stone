@@ -7,8 +7,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665731568
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1666093508
 seo_title: Sustainability
 header: slideshow
 content_builder:
@@ -98,4 +98,5 @@ slideshow: 23394b87-5c4e-4766-97d7-bc80d262c7b1
 background_color: '#DFE3D0'
 page_copy_color: '#274F3D'
 navigation_color: '#DFE3D0'
+navigation_image: sustainability/2560-x-1440-18.jpg
 ---

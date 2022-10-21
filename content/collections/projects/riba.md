@@ -7,14 +7,14 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665063694
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1666081282
 preview_image: projects/riba/1123-x-842-2.jpg
 content_builder:
   -
     grid:
       -
-        copy: "Chosen\_by the Royal Institute of British Architects is an accolade in itself; in this instance to refurbish the floor in their new exhibition room using cherished honed Hopton stone."
+        copy: "Chosen\_by the Royal Institute of British Architects is an accolade in itself; in this instance to refurbish the floor in their new exhibition room using cherished honed Hopton Wood stone."
         top_space: 140
         bottom_space: 0
         link: false
@@ -49,10 +49,10 @@ content_builder:
     enabled: true
   -
     copy: |-
-      Stone: 
-      Designer: 
-      Architect: 
-      Contractor:
+      Stone: Hopton Wood
+      Designer: RIBA
+
+      Our role: Supply
     top_space: 50
     bottom_space: 0
     link: false

@@ -7,8 +7,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665069899
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1666081242
 preview_image: projects/stella_mccartney/1123-x-1497-1.jpg
 content_builder:
   -
@@ -62,7 +62,7 @@ content_builder:
         type: copy
         enabled: true
       -
-        image: projects/stella_mccartney/1123-x-1497-8.jpg
+        image: projects/stella_mccartney/1123-x-842-4.jpg
         full_width: false
         align_left: false
         align_right: false
@@ -75,6 +75,8 @@ content_builder:
           Stone: Stanhope Black
           Designer: [Stella McCartney](https://www.stellamccartney.com)
           Location: 23 Bond Street, London
+
+          Our role: Supply
         top_space: 50
         bottom_space: 0
         link: false

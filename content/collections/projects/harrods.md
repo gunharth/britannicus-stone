@@ -1,7 +1,7 @@
 ---
 id: 2cab2293-018d-4b13-b798-045e6cc99264
 blueprint: project
-title: 'Men’s Superbrands, Harrods'
+title: Harrods
 header: image
 seo_noindex: false
 seo_nofollow: false
@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665659039
+updated_at: 1666081309
 preview_image: projects/harrods/1123-x-1497-3.jpg
 header_image: projects/harrods/2560-x-1440-1.jpg
 background_color: '#30252A'
@@ -42,7 +42,7 @@ content_builder:
         type: image
         enabled: true
       -
-        image: projects/harrods/1123-x-842-3.jpg
+        image: 1123-x-1497-h1.jpg
         full_width: false
         align_left: false
         align_right: false
@@ -79,6 +79,8 @@ content_builder:
     copy: |-
       Stone: Moorcroft Vein
       Designer:[ David Collins Studio](https://www.davidcollins.studio)
+
+      Our role: Supply
     top_space: 50
     bottom_space: 0
     link: false

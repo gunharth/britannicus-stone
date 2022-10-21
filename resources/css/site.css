@@ -35,9 +35,9 @@ body.home {
     @apply flex flex-col items-center;
 } */
 
-#logo {
+/* #logo {
     @apply lg:pr-12;
-}
+} */
 
 #logoface {
     @apply w-[40px] lg:w-[70px] fill-white transition-all duration-500;

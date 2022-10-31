@@ -1,6 +1,6 @@
 {{ partial:partials/header }}
 
-<div class="slider-background-color mx-auto w-full grid grid-cols-1 md:gap-12 md:grid-cols-2 lg:gap-12 lg:grid-cols-12 lg:px-12 global-x py-20">
+<div class="slider-background-color mx-auto w-full grid grid-cols-1 md:gap-12 md:grid-cols-2 lg:gap-12 lg:grid-cols-12 lg:px-12 global-x pt-20">
     <div class="lg:col-span-6 text-20 lg:text-25 pb-20 lg:pb-0">{{ description }}</div>
     <div class="lg:col-span-2 lg:row-span-2 text-18">
 
@@ -24,12 +24,12 @@
         {{ /if }}
 
     </div>
-    <div class="w-full lg:col-span-4 lg:row-span-2 text-center lg:text-left">
+    <div class="w-full lg:col-span-4 lg:row-span-2 text-center lg:text-left pb-20">
         {{ map }}
             <img class="w-1/2 lg:w-1/2 inline" src="{{ url }}" alt="{{ alt }}">
         {{ /map }}
     </div>
-    {{ partial:partials/social  class="text-18"}}
+    {{# {{ partial:partials/social  class="text-18"}} #}}
 
 </div>
 

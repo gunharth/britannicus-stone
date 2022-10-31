@@ -46,7 +46,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665733872
+updated_at: 1667143237
 background_color: '#7D7B7B'
 navigation_color: '#272123'
 page_copy_color: '#272123'

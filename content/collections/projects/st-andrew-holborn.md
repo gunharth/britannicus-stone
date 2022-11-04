@@ -7,8 +7,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1666080984
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1667483168
 preview_image: projects/st_andrew_holborn/1123-x-1497-1-1665736073.jpg
 content_builder:
   -
@@ -93,7 +93,7 @@ content_builder:
       -
         image: projects/st_andrew_holborn/1123-x-1497-5-1665736049.jpg
         full_width: false
-        align_left: true
+        align_left: false
         align_right: false
         top_space: 150
         bottom_space: 0
@@ -102,10 +102,10 @@ content_builder:
       -
         image: projects/st_andrew_holborn/1123-x-1497-6-1665737599.jpg
         full_width: false
-        align_left: true
+        align_left: false
         align_right: false
         top_space: 100
-        bottom_space: 0
+        bottom_space: 150
         type: image
         enabled: true
     type: grid

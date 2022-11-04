@@ -5,14 +5,16 @@ title: Stoneycombe
 header: carousel
 image_carousel:
   - stones/stoneycombe/2560-x-1440-2.jpg
+  - 2560-x-1440-swaledale-new_2.jpg
+  - 2560-x-1440-stoneycombe-new_1.jpg
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 preview_image: stones/stoneycombe/723-x-473-2.jpg
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665418686
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1667475583
 stone_background_color: '#BEA39A'
 navigation_color: '#7D463A'
 page_copy_color: '#7D463A'

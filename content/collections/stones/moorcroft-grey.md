@@ -5,14 +5,16 @@ title: 'Moorcroft Grey'
 header: carousel
 image_carousel:
   - stones/moorcroft_grey/2560-x-1440-1.jpg
+  - projects/burlington_arcade/2560-x-1440-2.jpg
+  - 2560-x-1440-moorcroft-grey-new-_.jpg
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 preview_image: stones/moorcroft_grey/723-x-473-1.jpg
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665398895
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1667492037
 stone_background_color: '#746A6A'
 navigation_color: '#3F3636'
 page_copy_color: '#3F3636'

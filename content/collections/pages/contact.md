@@ -45,8 +45,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667143237
+updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
+updated_at: 1667496298
 background_color: '#7D7B7B'
 navigation_color: '#272123'
 page_copy_color: '#272123'

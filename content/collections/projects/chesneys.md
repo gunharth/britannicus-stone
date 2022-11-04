@@ -3,7 +3,7 @@ id: 68414816-01a1-491f-85ea-5ae9b5467e51
 blueprint: project
 title: Chesneys
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1666080699
+updated_at: 1667489543
 preview_image: projects/project_1.png
 header: none
 navigation_image: header-stones.png
@@ -33,7 +33,7 @@ content_builder:
         bottom_space: 180
         top_space: 80
       -
-        image: project_content_1.png
+        image: 1123-x-1497-chesneys-new3.jpg
         align_right: true
         full_width: false
         type: image
@@ -42,7 +42,7 @@ content_builder:
         top_space: 80
         bottom_space: 0
       -
-        image: project_content_2.png
+        image: 1123-x-1497-chesneys-new-2.jpg
         align_right: false
         full_width: false
         type: image
@@ -51,15 +51,29 @@ content_builder:
         top_space: 0
         bottom_space: 0
       -
+        image: project_content_2.png
+        full_width: false
+        align_left: false
+        align_right: false
+        top_space: 90
+        bottom_space: 0
+        type: image
+        enabled: true
+      -
         copy: |-
           The subtle shades of colour and movement in these materials are both unique and beautiful, ranging from the monochromatic contemporary hues of Frosterley stone to the vibrant semi-precious amethyst tones of Ball Eye Blue marble.
 
           Specifying a Fire Surround from our British Materials Collection is an opportunity to introduce a unique element to the interior design of a room and enjoy a timeless reminder of the archaeological history of our national landscape, whilst fostering homegrown artisanal masonry skills and our domestic quarrying industry.
+
+
+          Stone: [Moorcroft Cartoon](https://britannicus-stone.stylodesign.co.uk/stones/moorcroft-cartoon) & [Ball Eye Blue](https://britannicus-stone.stylodesign.co.uk/stones/ball-eye-blue)
+
+          Our role: Supply of stones for The British Materials Collection
         type: copy
         enabled: true
         link: false
         bottom_space: 300
-        top_space: 230
+        top_space: 90
       -
         copy: |-
           Stone: [Moorcroft Cartoon](https://britannicus-stone.stylodesign.co.uk/stones/moorcroft-cartoon) & [Ball Eye Blue](https://britannicus-stone.stylodesign.co.uk/stones/ball-eye-blue)
@@ -69,7 +83,7 @@ content_builder:
         bottom_space: 0
         link: false
         type: copy
-        enabled: true
+        enabled: false
     type: grid
     enabled: true
   -

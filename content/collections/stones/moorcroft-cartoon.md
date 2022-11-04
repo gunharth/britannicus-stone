@@ -7,12 +7,13 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665398889
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1667488888
 header: carousel
 preview_image: stones/moorcroft_cartoon/723-x-473-1.jpg
 image_carousel:
   - stones/moorcroft_cartoon/2560-x-1440-1.jpg
+  - home_slide.png
 stone_background_color: '#C0C3C7'
 navigation_color: '#5D4C48'
 page_copy_color: '#5D4C48'

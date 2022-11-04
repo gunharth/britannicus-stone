@@ -7,8 +7,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665398867
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1667488362
 description: |-
   This impressive stone from the Ledmore Quarry in Sutherland is the only marble quarry on mainland Britain, the other is on the Isle of Skye. The Ledmore Grey marble contains large white veins made up of calcium compounds, black veining originating from organic compounds and brown veining from copper compounds.
 
@@ -19,6 +19,7 @@ slab_sizes: |-
 header: carousel
 image_carousel:
   - stones/ledmore_grey/2560-x-1440-1.jpg
+  - 2560-x-1440-ledmore-grey-new_2.jpg
 preview_image: stones/ledmore_grey/723-x-473-1.jpg
 location: 'Lairg, Scotland'
 stone_background_color: '#EAE6DA'

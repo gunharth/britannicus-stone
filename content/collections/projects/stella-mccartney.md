@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1666081242
+updated_at: 1667468579
 preview_image: projects/stella_mccartney/1123-x-1497-1.jpg
 content_builder:
   -
@@ -73,6 +73,7 @@ content_builder:
       -
         copy: |-
           Stone: Stanhope Black
+          Stone Contractor: Paul Allison, Dunhouse
           Designer: [Stella McCartney](https://www.stellamccartney.com)
           Location: 23 Bond Street, London
 

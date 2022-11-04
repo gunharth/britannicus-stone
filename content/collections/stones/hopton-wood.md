@@ -16,10 +16,12 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665669184
+updated_at: 1667475943
 header: carousel
 image_carousel:
   - stones/hopton_wood/2560-x-1440-2.jpg
+  - 2560-x-1440-hopton-new_1.jpg
+  - 2560-x-1440-hopton-new_2.jpg
 preview_image: stones/hopton_wood/723-x-473-1.jpg
 stone_background_color: '#D5CDC1'
 navigation_color: '#816C57'

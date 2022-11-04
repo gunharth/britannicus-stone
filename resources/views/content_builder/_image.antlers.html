@@ -1,10 +1,10 @@
 {{ if image }}
     {{ image }}
     <div class="hidden lg:block" style="height: {{ top_space }}px;"></div>
-    <div class="relative w-full global-x py-10">
+    <div class="text-over-image relative w-full global-x py-10">
         <img class="w-full" src="{{ url }}" alt="{{ alt }}">
         {{ if copy }}
-        <h2 class="h-full absolute top-0 bottom-0 right-0 left-0 flex justify-center items-center text-center text-45 lg:text-90 font-NewRailAlphabetBold" style="color: {{ copy_color }}">{{ copy }}</h2>
+        <h2 class="h-full absolute top-0 bottom-0 right-0 left-0 flex justify-center items-center text-center text-25 md:text-45 xl:text-65 2xl:text-90 font-NewRailAlphabetBold" style="color: {{ copy_color }}">{{ copy }}</h2>
         {{ /if }}
     </div>
     {{ /image }}

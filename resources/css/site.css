@@ -268,3 +268,8 @@ h1 p {
               ".  .  .  .  .  .  .  .  th th th th";
     }
   }
+
+
+  .text-over-image p {
+    @apply p-0;
+  }

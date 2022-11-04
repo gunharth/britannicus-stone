@@ -90,6 +90,39 @@ fields:
                 visibility: visible
                 always_save: false
             -
+              handle: copy
+              field:
+                restrict: false
+                automatic_line_breaks: true
+                automatic_links: false
+                escape_markup: false
+                smartypants: false
+                antlers: false
+                display: Copy
+                type: markdown
+                icon: markdown
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+                always_save: false
+                width: 50
+            -
+              handle: copy_color
+              field:
+                theme: classic
+                lock_opacity: false
+                default_color_mode: HEXA
+                color_modes:
+                  - hex
+                display: 'Copy color'
+                type: color
+                icon: color
+                width: 50
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+                always_save: false
+            -
               import: spacing
             -
               import: content_link

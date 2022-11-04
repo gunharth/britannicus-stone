@@ -28,25 +28,21 @@ content_builder:
       or Carmen:
       [carmen@britannicus-stone.co.uk](mailto:carmen@britannicus-stone.co.uk)
   -
-    grid:
-      -
-        image: contact/2560-x-1440-3.jpg
-        full_width: true
-        align_left: true
-        align_right: true
-        top_space: 80
-        bottom_space: 170
-        type: image
-        enabled: true
-    type: grid
+    image: contact/2560-x-1440-3.jpg
+    top_space: 80
+    bottom_space: 170
+    link: false
+    type: image
     enabled: true
+    copy_color: '#FFFFFF'
+    copy: 'Your sample is ready Mr Smith'
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1667496298
+updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
+updated_at: 1667555115
 background_color: '#7D7B7B'
 navigation_color: '#272123'
 page_copy_color: '#272123'

@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667488362
+updated_at: 1667820502
 description: |-
   This impressive stone from the Ledmore Quarry in Sutherland is the only marble quarry on mainland Britain, the other is on the Isle of Skye. The Ledmore Grey marble contains large white veins made up of calcium compounds, black veining originating from organic compounds and brown veining from copper compounds.
 
@@ -26,4 +26,6 @@ stone_background_color: '#EAE6DA'
 navigation_color: '#56565B'
 page_copy_color: '#56565B'
 map: stones/ledmore_grey/ledmore_grey_map.svg
+seo_title: 'Ledmore Grey, Ledmore marble, Scottish Marble, British Stone/marble.'
+seo_description: 'Ledmore Grey, Ledmore marble, Scottish stone, British Stone and Marble. Britannicus Stone, The Shining Stones of Britain, British Stone, and Marble.'
 ---

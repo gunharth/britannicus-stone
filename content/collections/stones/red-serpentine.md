@@ -6,14 +6,13 @@ header: carousel
 image_carousel:
   - stones/red_serpentine/2560-x-1440-1.jpg
   - stones/red_serpentine/2560-x-1440-2.jpg
-  - stones/red_serpentine/2560-x-1440-3.jpg
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665398911
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1667820857
 preview_image: stones/red_serpentine/723-x-473-3.jpg
 stone_background_color: '#451E1E'
 navigation_color: '#C4948B'
@@ -22,4 +21,6 @@ description: 'This remarkable stone was created millions of years ago when perid
 location: 'West Wales'
 slab_sizes: 'Typical slab size are 1m x 0.5m; however they can vary.'
 map: stones/red_serpentine/red_serpentine_map.svg
+seo_title: 'Red Serpentine, Serpentine Stone, British Stone, Britannicus Stone'
+seo_description: 'Red Serpentine, Serpentine Stone, British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone.'
 ---

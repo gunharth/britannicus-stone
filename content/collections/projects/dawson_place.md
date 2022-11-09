@@ -4,7 +4,7 @@ blueprint: project
 title: 'Dawson Place'
 preview_image: projects/dawson_place/1123-x-842-1.jpg
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667467984
+updated_at: 1667821695
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -96,4 +96,6 @@ content_builder:
     enabled: true
 header: image
 header_image: projects/dawson_place/2560-x-1440--dp2.jpg
+seo_title: 'British Stone and British marble, Britannicus Stone.'
+seo_description: 'British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. Hopton Wood. Stanhope black, Stanhope Phamp.'
 ---

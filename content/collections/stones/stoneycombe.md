@@ -14,7 +14,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 preview_image: stones/stoneycombe/723-x-473-2.jpg
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667475583
+updated_at: 1667821064
 stone_background_color: '#BEA39A'
 navigation_color: '#7D463A'
 page_copy_color: '#7D463A'
@@ -22,4 +22,6 @@ description: 'Stoneycombe is a mixture of soft pinks and light reds with hints o
 location: Devon
 slab_sizes: 'Typical marble slabs are 1.4m x 1.0m; however they can vary.'
 map: stones/stoneycombe/stoneycombe_map.svg
+seo_title: 'Stoneycombe, Stoneycombe Stone, British Stone, Britannicus Stone'
+seo_description: 'Stoneycombe, Stoneycombe Stone, British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. Devonshire Stone.'
 ---

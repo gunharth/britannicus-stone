@@ -10,7 +10,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1666081165
+updated_at: 1667821585
 header_image: projects/hoban_wilderness/2560-x-1440-5.jpg
 content_builder:
   -
@@ -100,4 +100,6 @@ content_builder:
     link: false
     type: copy
     enabled: true
+seo_title: 'Hoban Wilderness, Britannicus Stone, British Stone, Moorcroft Vein'
+seo_description: 'British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. Moorcroft, Moorcroft Vein.'
 ---

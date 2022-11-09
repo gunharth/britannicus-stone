@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667468579
+updated_at: 1667822013
 preview_image: projects/stella_mccartney/1123-x-1497-1.jpg
 content_builder:
   -
@@ -93,4 +93,6 @@ image_carousel:
   - projects/stella_mccartney/2560-x-1440-2.jpg
   - projects/stella_mccartney/2560-x-1440-1.jpg
   - projects/stella_mccartney/2560-x-1440-3.jpg
+seo_title: 'Stella McCartney, British Stone, Britannicus Stone'
+seo_description: 'British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. Stella McCartney, Stella''s Stones, Stanhope Black.'
 ---

@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1666081309
+updated_at: 1667822255
 preview_image: projects/harrods/1123-x-1497-3.jpg
 header_image: projects/harrods/2560-x-1440-1.jpg
 background_color: '#30252A'
@@ -88,4 +88,6 @@ content_builder:
     enabled: true
 navigation_color: '#C39D56'
 page_copy_color: '#C39D56'
+seo_title: 'Harrods Men''s Department, British Stone, Britannicus Stone'
+seo_description: 'British Stone and British marble, Britannicus Stone, David Collins Studio. British polished stone. Harrods, Harrods Men''s department, Moorcroft stone.'
 ---

@@ -4,7 +4,7 @@ blueprint: stone
 title: Ledmore
 preview_image: stones/ledmore/2560-x-1440-2.jpg
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667476202
+updated_at: 1667820372
 header: carousel
 image_carousel:
   - stones/ledmore/2560-x-1440-1.jpg
@@ -25,4 +25,6 @@ navigation_color: '#958F3C'
 page_copy_color: '#958F3C'
 map: stones/ledmore/ledmore_map.svg
 slab_sizes: 'Typical slab sizes are 2m x 1m: however they can vary.'
+seo_title: 'Ledmore, Ledmore Green, Stone British Stone, British Marble.'
+seo_description: 'Ledmore, Ledmore Green, Scottish marble. British Stone and British marble, Britannicus Stone, The Shining Stones of Britain, British Stone, and Marble.'
 ---

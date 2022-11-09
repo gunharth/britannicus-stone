@@ -10,7 +10,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 preview_image: stones/moorcroft_vein/723-x-473-1.jpg
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665669165
+updated_at: 1667821111
 stone_background_color: '#2F2C2C'
 navigation_color: '#DBD7D7'
 page_copy_color: '#DBD7D7'
@@ -20,4 +20,8 @@ location: Devon
 map: stones/moorcroft_vein/moorcroft_vein_map.svg
 image_carousel:
   - stones/moorcroft_vein/2560-x-1440-1.jpg
+  - projects/harrods/2560-x-1440-3.jpg
+  - 2560-x-1440-moorcroft-vein-1.jpg
+seo_title: 'Moorcroft, Moorcroft Vein, British Stone, Britannicus Stone'
+seo_description: 'Moorcroft, Moorcroft Stone, Moorcroft Vein, British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. Devonshire Stone.'
 ---

@@ -34,17 +34,19 @@ content_builder:
     link: false
     type: image
     enabled: true
-    copy_color: '#FFFFFF'
-    copy: 'Your sample is ready Mr Smith'
+    copy_color: '#F4F2F1'
+    copy: 'Your sample is ready Mr Smith.'
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1667555115
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1667822630
 background_color: '#7D7B7B'
 navigation_color: '#272123'
 page_copy_color: '#272123'
 header: none
+seo_title: 'Britannicus Stone, Shining Stones of Britain, British Stone & Marble.'
+seo_description: 'Contact Britannicus Stone, The Shining Stones of Britain, British Stone, and Marble. Britannicus Stone is the world’s leading provider of British stones.'
 ---

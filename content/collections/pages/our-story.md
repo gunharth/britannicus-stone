@@ -10,7 +10,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 template: default
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665667470
+updated_at: 1667819191
 background_color: '#F4E9E8'
 page_copy_color: '#7B6452'
 content_builder:
@@ -75,4 +75,6 @@ content_builder:
     type: content_template_3
     enabled: true
 header_image: our_story/2560-x-1440-1.jpg
+seo_title: 'Britannicus Stone, Shining Stones of Britain, British Stone & Marble.'
+seo_description: 'Britannicus Stone, The Shining Stones of Britain, British Stone, and Marble. Britannicus Stone is the world’s leading provider of British stones and marble.'
 ---

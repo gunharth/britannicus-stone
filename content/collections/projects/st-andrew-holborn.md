@@ -7,8 +7,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1667483168
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1667821329
 preview_image: projects/st_andrew_holborn/1123-x-1497-1-1665736073.jpg
 content_builder:
   -
@@ -137,4 +137,6 @@ header_image: 2560-x-1440-1mb-1665737371.jpg
 navigation_color: '#C9C2B2'
 page_copy_color: '#574D4D'
 background_color: '#C9C2B2'
+seo_title: 'St Andrew Holborn, British Stone and British marble, Britannicus Stone'
+seo_description: 'British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. Hopton Wood stone,'
 ---

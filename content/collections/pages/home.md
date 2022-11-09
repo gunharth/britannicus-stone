@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1666099465
+updated_at: 1667819126
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -15,7 +15,7 @@ template: default
 slideshow: 7a2a8eae-3e3a-4d48-b4ba-6ecc9e966b66
 content_builder:
   -
-    copy: 'Britannicus Stone is the world’s leading provider of British stones and marbles. It sources only the very best carboniferous limestones from the depths of the beautiful British landscape, and then expertly hones or polishes them to create timeless and unique pieces of stone or marble ready to adorn interiors or to create special objects of matchless splendour.'
+    copy: 'Britannicus Stone is the world’s leading provider of British stones and marble. We source only the best carboniferous limestones from the depths of the beautiful British landscape, and then expertly hone or polish them to create timeless and unique pieces ready to adorn interiors or create special objects of matchless splendour.'
     orientation: left
     type: copy
     enabled: true
@@ -66,4 +66,6 @@ content_builder:
     header: Project
     type: content_template_2
     enabled: true
+seo_title: 'Britannicus Stone, Shining Stones of Britain, British Stones Marbles'
+seo_description: 'Britannicus Stone, The Shining Stones of Britain, British Stone and Marble. Britannicus Stone is the world’s leading provider of British stones and marble.'
 ---

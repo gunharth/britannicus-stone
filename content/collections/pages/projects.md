@@ -10,7 +10,9 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1662710619
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1667818835
 template: projects/index
+seo_title: 'Britannicus Stone, Projects using British Stone'
+seo_description: 'Britannicus Stone, The Shining Stones of Britain, British Stone, and Marble. Britannicus Stone is the world’s leading provider of British stones and marble.'
 ---

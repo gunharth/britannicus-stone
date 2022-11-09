@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667470948
+updated_at: 1667819638
 description: |-
   Anglesey is a geologist’s dream with abundant stone including the renowned Anglesey Marble. This beautiful mid-grey marbled stone with fine calcite veins was used to build Birmingham Town Hall and the Menai Bridge.
 
@@ -25,4 +25,6 @@ image_carousel:
   - stones/anglesey/2560-x-1440-1.jpg
   - 2560-x-1440-1mb-1665737371.jpg
   - 2560-x-1440-angelsey-new-1.jpg
+seo_title: 'Anglesey, Anglesey Stone, British Stone and British marble'
+seo_description: 'Anglesey, Anglesey Stone, British Stone and British marble, Britannicus Stone, The Shining Stones of Britain, British Stone, and Marble.'
 ---

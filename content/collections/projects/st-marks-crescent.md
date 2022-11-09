@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667466331
+updated_at: 1667821266
 header: image
 header_image: projects/st_marks_crescent/2560-x-1440-4.jpg
 preview_image: projects/st_marks_crescent/1123-x-1497-3.jpg
@@ -107,4 +107,6 @@ content_builder:
     enabled: true
 background_color: '#B4C0B6'
 page_copy_color: '#67735B'
+seo_title: 'Swaledale Fossil, Britannicus Stone, British Stone'
+seo_description: 'British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. Swaledale, Swaledale Fossil.'
 ---

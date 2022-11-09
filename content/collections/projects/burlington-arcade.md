@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1666099558
+updated_at: 1667821390
 content_builder:
   -
     grid:
@@ -97,4 +97,6 @@ image_carousel:
   - projects/burlington_arcade/2560-x-1440-8.jpg
   - projects/burlington_arcade/2560-x-1440-2.jpg
 background_color: '#857B7C'
+seo_title: 'Burlington Arcade, Stone, British Stone, Britannicus Stone'
+seo_description: 'British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. Burlington Arcade Stone'
 ---

@@ -3,8 +3,8 @@ id: 707988a4-3553-4b30-8426-61cbbebff453
 blueprint: stone
 title: 'Eskett Black / Vein'
 preview_image: stones/eskett_black_vein/723-x-473-1.jpg
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665398661
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1667820002
 header: carousel
 image_carousel:
   - stones/eskett_black_vein/2560-x-1440-1.jpg
@@ -25,4 +25,6 @@ stone_background_color: '#B09F8E'
 navigation_color: '#2F2A25'
 page_copy_color: '#2F2A25'
 map: stones/eskett_black_vein/eskett_black_vein_map.svg
+seo_title: 'Eskett Black, Eskett stone,  British Stone, British Marble.'
+seo_description: 'Eskett stone, Eskett black, Eskett vein, British Stone and British marble, Britannicus Stone, The Shining Stones of Britain, British Stone, and Marble.'
 ---

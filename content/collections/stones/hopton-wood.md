@@ -16,7 +16,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667475943
+updated_at: 1667820277
 header: carousel
 image_carousel:
   - stones/hopton_wood/2560-x-1440-2.jpg
@@ -27,4 +27,6 @@ stone_background_color: '#D5CDC1'
 navigation_color: '#816C57'
 page_copy_color: '#816C57'
 map: stones/hopton_wood/hopton_wood_map.svg
+seo_title: 'Hopton Wood, polished Limestone, British Stone, British marble'
+seo_description: 'Hopton Wood, polished Limestone, British Stone, British marble, Britannicus Stone, The Shining Stones of Britain, British limestone, polished limestone'
 ---

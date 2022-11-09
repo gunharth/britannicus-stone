@@ -14,7 +14,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 preview_image: stones/salterwath/723-x-473-1.jpg
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665673154
+updated_at: 1667820913
 stone_background_color: '#786660'
 navigation_color: '#292220'
 page_copy_color: '#292220'
@@ -22,4 +22,6 @@ description: 'Salterwath is one of Britain’s ancient building stones. Britanni
 location: Cumbria
 slab_sizes: 'Typical slab sizes are 3.0m x 1.2m; however they can vary.'
 map: stones/salterwath/salterwath_map.svg
+seo_title: 'Salterwath, Salterwath stone, British Stone, Britannicus Stone'
+seo_description: 'Salterwath, Salterwath Stone, British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone.'
 ---

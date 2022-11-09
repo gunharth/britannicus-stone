@@ -3,8 +3,8 @@ id: 55cc1885-2514-4789-a79f-ffebe489bc20
 blueprint: stone
 title: 'Dumfries Red'
 preview_image: stones/dumfries_red/723-x-473-1.jpg
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1664467608
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1667819891
 header: carousel
 image_carousel:
   - stones/dumfries_red/2560-x-1440-1.jpg
@@ -25,4 +25,6 @@ stone_background_color: '#492321'
 navigation_color: '#C79390'
 page_copy_color: '#C79390'
 map: stones/dumfries_red/dumfries_red_map.svg
+seo_title: 'Dumfries Red, Dumfries Stone, British Stone, British Marble. Scottish'
+seo_description: 'Dumfries Red, Dumfries Stone, British Stone and British marble, Britannicus Stone, The Shining Stones of Britain, British Stone, and Marble.'
 ---

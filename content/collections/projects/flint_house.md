@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1666081193
+updated_at: 1667821644
 preview_image: projects/flint_house/1123-x-1497-1.jpg
 page_copy_color: '#98989F'
 navigation_color: '#E5E2E3'
@@ -85,9 +85,13 @@ content_builder:
       Architect: [Skene Catling de la Peña](https://www.scdlp.net)
 
       Our role: Supply
+
+      Photography: James Morris
     top_space: 70
     bottom_space: 0
     link: false
     type: copy
     enabled: true
+seo_title: 'Flint House, Britannicus, British Stone'
+seo_description: 'British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. Moorcroft, Moorcroft Stone.'
 ---

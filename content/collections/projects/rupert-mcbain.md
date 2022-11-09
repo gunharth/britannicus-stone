@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1666081328
+updated_at: 1667822319
 header: image
 header_image: projects/rupert_mcbain/2560-x-1440-1.jpg
 preview_image: projects/rupert_mcbain/1123-x-842-4.jpg
@@ -76,4 +76,6 @@ content_builder:
         enabled: true
     type: grid
     enabled: true
+seo_title: 'Rupert McBain, British Stone and British marble, Britannicus Stone'
+seo_description: 'British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. Swaledale, Swaledale Fossil. Stone Table.'
 ---

@@ -15,7 +15,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665669213
+updated_at: 1667820189
 location: 'West Wales'
 header: carousel
 image_carousel:
@@ -25,4 +25,6 @@ stone_background_color: '#39564C'
 navigation_color: '#B9CBBF'
 page_copy_color: '#B9CBBF'
 map: stones/green_serpentine/green_serpentine_map.svg
+seo_title: 'Green Serpentine, Serpentine Stone, British Stone, Britannicus Stone'
+seo_description: 'Serpentine stone, Green Serpentine, British Stone and British marble, Britannicus Stone, The Shining Stones of Britain, British Stone, and Marble.'
 ---

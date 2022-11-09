@@ -3,7 +3,7 @@ id: 68414816-01a1-491f-85ea-5ae9b5467e51
 blueprint: project
 title: Chesneys
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667489543
+updated_at: 1667821219
 preview_image: projects/project_1.png
 header: none
 navigation_image: header-stones.png
@@ -90,5 +90,7 @@ content_builder:
     video: 'https://www.youtube.com/watch?v=7ATXquXj2xM'
     type: video
     enabled: false
+seo_title: 'Chesneys British Stone Collection, Britannicus Stone, British Stone'
+seo_description: 'British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. Fireplaces.'
 ---
 fsffsdf

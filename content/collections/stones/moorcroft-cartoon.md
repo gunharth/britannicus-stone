@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667488888
+updated_at: 1667821099
 header: carousel
 preview_image: stones/moorcroft_cartoon/723-x-473-1.jpg
 image_carousel:
@@ -21,4 +21,6 @@ description: 'Moorcroft Cartoon is one of Britannicus’ most extraordinary ston
 slab_sizes: 'Typical slabs are 1.6m x 1m; however they can vary.'
 location: Devon
 map: stones/moorcroft_cartoon/moorcroft_cartoon_map.svg
+seo_title: 'Moorcroft, Moorcroft Cartoon, British Stone, Britannicus Stone'
+seo_description: 'Moorcroft, Moorcroft Stone, British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. Devonshire Stone.'
 ---

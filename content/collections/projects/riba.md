@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1666081282
+updated_at: 1667822151
 preview_image: projects/riba/1123-x-842-2.jpg
 content_builder:
   -
@@ -63,4 +63,6 @@ slideshow: ad9aaf1f-b7cb-47ea-af6f-2f285f209c41
 navigation_color: '#D3C3B4'
 page_copy_color: '#D3C3B4'
 background_color: '#3E3433'
+seo_title: 'RIBA, British Stone and British marble, Britannicus Stone'
+seo_description: 'British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. RIBA, Hopton Wood floor, Hopton Wood stone.'
 ---

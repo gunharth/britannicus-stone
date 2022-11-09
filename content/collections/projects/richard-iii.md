@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667468373
+updated_at: 1667822096
 header: slideshow
 preview_image: projects/richard_iii/1123-x-1497-6.jpg
 content_builder:
@@ -93,4 +93,6 @@ content_builder:
 background_color: '#D0C3B3'
 page_copy_color: '#5F4B31'
 slideshow: cb649443-ccc4-48b9-91e7-63166bd68b69
+seo_title: 'Richard III Tomb, Britannicus Stone, British Stone, Swaledale Fossil'
+seo_description: 'British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. Richard III Tomb, Swaledale stone, Swaledale Fossil.'
 ---

@@ -9,14 +9,14 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667821454
+updated_at: 1668177709
 slideshow: 1a71725d-0224-45f7-bdf7-957d6582f7fc
 preview_image: projects/herbert_crescent/1123-x-1497-1mb.jpg
 content_builder:
   -
     grid:
       -
-        copy: 'After a total refurbishment by leading architects, Tim Flynn architects, this 8-storey town house is arguably one of London’s finest residences. British stone was used throughout the house including each step and rise of the 169 step circular staircase.'
+        copy: 'After a total refurbishment by leading architects, Tim Flynn Architects, this 8-storey town house is arguably one of London’s finest residences. British stone was used throughout the house including each step and rise of the 169 step circular staircase.'
         link: false
         type: copy
         enabled: true
@@ -40,6 +40,15 @@ content_builder:
         align_left: false
         top_space: 50
         bottom_space: 0
+      -
+        image: 1123-x-1497-herbert-new_1-1668175601.jpg
+        full_width: false
+        align_left: false
+        align_right: true
+        top_space: 0
+        bottom_space: 0
+        type: image
+        enabled: true
       -
         copy: 'The main bathroom used the very rare Ball Eye Blue creating a sublime and restful space, whilst another had a basin carved from a solid block of Ashburton which was offset by a complementary stone floor and wall panels. The wine cellar incorporated Hopton whilst fireplaces used Mendip.'
         link: false
@@ -84,7 +93,7 @@ content_builder:
         full_width: false
         align_left: false
         align_right: false
-        top_space: 0
+        top_space: 100
         bottom_space: 0
         type: image
         enabled: true

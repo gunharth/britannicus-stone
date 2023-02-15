@@ -4,7 +4,7 @@ blueprint: project
 title: 'Dawson Place'
 preview_image: projects/dawson_place/1123-x-842-1.jpg
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667821695
+updated_at: 1673030205
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -30,7 +30,7 @@ content_builder:
         top_space: 150
         bottom_space: 0
       -
-        image: projects/dawson_place/1123-x-842-3.jpg
+        image: 1123-x-842-dawson-new-1.jpg
         full_width: false
         align_left: false
         align_right: false

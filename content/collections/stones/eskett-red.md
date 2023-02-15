@@ -11,11 +11,11 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 7aa39372-66e3-4fec-baec-a1d8c0fff9ec
-updated_at: 1665398809
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1673001144
 header: carousel
 image_carousel:
-  - stones/eskett_red/2560-x-1440-1.jpg
+  - 2560-x-1440-eskett-red.jpg
 preview_image: stones/eskett_red/723-x-473-1.jpg
 location: Cumbria
 stone_background_color: '#61463D'

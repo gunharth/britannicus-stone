@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1668177709
+updated_at: 1680178048
 slideshow: 1a71725d-0224-45f7-bdf7-957d6582f7fc
 preview_image: projects/herbert_crescent/1123-x-1497-1mb.jpg
 content_builder:
@@ -80,7 +80,7 @@ content_builder:
         type: copy
         enabled: false
       -
-        image: projects/herbert_crescent/1123-x-1497-16.jpg
+        image: projects/herbert_crescent/herbert-house-new.jpg
         full_width: false
         align_left: false
         align_right: false

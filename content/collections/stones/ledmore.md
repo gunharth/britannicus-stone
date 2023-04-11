@@ -4,14 +4,14 @@ blueprint: stone
 title: Ledmore
 preview_image: stones/ledmore/2560-x-1440-2.jpg
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667820372
+updated_at: 1680103090
 header: carousel
 image_carousel:
   - stones/ledmore/2560-x-1440-1.jpg
   - 1123x842-mb10.jpeg
   - stones/ledmore/2560-x-1440-ledmore-new_1.jpg
 description: |-
-  This stunningly beautiful British stone is the only true marble on mainland Britain and is consequently treasured across the globe. Ledmore usually consists of large white veins resulting from calcium compounds, lime green veining originating from copper compounds, and grays and blacks from organic compounds; in short a facsimile of British geological history.
+  This stunningly beautiful British stone is the only true marble on mainland Britain and is consequently treasured across the globe. Ledmore usually consists of large white veins resulting from calcium compounds, lime green veining originating from copper compounds, and greys and blacks from organic compounds; in short a facsimile of British geological history.
 
   With the initial deposits laid down 600 million years ago, the veining is relatively young at 430 million years.
 location: 'Lairg, Scotland'

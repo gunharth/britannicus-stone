@@ -11,8 +11,8 @@ slides:
   -
     image: projects/richard_iii/2560-x-1440-4-1665739397.jpg
     type: slide
-    enabled: true
+    enabled: false
     copy: 'Richard III'
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1665825685
+updated_at: 1678449936
 ---

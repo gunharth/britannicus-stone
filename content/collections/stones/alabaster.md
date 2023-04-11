@@ -14,8 +14,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1672412044
+updated_by: 3686cd19-f8b1-43e0-bf47-bb69a9897259
+updated_at: 1680517910
 preview_image: stones/723x473---preview-alabaster.jpg
 map: alabaster_map-1672396873.svg
 navigation_color: '#7E7E8C'
@@ -23,4 +23,5 @@ image_carousel:
   - 2560-x-1440-alabaster-2-1672411708.jpg
   - 2560-x-1440-alabasterx6-v1-.jpg
 page_copy_color: '#7E7E8C'
+marble_thicknesses: Download
 ---

@@ -6,21 +6,26 @@
 
         {{ if location }}
         <h4 class="uppercase pb-3 text-15">Location</h4>
-        {{ location }}
+        <p>{{ location }}</p>
         {{ /if }}
 
         {{ if marble_thicknesses }}
-        <h4 class="uppercase pb-3 text-15 pt-10">Marble Thicknesses</h4>
+        <h4 class="uppercase pb-3 text-15">Marble Thicknesses</h4>
         {{ marble_thicknesses }}
         {{ /if }}
 
         {{ if slab_sizes }}
-        <h4 class="uppercase pb-3 text-15 pt-10">Slab Sizes</h4>
+        <h4 class="uppercase pb-3 text-15">Slab Sizes</h4>
         {{ slab_sizes }}
         {{ /if }}
 
+        {{ if factsheet }}
+        <h4 class="uppercase pb-3 text-15">Factsheet</h4>
+        <p><a href="{{ factsheet }}" target="_blank">Download</a></p>
+        {{ /if }}
+
         {{ if notes }}
-        <div class="pt-10">{{ notes }}</div>
+        <div class="">{{ notes }}</div>
         {{ /if }}
 
     </div>

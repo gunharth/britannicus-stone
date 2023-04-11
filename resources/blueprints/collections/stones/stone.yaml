@@ -91,6 +91,23 @@ sections:
           visibility: visible
           always_save: false
       -
+        handle: factsheet
+        field:
+          mode: list
+          container: assets
+          folder: factsheets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: Factsheet
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
         handle: notes
         field:
           restrict: false

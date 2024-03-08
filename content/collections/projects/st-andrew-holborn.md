@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667821329
+updated_at: 1704027867
 preview_image: projects/st_andrew_holborn/1123-x-1497-1-1665736073.jpg
 content_builder:
   -
@@ -95,8 +95,8 @@ content_builder:
         full_width: false
         align_left: false
         align_right: false
-        top_space: 150
-        bottom_space: 0
+        top_space: 100
+        bottom_space: 100
         type: image
         enabled: true
       -
@@ -105,7 +105,7 @@ content_builder:
         align_left: false
         align_right: false
         top_space: 100
-        bottom_space: 150
+        bottom_space: 100
         type: image
         enabled: true
     type: grid
@@ -121,12 +121,12 @@ content_builder:
     copy: |-
       Stones: Hopton Wood, Anglesey Grey 
       & Stanhope Black
-      Architect: [DaeWha Kang Design](https://daewha.com)
+      Architect: DaeWha Kang Design
       Contractor: Chichester Stoneworks
+      Photography: James Balston
+
 
       Our role: Supply of all stones
-
-      Photography: [James Balston](https://www.jamesbalston.com)
     top_space: 50
     bottom_space: 0
     link: false

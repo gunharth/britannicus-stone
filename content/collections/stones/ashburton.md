@@ -15,7 +15,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667819766
+updated_at: 1701432419
 header: carousel
 image_carousel:
   - stones/ashburton/2560-x-1440-1.jpg
@@ -23,10 +23,11 @@ image_carousel:
   - projects/herbert_crescent/2560-x-1440-10.jpg
 preview_image: stones/ashburton/723-x-473-1.jpg
 stone_background_color: '#1E2022'
-page_copy_color: '#65666B'
-navigation_color: '#65666B'
+page_copy_color: '#9E9FA6'
+navigation_color: '#9E9FA6'
 map: stones/ashburton/ashburton_map.svg
 location: Devon
 seo_title: 'Ashburton, Ashburton Stone, Stone British Stone, British Marble'
 seo_description: 'Ashburton, Ashburton Stone, British Stone and British marble, Britannicus Stone, The Shining Stones of Britain, British Stone, and Marble.'
+factsheet: factsheets/britanicus_stone_ashburton.pdf
 ---

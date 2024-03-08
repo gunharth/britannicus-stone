@@ -10,7 +10,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1668177211
+updated_at: 1701687479
 header_image: projects/hoban_wilderness/2560-x-1440-5.jpg
 content_builder:
   -
@@ -34,7 +34,7 @@ content_builder:
   -
     grid:
       -
-        image: projects/hoban_wilderness/1123-x-842-1.jpg
+        image: projects/hoban_wilderness/1123-x-842-2.jpg
         full_width: false
         align_left: false
         align_right: false
@@ -43,7 +43,7 @@ content_builder:
         type: image
         enabled: true
       -
-        image: projects/hoban_wilderness/1123-x-842-2.jpg
+        image: projects/hoban_wilderness/1123-x-842-1.jpg
         full_width: false
         align_left: false
         align_right: false

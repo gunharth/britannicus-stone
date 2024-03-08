@@ -3,6 +3,6 @@ super: true
 id: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
 password_hash: $2y$10$6fy1SPwJAGvnGSPFyGB3LuhPJaGQEzAZeviyGVlk5MIvgCsyEzlFW
 preferences:
-  assets:
-    assets:
-      mode: grid
+  collections:
+    news:
+      after_save: continue_editing

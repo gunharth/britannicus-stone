@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1668175718
+updated_at: 1706694211
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -39,11 +39,11 @@ content_builder:
       -
         image: projects/hoban_wilderness/1123-x-1497-7.jpg
         link: true
-        content: 78a73701-07e2-418d-9912-11af4ff1fa17
-        header: Stones
         type: image
         enabled: true
         url_toggle: false
+        content: 9740e5b4-04d0-4920-9cf9-5296f8efaa71
+        header: Project
       -
         image: stones/ashburton/1123-x-1497-7mb.jpg
         link: true
@@ -58,14 +58,15 @@ content_builder:
     type: content_template_1
     enabled: true
   -
-    image: home/2560-x-1440-16.jpg
-    copy: 'The world’s leading provider of British stones and marbles'
+    image: home/2560-x-1440-3.jpg
+    copy: 'The world’s leading provider of polished British stones and marbles'
     link: true
     url_toggle: false
-    content: 9740e5b4-04d0-4920-9cf9-5296f8efaa71
+    content: 9a09982d-bc07-48da-95ed-1b1f823cc316
     header: Project
     type: content_template_2
     enabled: true
 seo_title: 'Britannicus Stone, Shining Stones of Britain, British Stones Marbles'
 seo_description: 'Britannicus Stone, The Shining Stones of Britain, British Stone and Marble. Britannicus Stone is the world’s leading provider of British stones and marble.'
+page_copy_color: '#000000'
 ---

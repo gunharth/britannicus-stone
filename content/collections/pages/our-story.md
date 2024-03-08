@@ -10,13 +10,13 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 template: default
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667819191
-background_color: '#F4E9E8'
-page_copy_color: '#7B6452'
+updated_at: 1706694968
+background_color: '#C8C0BD'
+page_copy_color: '#665242'
 content_builder:
   -
     copy: |-
-      The shining stones of Britain
+      The Shining Stones of Britain
 
       At Britannicus we celebrate our love for British stone.  By nurturing our stone from the moment it leaves the quarry, we create the shining stones of Britain.
 

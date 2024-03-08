@@ -4,7 +4,7 @@ blueprint: slideshow
 title: Home
 project_link: 'entry::37ef9d71-3482-462d-b53d-db4cce8343e6'
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1680176724
+updated_at: 1701685210
 slides:
   -
     image: stones/moorcroft_grey/2560-x-1440-1.jpg
@@ -34,15 +34,15 @@ slides:
     copy_color: '#F4F2F1'
     link_color: '#F4F2F1'
     type: slide
-    enabled: true
+    enabled: false
     project_link: 78a73701-07e2-418d-9912-11af4ff1fa17
   -
-    image: projects/herbert_crescent/herbert-house-new.jpg
+    image: projects/herbert_crescent/2560-x-1440-10.jpg
     copy: |-
       The Shining Stones
       of Britain
     type: slide
-    enabled: false
+    enabled: true
     project_link: 1252c8d5-38a3-4dcd-8df9-c1fcb34da278
     copy_color: '#F4F2F1'
     link_color: '#F4F2F1'

@@ -16,6 +16,7 @@
         "laravel/framework": "^9.0",
         "laravel/sanctum": "^2.14",
         "laravel/tinker": "^2.7",
+        "phpsa/statamic-analytics": "^1.4",
         "statamic/cms": "3.3.51"
     },
     "require-dev": {

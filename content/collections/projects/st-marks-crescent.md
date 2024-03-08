@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667821266
+updated_at: 1701355699
 header: image
 header_image: projects/st_marks_crescent/2560-x-1440-4.jpg
 preview_image: projects/st_marks_crescent/1123-x-1497-3.jpg
@@ -41,7 +41,7 @@ content_builder:
         type: image
         enabled: true
       -
-        copy: 'Britannicus Stone sourced and installed Swaledale Fossil throughout the project. Including the peaceful corner garden with bespoke furniture.'
+        copy: 'Britannicus Stone sourced and manufactured the Swaledale Fossil throughout the project. Including the peaceful corner garden with bespoke furniture.'
         top_space: 110
         bottom_space: 0
         link: false

@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667821644
+updated_at: 1704027934
 preview_image: projects/flint_house/1123-x-1497-1.jpg
 page_copy_color: '#98989F'
 navigation_color: '#E5E2E3'
@@ -83,10 +83,9 @@ content_builder:
     copy: |-
       Stone: Moorcroft
       Architect: [Skene Catling de la Peña](https://www.scdlp.net)
+      Photography: James Morris
 
       Our role: Supply
-
-      Photography: James Morris
     top_space: 70
     bottom_space: 0
     link: false

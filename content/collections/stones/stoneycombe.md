@@ -6,7 +6,7 @@ header: carousel
 image_carousel:
   - stones/stoneycombe/2560-x-1440-2.jpg
   - 2560-x-1440-swaledale-new_2.jpg
-  - 2560-x-1440-stoneycombe-new_1.jpg
+  - 2560-x-1440-fenix-1-1701343187.jpg
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -14,7 +14,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 preview_image: stones/stoneycombe/723-x-473-2.jpg
 updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
-updated_at: 1667821064
+updated_at: 1701343257
 stone_background_color: '#BEA39A'
 navigation_color: '#7D463A'
 page_copy_color: '#7D463A'
@@ -24,4 +24,5 @@ slab_sizes: 'Typical marble slabs are 1.4m x 1.0m; however they can vary.'
 map: stones/stoneycombe/stoneycombe_map.svg
 seo_title: 'Stoneycombe, Stoneycombe Stone, British Stone, Britannicus Stone'
 seo_description: 'Stoneycombe, Stoneycombe Stone, British Stone and British marble, Britannicus Stone, The Shining Stones of Britain. British polished stone. Devonshire Stone.'
+factsheet: factsheets/britannicus_stone_stoneycombe-1701274591.pdf
 ---

@@ -14,8 +14,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 273884e2-af12-4c79-b5a0-4ff09226bc50
-updated_at: 1681209431
+updated_by: 9a9b65fd-ca02-4a81-8501-83ab35a51e54
+updated_at: 1684736016
 preview_image: stones/723x473---preview-alabaster.jpg
 map: alabaster_map-1672396873.svg
 navigation_color: '#7E7E8C'
@@ -23,5 +23,5 @@ image_carousel:
   - 2560-x-1440-alabaster-2-1672411708.jpg
   - 2560-x-1440-alabasterx6-v1-.jpg
 page_copy_color: '#7E7E8C'
-factsheet: factsheets/britanicus_stone_alabaster.pdf
+factsheet: factsheets/britannicus_stone_alabaster.pdf
 ---

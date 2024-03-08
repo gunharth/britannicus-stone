@@ -7,13 +7,13 @@
     "file": "assets/NewRailAlphabet2021-MediumWEB.342c81e4.woff2",
     "src": "resources/fonts/NewRailAlphabet2021-MediumWEB.woff2"
   },
-  "resources/fonts/NewRailAlphabet2021-BoldWEB.woff": {
-    "file": "assets/NewRailAlphabet2021-BoldWEB.cccbbb38.woff",
-    "src": "resources/fonts/NewRailAlphabet2021-BoldWEB.woff"
-  },
   "resources/fonts/NewRailAlphabet2021-MediumWEB.woff": {
     "file": "assets/NewRailAlphabet2021-MediumWEB.d4ca3ccf.woff",
     "src": "resources/fonts/NewRailAlphabet2021-MediumWEB.woff"
+  },
+  "resources/fonts/NewRailAlphabet2021-BoldWEB.woff": {
+    "file": "assets/NewRailAlphabet2021-BoldWEB.cccbbb38.woff",
+    "src": "resources/fonts/NewRailAlphabet2021-BoldWEB.woff"
   },
   "resources/js/site.js": {
     "file": "assets/site.1b9f74b2.js",

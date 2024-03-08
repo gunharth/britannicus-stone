@@ -1,0 +1,28 @@
+{
+  "resources/fonts/NewRailAlphabet2021-BoldWEB.woff2": {
+    "file": "assets/NewRailAlphabet2021-BoldWEB.a5928c35.woff2",
+    "src": "resources/fonts/NewRailAlphabet2021-BoldWEB.woff2"
+  },
+  "resources/fonts/NewRailAlphabet2021-MediumWEB.woff2": {
+    "file": "assets/NewRailAlphabet2021-MediumWEB.342c81e4.woff2",
+    "src": "resources/fonts/NewRailAlphabet2021-MediumWEB.woff2"
+  },
+  "resources/fonts/NewRailAlphabet2021-BoldWEB.woff": {
+    "file": "assets/NewRailAlphabet2021-BoldWEB.cccbbb38.woff",
+    "src": "resources/fonts/NewRailAlphabet2021-BoldWEB.woff"
+  },
+  "resources/fonts/NewRailAlphabet2021-MediumWEB.woff": {
+    "file": "assets/NewRailAlphabet2021-MediumWEB.d4ca3ccf.woff",
+    "src": "resources/fonts/NewRailAlphabet2021-MediumWEB.woff"
+  },
+  "resources/js/site.js": {
+    "file": "assets/site.1b9f74b2.js",
+    "src": "resources/js/site.js",
+    "isEntry": true
+  },
+  "resources/css/site.css": {
+    "file": "assets/site.40d35777.css",
+    "src": "resources/css/site.css",
+    "isEntry": true
+  }
+}
